@@ -851,24 +851,158 @@ struct Foo {};
 #include <typeinfo>
 using namespace std;
 
-class A
-{
+//class A
+//{
+//public:
+//    /*virtual*/ void Print() { cout << "This is class A." << endl; }
+//};
+//
+//class B : public A
+//{
+//public:
+//    void Print() { cout << "This is class B." << endl; }
+//};
+//
+//int main()
+//{
+//    A *pA = new B();
+//    cout << typeid(pA).name() << endl; // class A *
+//    cout << typeid(*pA).name() << endl; // class B
+//
+//    system("pause");
+//    return 0;
+//}
+
+
+class Base1 {
 public:
-    /*virtual*/ void Print() { cout << "This is class A." << endl; }
+    Base1() { cout << "Base1::Base1()" << endl; }
+    virtual void f() { cout << "Base1::f()" << endl; }
+    virtual void g() { cout << "Base1::g()" << endl; }
+    virtual void h() { cout << "Base1::h()" << endl; }
 };
 
-class B : public A
-{
+class Base2 {
 public:
-    void Print() { cout << "This is class B." << endl; }
+    Base2() { cout << "Base2::Base2()" << endl; }
+    virtual void f() { cout << "Base2::f()" << endl; }
+    virtual void g() { cout << "Base2::g()" << endl; }
+    virtual void h() { cout << "Base2::h()" << endl; }
 };
 
-int main()
-{
-    A *pA = new B();
-    cout << typeid(pA).name() << endl; // class A *
-    cout << typeid(*pA).name() << endl; // class B
+class Derived : public Base1, public Base2 {
+public:
+    Derived() { cout << "Derived::Derived()" << endl; }
+    void f() { cout << "Derived::f()" << endl; }
+    virtual void g1() { cout << "Derived::g1()" << endl; }
+};
 
-    system("pause");
-    return 0;
+//void printDerived(Derived &d)
+//{
+//    cout << endl << "print all vtable:" << endl;
+//    int i = 0;
+//    typedef void(*Fcn)();
+//
+//    cout << "Base" << i + 1 << "::vtable:" << endl;
+//    for (int j = 0; j < 4; ++j)
+//    {
+//        Fcn vfcn = (Fcn)*((int*)*((int*)&d + i) + j);
+//        vfcn();
+//    }
+//    ++i;
+//
+//    cout << "Base" << i + 1 << "::vtable:" << endl;
+//    for (int j = 0; j < 3; ++j)
+//    {
+//        Fcn vfcn = (Fcn)*((int*)*((int*)&d + i) + j);
+//        vfcn();
+//    }
+//}
+typedef void(*PFUNC)(void);
+
+
+void printDerived(Derived &d)
+{
+    cout << "Function address in virtual function table:" << endl;
+    for (int i = 0; i < 7; i++) {
+        cout << ((int **)(*(int *)(&d)))[i] << endl;
+    }
+
+    PFUNC pfunc;
+    for (int i = 0; i < 4; ++i)
+    {
+        pfunc = ((PFUNC*)(*((int *)(&d) + 0)))[i];
+        if (pfunc)
+            pfunc();
+    }
+    for (int i = 0; i < 3; ++i)
+    {
+        pfunc = ((PFUNC*)(*((int *)(&d) + 1)))[i];
+        if (pfunc)
+            pfunc();
+    }
 }
+
+
+#include <iostream>
+
+using namespace std;
+typedef void(*PFUNC)(void);
+
+//class Base {
+//public:
+//    virtual void f() { cout << "Base::f()" << endl; }
+//    virtual void g() { cout << "Base::g()" << endl; }
+//    virtual void h() { cout << "Base::h()" << endl; }
+//private:
+//    int a;
+//    int b;
+//};
+//class Derive :public Base
+//{
+//public:
+//    virtual void f1() { cout << "Derive::f1()" << endl; }
+//    virtual void g1() { cout << "Derive::g1()" << endl; }
+//    virtual void h1() { cout << "Derive::h1()" << endl; }
+//private:
+//    int a;
+//    int b;
+//};
+//int main()
+//{
+//    Derive b;
+//
+//    //cout << "Object start address:" << &b << endl;//对象起始地址
+//    //cout << "Virtual function table start address:";//V-Table起始地址
+//    //cout << (int **)(*(int *)(&b)) << endl;//int **：二级指针，表示虚表指针为函数指针数组
+//
+//    cout << "Function address in virtual function table:" << endl;
+//    for (int i = 0; i<6; i++) {
+//        cout << ((int **)(*(int *)(&b)))[i] << endl;
+//    }
+//
+//    PFUNC pfunc;
+//    for (int i = 0; i<6; i++) {
+//        pfunc = ((PFUNC*)(int **)(*(int *)(&b)))[i];
+//        pfunc();
+//    }
+//
+//    return 0;
+//}
+
+void test_5_27()
+{
+    Derived d;
+    printDerived(d);
+    d.Base1::g();
+}
+
+//int main()
+//{
+//    test_5_27();
+//
+//    system("pause");
+//    return 0;
+//}
+
+
