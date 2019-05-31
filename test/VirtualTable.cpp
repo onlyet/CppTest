@@ -84,11 +84,11 @@ void DiamondDerive()
     }
 }
 
-int main()
-{
-    MutipleLayerDerive();
-    DiamondDerive();
-
-    system("pause");
-    return 0;
-}
+//int main()
+//{
+//    MutipleLayerDerive();
+//    DiamondDerive();
+//
+//    system("pause");
+//    return 0;
+//}
