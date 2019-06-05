@@ -129,6 +129,7 @@
     <ClCompile Include="common.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="main_backup.cpp" />
+    <ClCompile Include="memory_leak.cpp" />
     <ClCompile Include="RTTI.cpp" />
     <ClCompile Include="VirtualTable.cpp" />
   </ItemGroup>

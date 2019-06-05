@@ -14,3 +14,5 @@ void asm_test_();
 void asm_test2_();
 
 void disassembly_demo_();
+
+void memory_leak_demo();

@@ -6,5 +6,6 @@ void test()
     //cdecl_asm_test_();
     //asm_test_();
     //asm_test2_();
-    disassembly_demo_();
+    //disassembly_demo_();
+    memory_leak_demo();
 }
