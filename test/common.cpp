@@ -7,5 +7,6 @@ void test()
     //asm_test_();
     //asm_test2_();
     //disassembly_demo_();
-    memory_leak_demo();
+    //memory_leak_demo();
+    A5ButtonClickDemo();
 }
