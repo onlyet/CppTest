@@ -36,6 +36,12 @@
     <ClCompile Include="memory_leak.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="A5ButtonClickDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6_12_11.13.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
