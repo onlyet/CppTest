@@ -8,5 +8,6 @@ void test()
     //asm_test2_();
     //disassembly_demo_();
     //memory_leak_demo();
-    A5ButtonClickDemo();
+    //A5ButtonClickDemo();
+    derived_struct_test();
 }

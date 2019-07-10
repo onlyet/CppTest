@@ -18,3 +18,5 @@ void disassembly_demo_();
 void memory_leak_demo();
 
 void A5ButtonClickDemo();
+
+void derived_struct_test();

@@ -129,6 +129,7 @@
     <ClCompile Include="A5ButtonClickDemo.cpp" />
     <ClCompile Include="call_convention.cpp" />
     <ClCompile Include="common.cpp" />
+    <ClCompile Include="derived_address_test.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="main_backup.cpp" />
     <ClCompile Include="memory_leak.cpp" />
