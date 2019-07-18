@@ -32,3 +32,4 @@ void derived_struct_test()
     //cout << (int)&p->c << endl;
 
 }
+

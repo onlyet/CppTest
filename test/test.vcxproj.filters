@@ -45,6 +45,12 @@
     <ClCompile Include="derived_address_test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="operatorSmall.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="binaryCompatibility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">

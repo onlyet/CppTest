@@ -9,5 +9,8 @@ void test()
     //disassembly_demo_();
     //memory_leak_demo();
     //A5ButtonClickDemo();
-    derived_struct_test();
+    //derived_struct_test();
+    //operatorSmallDemo();
+    binaryCompatibilityDemo();
+
 }

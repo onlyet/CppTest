@@ -20,3 +20,7 @@ void memory_leak_demo();
 void A5ButtonClickDemo();
 
 void derived_struct_test();
+
+void operatorSmallDemo();
+
+void binaryCompatibilityDemo();
