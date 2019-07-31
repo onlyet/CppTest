@@ -11,6 +11,9 @@ void test()
     //A5ButtonClickDemo();
     //derived_struct_test();
     //operatorSmallDemo();
-    binaryCompatibilityDemo();
+    //binaryCompatibilityDemo();
+    //ostringstreamDemo();
+    //bitOpDemo();
+    shared_mutex_demo();
 
 }

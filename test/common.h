@@ -23,4 +23,10 @@ void derived_struct_test();
 
 void operatorSmallDemo();
 
-void binaryCompatibilityDemo();
+//void binaryCompatibilityDemo();
+
+void ostringstreamDemo();
+
+void bitOpDemo();
+
+void shared_mutex_demo();

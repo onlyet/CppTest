@@ -45,7 +45,7 @@ static void cdecl_asm_test(char *a, int n)
 
 void cdecl_asm_test_()
 {
-    char *t = "abcdefg\n";
+    const char *t = "abcdefg\n";
     int n = 3;
     __asm
     {
@@ -60,7 +60,7 @@ void cdecl_asm_test_()
 void asm_test_()
 {
     unsigned long dwEsp;
-    char *t = "abcdefg\n";
+    const char *t = "abcdefg\n";
     int n = 3;
     __asm
     {
@@ -74,7 +74,7 @@ void asm_test_()
 
 void asm_test2_()
 {
-    char *t = "abcdefg\n";
+    const char *t = "abcdefg\n";
     int n = 3;
     __asm
     {
