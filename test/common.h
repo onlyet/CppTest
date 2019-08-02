@@ -30,3 +30,5 @@ void ostringstreamDemo();
 void bitOpDemo();
 
 void shared_mutex_demo();
+
+void assert_demo();

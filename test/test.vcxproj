@@ -36,7 +36,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="6_12_11.13.cpp" />
     <ClCompile Include="A5ButtonClickDemo.cpp" />
+    <ClCompile Include="assert_in_release.cpp" />
     <ClCompile Include="binaryCompatibility.cpp" />
     <ClCompile Include="bitOp.cpp" />
     <ClCompile Include="call_convention.cpp" />

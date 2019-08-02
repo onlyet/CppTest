@@ -60,6 +60,9 @@
     <ClCompile Include="VirtualTable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="assert_in_release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
