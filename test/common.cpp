@@ -16,6 +16,6 @@ void test()
     //bitOpDemo();
     //shared_mutex_demo();
     //assert_demo();
-	EnumAllOfficeFilePath();
-    //runAsCurUser();
+	//EnumAllOfficeFilePath();
+    runAsCurUser();
 }
