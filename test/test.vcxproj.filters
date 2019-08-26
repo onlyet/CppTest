@@ -63,6 +63,12 @@
     <ClCompile Include="assert_in_release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="enumOfficeFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="runProgramAsCurrentUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">

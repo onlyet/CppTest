@@ -15,6 +15,7 @@ void test()
     //ostringstreamDemo();
     //bitOpDemo();
     //shared_mutex_demo();
-    assert_demo();
-
+    //assert_demo();
+	EnumAllOfficeFilePath();
+    //runAsCurUser();
 }
