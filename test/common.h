@@ -36,3 +36,7 @@ void assert_demo();
 bool EnumAllOfficeFilePath();
 
 void runAsCurUser();
+
+void runProgramAsCurrentUser_v2();
+
+void runAsUser();

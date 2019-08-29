@@ -17,5 +17,8 @@ void test()
     //shared_mutex_demo();
     //assert_demo();
 	//EnumAllOfficeFilePath();
-    runAsCurUser();
+    //runAsCurUser();
+    runProgramAsCurrentUser_v2();
+    //runAsUser();
+
 }

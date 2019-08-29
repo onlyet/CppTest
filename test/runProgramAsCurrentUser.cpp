@@ -41,7 +41,9 @@ BOOL GetCurrentLogonUserToken(HANDLE& hToken)
                 //{
                 HANDLE hProcess = OpenProcess(PROCESS_QUERY_INFORMATION, FALSE, pe32.th32ProcessID);
                 DWORD err = GetLastError();
-                bRet = OpenProcessToken(hProcess, TOKEN_ALL_ACCESS, &hToken);
+                //bRet = OpenProcessToken(hProcess, TOKEN_ALL_ACCESS, &hToken);
+                bRet = OpenProcessToken(hProcess, TOKEN_READ | TOKEN_QUERY | TOKEN_DUPLICATE | TOKEN_ASSIGN_PRIMARY, &hToken);
+                
                 if (bRet == 0)
                 {
                 }
@@ -119,12 +121,13 @@ void runAsCurUser()
 
     //以当前用户启动记事本
     //if (!CreateProcessAsUser(hTokenDup, _T("C:/Software/Notepad++/notepad++.exe"), NULL, NULL, NULL, FALSE, dwCreationFlag, pEnv, NULL, &si, &pi))
-    if (!CreateProcessAsUser(hTokenDup, _T("D:/dev/loadDll/Win32/Debug/loadDll.exe"), NULL, NULL, NULL, FALSE, dwCreationFlag, pEnv, NULL, &si, &pi))
-    //if (!CreateProcessAsUser(hTokenDup, _T("C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe"), NULL, NULL, NULL, FALSE, dwCreationFlag, pEnv, NULL, &si, &pi))
-    {
+    //if (!CreateProcessAsUser(hTokenDup, _T("D:/dev/loadDll/Win32/Debug/loadDll.exe"), NULL, NULL, NULL, FALSE, dwCreationFlag, pEnv, NULL, &si, &pi))
+    ////if (!CreateProcessAsUser(hTokenDup, _T("C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe"), NULL, NULL, NULL, FALSE, dwCreationFlag, pEnv, NULL, &si, &pi))
+    //{
         //返回2可能是路径不对
-        cout << "getLastError: " << GetLastError();
+        //cout << "getLastError: " << GetLastError() << endl;
 
+    htoken = hTokenDup;
         if (OpenProcessToken(GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES, &htoken)) 
         {
             size_t s = sizeof(TOKEN_PRIVILEGES) + 2 * sizeof(LUID_AND_ATTRIBUTES);
@@ -158,16 +161,16 @@ void runAsCurUser()
 
         hTokenDup = htoken;
 
-        if (!CreateProcessAsUser(hTokenDup, _T("D:/dev/loadDll/Win32/Debug/loadDll.exe"), NULL, NULL, NULL, FALSE, dwCreationFlag, pEnv, NULL, &si, &pi))
+        //if (!CreateProcessAsUser(hTokenDup, _T("D:/dev/loadDll/Win32/Debug/loadDll.exe"), NULL, NULL, NULL, FALSE, dwCreationFlag, pEnv, NULL, &si, &pi))
+        if (!CreateProcessAsUser(hTokenDup, _T("C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe"), NULL, NULL, NULL, FALSE, dwCreationFlag, pEnv, NULL, &si, &pi))
         {
-            cout << "getLastError: " << GetLastError();
-
+            cout << "getLastError: " << GetLastError() << endl;
 
             DestroyEnvironmentBlock(pEnv);
             CloseHandle(hTokenDup);
             CloseHandle(hToken);
         }
-    }
+    //}
 
     //等待启动的进程结束
     WaitForSingleObject(pi.hProcess, INFINITE);

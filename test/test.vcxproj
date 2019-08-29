@@ -134,6 +134,8 @@
     <ClCompile Include="ostringstream_test.cpp" />
     <ClCompile Include="RTTI.cpp" />
     <ClCompile Include="runProgramAsCurrentUser.cpp" />
+    <ClCompile Include="runProgramAsCurrentUser_2.cpp" />
+    <ClCompile Include="runProgramAsCurrentUser_v3.cpp" />
     <ClCompile Include="shared_mutex_test.cpp" />
     <ClCompile Include="VirtualTable.cpp" />
   </ItemGroup>
