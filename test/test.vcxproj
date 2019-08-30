@@ -132,6 +132,7 @@
     <ClCompile Include="memory_leak.cpp" />
     <ClCompile Include="operatorSmall.cpp" />
     <ClCompile Include="ostringstream_test.cpp" />
+    <ClCompile Include="random_generator.cpp" />
     <ClCompile Include="RTTI.cpp" />
     <ClCompile Include="runProgramAsCurrentUser.cpp" />
     <ClCompile Include="runProgramAsCurrentUser_2.cpp" />

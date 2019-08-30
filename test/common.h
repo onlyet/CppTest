@@ -40,3 +40,6 @@ void runAsCurUser();
 void runProgramAsCurrentUser_v2();
 
 void runAsUser();
+
+void random_generator_demo();
+

@@ -75,6 +75,9 @@
     <ClCompile Include="runProgramAsCurrentUser_v3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="random_generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">

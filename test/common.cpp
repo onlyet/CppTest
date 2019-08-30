@@ -18,7 +18,8 @@ void test()
     //assert_demo();
 	//EnumAllOfficeFilePath();
     //runAsCurUser();
-    runProgramAsCurrentUser_v2();
+    //runProgramAsCurrentUser_v2();
     //runAsUser();
+    random_generator_demo();
 
 }
