@@ -1,5 +1,6 @@
 #pragma once
 #include <memory>
+#include <mutex>    //to use std::call_once
 
 class Cat
 {
@@ -49,19 +50,20 @@ public:
     static T& instance()
     {
         //qCallOnce(init, flag);
-        static bool callOnce = true;
-        if(callOnce)
-        {
-            callOnce = false;
-            tptr.reset(new T);
-        }
+        std::call_once(onceFlag, init);
+        //static bool callOnce = true;
+        //if(callOnce)
+        //{
+        //    callOnce = false;
+        //    tptr.reset(new T);
+        //}
         return *tptr;
     }
 
-    //static void init()
-    //{
-    //    tptr.reset(new T);
-    //}
+    static void init()
+    {
+        tptr.reset(new T);
+    }
 
 public:
     Singleton() {};
@@ -71,9 +73,11 @@ public:
     //static QScopedPointer<T> tptr;
     //static QBasicAtomicInt flag;
     static unique_ptr<T> tptr;
+    static std::once_flag onceFlag;
 };
 
 template<class T> unique_ptr<T> Singleton<T>::tptr(nullptr);
+template<class T> std::once_flag Singleton<T>::onceFlag;
 
 class Cat_Singleton_new
 {
