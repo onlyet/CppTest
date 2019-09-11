@@ -20,6 +20,6 @@ void test()
     //runAsCurUser();
     //runProgramAsCurrentUser_v2();
     //runAsUser();
-    random_generator_demo();
-
+    //random_generator_demo();
+    static_class_object_destructor_sequence();
 }
