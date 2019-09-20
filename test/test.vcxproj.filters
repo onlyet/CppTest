@@ -84,6 +84,12 @@
     <ClCompile Include="std_future_demo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="wtl_inherit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protected_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
@@ -93,6 +99,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="std_future_demo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wtl_inherit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protected_test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

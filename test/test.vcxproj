@@ -132,6 +132,7 @@
     <ClCompile Include="memory_leak.cpp" />
     <ClCompile Include="operatorSmall.cpp" />
     <ClCompile Include="ostringstream_test.cpp" />
+    <ClCompile Include="protected_test.cpp" />
     <ClCompile Include="random_generator.cpp" />
     <ClCompile Include="RTTI.cpp" />
     <ClCompile Include="runProgramAsCurrentUser.cpp" />
@@ -141,11 +142,14 @@
     <ClCompile Include="static_variable_destructor.cpp" />
     <ClCompile Include="std_future_demo.cpp" />
     <ClCompile Include="VirtualTable.cpp" />
+    <ClCompile Include="wtl_inherit.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />
+    <ClInclude Include="protected_test.h" />
     <ClInclude Include="static_variable_destructor.h" />
     <ClInclude Include="std_future_demo.h" />
+    <ClInclude Include="wtl_inherit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

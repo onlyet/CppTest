@@ -46,3 +46,7 @@ void random_generator_demo();
 void static_class_object_destructor_sequence();
 
 void future_demo();
+
+void wtl_inherit_demo();
+
+void protected_test();
