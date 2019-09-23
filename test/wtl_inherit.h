@@ -11,7 +11,7 @@ public:
 
         pT->PrintClassName();
     }
-//protected:
+protected:
     void PrintClassName() { std::cout << "This is B1" << std::endl; }
 };
 
@@ -23,7 +23,7 @@ public:
 
 class D2 : public B1<D2>
 {
-//protected:
-public:
+protected:
+//public:
     void PrintClassName() { std::cout << "This is D2" << std::endl; }
 };
