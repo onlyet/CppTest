@@ -23,6 +23,6 @@ void test()
     //random_generator_demo();
     //static_class_object_destructor_sequence();
     //future_demo();
-    wtl_inherit_demo();
+    //wtl_inherit_demo();
     //protected_test();
 }
