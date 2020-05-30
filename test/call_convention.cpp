@@ -35,8 +35,8 @@ void __stdcall __stdcall_callee(int a, int b)
 
 void __cdecl_caller()
 {
-	int x = 1;
-	int y = 2;
+    const char *t = "abcdefg\n";
+    int n = 3;
     __asm
     {
         push y
@@ -63,11 +63,14 @@ void __stdcall_caller()
 void __cdecl_caller_v2()
 {
     unsigned long dwEsp;
-	int x = 1;
-	int y = 2;
+    const char *t = "abcdefg\n";
+    int n = 3;
     __asm
     {
         mov dwEsp, esp
+        push n
+        push t
+        call cdecl_asm_test
         push y
         push x
         call __cdecl_callee
@@ -88,7 +91,16 @@ void __cdecl_caller_v2()
 
 int __cdecl __cdecl_disassembly_callee(int a, int b)
 {
-	return a + b;
+    const char *t = "abcdefg\n";
+    int n = 3;
+    __asm
+    {
+        push n
+        push t
+        call cdecl_asm_test
+        pop n
+        pop t
+    }
 }
 
 int __stdcall __stdcall_disassembly_callee(int a, int b)

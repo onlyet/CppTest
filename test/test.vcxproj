@@ -20,15 +20,15 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{2B82F60E-262F-4B2D-9C8D-FADF3C5D16BA}</ProjectGuid>
+    <ProjectGuid>{FF7054C5-5315-41B3-BAE0-AD95CB63C468}</ProjectGuid>
     <RootNamespace>test</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140_xp</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -36,7 +36,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -69,17 +69,13 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(SolutionDir)zlib;$(SolutionDir)oepncv\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)zlib\lib\debug;$(SolutionDir)oepncv\x86\vc14\lib;$(LibraryPath)</LibraryPath>
-  </PropertyGroup>
+  <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
@@ -102,8 +98,6 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <RuntimeTypeInfo>
-      </RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -125,15 +119,40 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="6_12_11.13.cpp" />
+    <ClCompile Include="A5ButtonClickDemo.cpp" />
+    <ClCompile Include="assert_in_release.cpp" />
+    <ClCompile Include="binaryCompatibility.cpp" />
+    <ClCompile Include="bitOp.cpp" />
     <ClCompile Include="call_convention.cpp" />
     <ClCompile Include="common.cpp" />
+    <ClCompile Include="ctor_and_dtor.cpp" />
+    <ClCompile Include="derived_address_test.cpp" />
+    <ClCompile Include="enumOfficeFile.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="main_backup.cpp" />
+    <ClCompile Include="memory_leak.cpp" />
+    <ClCompile Include="operatorSmall.cpp" />
+    <ClCompile Include="ostringstream_test.cpp" />
+    <ClCompile Include="protected_test.cpp" />
+    <ClCompile Include="random_generator.cpp" />
     <ClCompile Include="RTTI.cpp" />
+    <ClCompile Include="runProgramAsCurrentUser.cpp" />
+    <ClCompile Include="runProgramAsCurrentUser_2.cpp" />
+    <ClCompile Include="runProgramAsCurrentUser_v3.cpp" />
+    <ClCompile Include="shared_mutex_test.cpp" />
+    <ClCompile Include="static_variable_destructor.cpp" />
+    <ClCompile Include="std_future_demo.cpp" />
     <ClCompile Include="VirtualTable.cpp" />
+    <ClCompile Include="wtl_inherit.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />
+    <ClInclude Include="ctor_and_dtor.h" />
+    <ClInclude Include="protected_test.h" />
+    <ClInclude Include="static_variable_destructor.h" />
+    <ClInclude Include="std_future_demo.h" />
+    <ClInclude Include="wtl_inherit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
