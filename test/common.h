@@ -35,13 +35,16 @@ void assert_demo();
 
 bool EnumAllOfficeFilePath();
 
-void runAsCurUser();
+//void runAsCurUser();
 
-void runProgramAsCurrentUser_v2();
+//void runProgramAsCurrentUser_v2();
 
-void runAsUser();
+//void runAsUser();
 
 void random_generator_demo();
 
-void static_class_object_destructor_sequence();
+//void static_class_object_destructor_sequence();
 
+void TestSingleton();
+
+void getMacAddress();

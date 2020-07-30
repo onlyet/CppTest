@@ -21,5 +21,7 @@ void test()
     //runProgramAsCurrentUser_v2();
     //runAsUser();
     //random_generator_demo();
-    static_class_object_destructor_sequence();
+    //static_class_object_destructor_sequence();
+    //TestSingleton();
+    getMacAddress();
 }

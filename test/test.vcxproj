@@ -22,13 +22,13 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{FF7054C5-5315-41B3-BAE0-AD95CB63C468}</ProjectGuid>
     <RootNamespace>test</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -127,6 +127,7 @@
     <ClCompile Include="common.cpp" />
     <ClCompile Include="derived_address_test.cpp" />
     <ClCompile Include="enumOfficeFile.cpp" />
+    <ClCompile Include="GetMac.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="main_backup.cpp" />
     <ClCompile Include="memory_leak.cpp" />
@@ -138,6 +139,7 @@
     <ClCompile Include="runProgramAsCurrentUser_2.cpp" />
     <ClCompile Include="runProgramAsCurrentUser_v3.cpp" />
     <ClCompile Include="shared_mutex_test.cpp" />
+    <ClCompile Include="singleton_test.cpp" />
     <ClCompile Include="static_variable_destructor.cpp" />
     <ClCompile Include="VirtualTable.cpp" />
   </ItemGroup>

@@ -81,6 +81,12 @@
     <ClCompile Include="static_variable_destructor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="singleton_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetMac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
