@@ -95,5 +95,17 @@
     <ClInclude Include="static_variable_destructor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="std_future_demo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wtl_inherit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protected_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ctor_and_dtor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

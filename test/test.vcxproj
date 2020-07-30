@@ -41,8 +41,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
-    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -78,7 +78,8 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -125,6 +126,7 @@
     <ClCompile Include="bitOp.cpp" />
     <ClCompile Include="call_convention.cpp" />
     <ClCompile Include="common.cpp" />
+    <ClCompile Include="ctor_and_dtor.cpp" />
     <ClCompile Include="derived_address_test.cpp" />
     <ClCompile Include="enumOfficeFile.cpp" />
     <ClCompile Include="GetMac.cpp" />
@@ -133,6 +135,7 @@
     <ClCompile Include="memory_leak.cpp" />
     <ClCompile Include="operatorSmall.cpp" />
     <ClCompile Include="ostringstream_test.cpp" />
+    <ClCompile Include="protected_test.cpp" />
     <ClCompile Include="random_generator.cpp" />
     <ClCompile Include="RTTI.cpp" />
     <ClCompile Include="runProgramAsCurrentUser.cpp" />
@@ -141,11 +144,17 @@
     <ClCompile Include="shared_mutex_test.cpp" />
     <ClCompile Include="singleton_test.cpp" />
     <ClCompile Include="static_variable_destructor.cpp" />
+    <ClCompile Include="std_future_demo.cpp" />
     <ClCompile Include="VirtualTable.cpp" />
+    <ClCompile Include="wtl_inherit.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />
+    <ClInclude Include="ctor_and_dtor.h" />
+    <ClInclude Include="protected_test.h" />
     <ClInclude Include="static_variable_destructor.h" />
+    <ClInclude Include="std_future_demo.h" />
+    <ClInclude Include="wtl_inherit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

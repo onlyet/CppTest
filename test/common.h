@@ -7,11 +7,11 @@ void test();
 
 void func_param_pass_seq_();
 
-void cdecl_asm_test_();
+void __cdecl_caller();
 
-void asm_test_();
+void __stdcall_caller();
 
-void asm_test2_();
+void __cdecl_caller_v2();
 
 void disassembly_demo_();
 
@@ -48,3 +48,6 @@ void random_generator_demo();
 void TestSingleton();
 
 void getMacAddress();
+
+
+
