@@ -25,4 +25,7 @@ void test()
     //future_demo();
     //wtl_inherit_demo();
     //protected_test();
+	//print_thread_id();
+	getGpuInfo();
+
 }

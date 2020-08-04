@@ -5,15 +5,15 @@ using namespace std;
 
 void test();
 
-void func_param_pass_seq_();
-
-void __cdecl_caller();
-
-void __stdcall_caller();
-
-void __cdecl_caller_v2();
-
-void disassembly_demo_();
+//void func_param_pass_seq_();
+//
+//void __cdecl_caller();
+//
+//void __stdcall_caller();
+//
+//void __cdecl_caller_v2();
+//
+//void disassembly_demo_();
 
 void memory_leak_demo();
 
@@ -50,3 +50,8 @@ void future_demo();
 void wtl_inherit_demo();
 
 void protected_test();
+
+void print_thread_id();
+
+int getGpuInfo();
+

@@ -93,6 +93,12 @@
     <ClCompile Include="ctor_and_dtor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="print_thread_id.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="getGpuInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">

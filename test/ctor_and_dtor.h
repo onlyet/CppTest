@@ -1,13 +1,13 @@
 #pragma once
 
-class CtorAndDtor
-{
-public:
-
-protected:
-    CtorAndDtor();
-    ~CtorAndDtor();
-
-private:
-
-};
+//class CtorAndDtor
+//{
+//public:
+//
+//protected:
+//    CtorAndDtor();
+//    ~CtorAndDtor();
+//
+//private:
+//
+//};
