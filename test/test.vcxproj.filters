@@ -81,16 +81,10 @@
     <ClCompile Include="static_variable_destructor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="std_future_demo.cpp">
+    <ClCompile Include="singleton_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="wtl_inherit.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="protected_test.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ctor_and_dtor.cpp">
+    <ClCompile Include="GetMac.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="print_thread_id.cpp">

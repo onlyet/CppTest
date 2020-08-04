@@ -135,6 +135,7 @@
     <ClCompile Include="derived_address_test.cpp" />
     <ClCompile Include="enumOfficeFile.cpp" />
     <ClCompile Include="getGpuInfo.cpp" />
+    <ClCompile Include="GetMac.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="main_backup.cpp" />
     <ClCompile Include="memory_leak.cpp" />
@@ -148,6 +149,7 @@
     <ClCompile Include="runProgramAsCurrentUser_2.cpp" />
     <ClCompile Include="runProgramAsCurrentUser_v3.cpp" />
     <ClCompile Include="shared_mutex_test.cpp" />
+    <ClCompile Include="singleton_test.cpp" />
     <ClCompile Include="static_variable_destructor.cpp" />
     <ClCompile Include="std_future_demo.cpp" />
     <ClCompile Include="VirtualTable.cpp" />

@@ -22,9 +22,8 @@ void test()
     //runAsUser();
     //random_generator_demo();
     //static_class_object_destructor_sequence();
-    //future_demo();
-    //wtl_inherit_demo();
-    //protected_test();
+    //TestSingleton();
+    getMacAddress();
 	//print_thread_id();
 	getGpuInfo();
 
