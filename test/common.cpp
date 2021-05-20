@@ -1,4 +1,6 @@
 #include "common.h"
+#include <windows.h>
+
 
 void test()
 {
@@ -23,8 +25,20 @@ void test()
     //random_generator_demo();
     //static_class_object_destructor_sequence();
     //TestSingleton();
-    getMacAddress();
+    //getMacAddress();
 	//print_thread_id();
-	getGpuInfo();
+	//getGpuInfo();
+    //getMainboardId();
+    //debug_jni_dll();
+    //list_demo();
+    //aotmic_demo();
+
+    //StructInitTestDemo();
+    //while (1) {
+        //Sleep(1000);
+    //output_cpu();
+    //}
+
+    //array_out_of_bound_test();
 
 }
