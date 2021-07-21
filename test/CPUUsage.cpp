@@ -1,4 +1,4 @@
-#if 0
+#if 1
 //#include "stdafx.h"
 #include "CPUUsage.h"
 //#include "Common.h"
@@ -92,11 +92,9 @@ int CCPUUsage::GetCPUUsageByPdh()
 int main() {
     CCPUUsage cpuUsage;
     cpuUsage.SetUseCPUTimes(false);
-    int usage;
     while (1) {
-        //usage = usecpuUsage.GetCPUUsage();
         cout << cpuUsage.GetCPUUsage() << endl;
-        Sleep(100);
+        Sleep(1000);
     }
 }
 #endif
