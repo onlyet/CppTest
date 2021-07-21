@@ -1,5 +1,5 @@
 #include "ctor_and_dtor.h"
-
+//
 //CtorAndDtor::CtorAndDtor()
 //{
 //}
@@ -29,3 +29,12 @@
 //    CtorAndDtor* pObj = new CtorAndDtor;
 //    delete pObj;
 //}
+
+void derive_test()
+{
+    //Base b = Derive();
+    Derive d;
+    Base b;
+    b = d;
+    //Derive d(Derive());
+}
