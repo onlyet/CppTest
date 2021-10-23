@@ -72,3 +72,4 @@ void output_cpu();
 
 void array_out_of_bound_test();
 
+void derive_test();

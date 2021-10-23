@@ -139,6 +139,7 @@
     <ClCompile Include="common.cpp" />
     <ClCompile Include="CPUUsage.cpp" />
     <ClCompile Include="CSystemStatus.cpp" />
+    <ClCompile Include="ctor_and_dtor.cpp" />
     <ClCompile Include="get_gpu.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="struct_init_demo.cpp" />
@@ -147,6 +148,7 @@
     <ClInclude Include="common.h" />
     <ClInclude Include="CPUUsage.h" />
     <ClInclude Include="CSystemStatus.h" />
+    <ClInclude Include="ctor_and_dtor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
