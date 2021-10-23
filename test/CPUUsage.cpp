@@ -1,4 +1,4 @@
-#if 1
+#if 0
 //#include "stdafx.h"
 #include "CPUUsage.h"
 //#include "Common.h"
