@@ -43,7 +43,7 @@ int main()
 }
 #endif
 
-
+#if 0
 #include <iostream>
 using namespace std;
 
@@ -60,7 +60,7 @@ public:
     Derived() { arr = new int[200]; }
     ~Derived() { delete[]arr; cout << "~Derived()" << endl; }
 private:
-    int* arr :
+    int* arr;
 };
 
 int main()
@@ -69,4 +69,5 @@ int main()
     delete p;
     return 0;
 }
-}
+#endif
+
