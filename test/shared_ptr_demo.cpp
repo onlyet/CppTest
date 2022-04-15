@@ -30,7 +30,7 @@ int main()
     return 0;
 }
 
-#else
+#elif 0
 #include <iostream>
 #include <memory>
 using namespace std;

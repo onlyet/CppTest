@@ -1,7 +1,7 @@
-//#include "common.h"
+#include "common.h"
 
 
-#if 0
+#if 1
 //#if 1
 //int main()
 //{
@@ -34,11 +34,11 @@ int main()
     test();
     system("pause");
     //char* str = NULL;
-    const char* str = "HELLO";
+    //const char* str = "HELLO";
     //GetMemory(str);
     //strcpy(str, "hello world");
-    printf("str:%s\n", str);
-    printf(str);
+    //printf("str:%s\n", str);
+    //printf(str);
     return 0;
 }
 #endif

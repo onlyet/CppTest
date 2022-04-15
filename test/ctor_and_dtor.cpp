@@ -33,8 +33,28 @@
 void derive_test()
 {
     //Base b = Derive();
-    Derive d;
-    Base b;
-    b = d;
+    //Base b;
+    //b = d;
     //Derive d(Derive());
+    
+    //{
+    //    Derive d;
+    //}
+    cout << endl;
+    //{
+    //    Base* pb = new Derive;
+    //    delete pb;
+    //}
+
+
+    Base b;
+    //cout << "sizeof(Base): " << sizeof(b) << endl;
+        //Base* pb = new Base;
+
+    
+    //friendfunc(&b);
+    //tt();
+
+    cout << endl;
 }
+
