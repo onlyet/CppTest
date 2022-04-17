@@ -20,7 +20,6 @@ using namespace std;
 //};
 
 
-class parent;
 class parent {
 public:
     virtual void eat(/*Base* b*/) {
@@ -50,11 +49,15 @@ public:
         cout << "~Base()" << endl; 
         vf();
     }
+
      virtual void vf() { cout << "Base virtual func" << endl; }
 
      //friend virtual void friendfunc(Base* b);
-     friend void parent::eat(/*Base* b*/);
-     //friend virtual void tt() {};
+     //friend void parent::eat(/*Base* b*/);
+     
+     template<typename T>
+     virtual void tt(T t) { cout << t << endl; };
+
     int i = 1;
 };
 

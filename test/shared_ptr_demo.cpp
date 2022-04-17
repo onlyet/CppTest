@@ -57,5 +57,6 @@ int main()
     cout << "sp1 use_count:" << sp1.use_count() << endl;
     cout << "sp2 use_count:" << sp2.use_count() << endl;
     return 0;
-}
+}
+
 #endif
