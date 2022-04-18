@@ -56,7 +56,7 @@ public:
      //friend void parent::eat(/*Base* b*/);
      
      template<typename T>
-     virtual void tt(T t) { cout << t << endl; };
+     void tt(T t) { cout << t << endl; };
 
     int i = 1;
 };

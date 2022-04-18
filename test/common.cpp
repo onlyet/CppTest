@@ -41,5 +41,7 @@ void test()
 
     //array_out_of_bound_test();
 
-    derive_test();
+    //derive_test();
+
+    test_vtbl();
 }

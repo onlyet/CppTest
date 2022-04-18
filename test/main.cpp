@@ -32,7 +32,7 @@ int main()
     //printf(p);
 
     test();
-    system("pause");
+    //system("pause");
     //char* str = NULL;
     //const char* str = "HELLO";
     //GetMemory(str);

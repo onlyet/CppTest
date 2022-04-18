@@ -144,6 +144,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="shared_ptr_demo.cpp" />
     <ClCompile Include="struct_init_demo.cpp" />
+    <ClCompile Include="virtual_table.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />
