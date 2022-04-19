@@ -83,6 +83,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/d1 reportSingleClassLayoutDerived %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>DXGI.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -95,6 +96,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>false</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/d1 reportSingleClassLayoutDerived %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>DXGI.lib;%(AdditionalDependencies)</AdditionalDependencies>

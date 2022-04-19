@@ -5,7 +5,7 @@ public:
     Base1() { cout << "Base1::Base1()" << endl; }
     virtual void f() { cout << "Base1::f()" << endl; }
     virtual void g() { cout << "Base1::g()" << endl; }
-    virtual void h() { cout << "Base1::h()" << endl; }
+    //virtual void h() { cout << "Base1::h()" << endl; }
     void tt() { cout << "tt" << endl; }
 };
 
@@ -13,7 +13,7 @@ class Base2 {
 public:
     Base2() { cout << "Base2::Base2()" << endl; }
     virtual void f() { cout << "Base2::f()" << endl; }
-    virtual void g() { cout << "Base2::g()" << endl; }
+    //virtual void g() { cout << "Base2::g()" << endl; }
     virtual void h() { cout << "Base2::h()" << endl; }
 };
 
@@ -21,7 +21,9 @@ class Derived : public Base1, public Base2 {
 public:
     Derived() { cout << "Derived::Derived()" << endl; }
     void f() { cout << "Derived::f()" << endl; }
+    virtual void g() { cout << "Derived::g()" << endl; }
     virtual void g1() { cout << "Derived::g1()" << endl; }
+    virtual void h() { cout << "Derived::h()" << endl; }
 };
 
 typedef void(*Fcn)();
@@ -73,7 +75,13 @@ void print_vtbl_address(Derived& d)
 
 void test_vtbl()
 {
-    Derived d;
-    printDerived(d);
-    print_vtbl_address(d);
+    //Derived d;
+    //printDerived(d);
+    //print_vtbl_address(d);
+
+    //Base1* p1 = new Derived;
+    //p1->f();
+
+    Base2* p2 = new Derived;
+    p2->h();
 }
