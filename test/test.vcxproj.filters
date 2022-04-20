@@ -62,5 +62,11 @@
     <ClInclude Include="ctor_and_dtor.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="virtual_inhert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>
