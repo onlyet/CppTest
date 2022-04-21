@@ -83,7 +83,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalOptions>/d1 reportSingleClassLayoutVTom %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/d1 reportSingleClassLayoutB1 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>DXGI.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -96,7 +96,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>false</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalOptions>/d1 reportSingleClassLayoutVTom %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/d1 reportSingleClassLayoutB1 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>DXGI.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -144,6 +144,7 @@
     <ClCompile Include="ctor_and_dtor.cpp" />
     <ClCompile Include="get_gpu.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="object_model_test1.cpp" />
     <ClCompile Include="shared_ptr_demo.cpp" />
     <ClCompile Include="struct_init_demo.cpp" />
     <ClCompile Include="virtual_table.cpp" />

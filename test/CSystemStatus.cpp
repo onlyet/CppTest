@@ -59,29 +59,29 @@ CSystemStatus::~CSystemStatus()
 }
  
 
-//åˆå§‹åŒ–
+//³õÊ¼»¯
 void CSystemStatus::SystemInit(DWORD object)
 {
 	PDH_STATUS state;
 	state = PdhOpenQuery(NULL, NULL, &m_Query);
 
-	if (object&SYSSTATE_CPU_USAGE)	//CPUä½¿ç”¨ç‡
+	if (object&SYSSTATE_CPU_USAGE)	//CPUÊ¹ÓÃÂÊ
 		state = PdhAddCounter(m_Query, _T("\\Processor(_Total)\\% Processor Time"), NULL, &m_CpuTotal);
-	if (object&SYSSTATE_DISK_READ)	//ç£ç›˜è¯»é€Ÿåº¦
+	if (object&SYSSTATE_DISK_READ)	//´ÅÅÌ¶ÁËÙ¶È
 		state = PdhAddCounter(m_Query, _T("\\PhysicalDisk(_Total)\\Disk Read Bytes/sec"), NULL, &m_DiskRead);
-	if (object&SYSSTATE_DISK_WRITE)	//ç£ç›˜å†™é€Ÿåº¦
+	if (object&SYSSTATE_DISK_WRITE)	//´ÅÅÌĞ´ËÙ¶È
 		state = PdhAddCounter(m_Query, _T("\\PhysicalDisk(_Total)\\Disk Write Bytes/sec"), NULL, &m_DiskWrite);
-	if (object&SYSSTATE_NET_DOWNLOAD)//ç½‘ç»œä¸‹è½½é€Ÿåº¦
+	if (object&SYSSTATE_NET_DOWNLOAD)//ÍøÂçÏÂÔØËÙ¶È
 		state = PdhAddCounter(m_Query, _T("\\Network Interface(killer E2200 Gigabit Ethernet Controller)\\Bytes Received/sec"), NULL, &m_NetDownload);
-	if (object&SYSSTATE_NET_UPLOAD)	//ç½‘ç»œä¸Šä¼ é€Ÿåº¦
+	if (object&SYSSTATE_NET_UPLOAD)	//ÍøÂçÉÏ´«ËÙ¶È
 		state = PdhAddCounter(m_Query, _T("\\Network Interface(killer E2200 Gigabit Ethernet Controller)\\Bytes Sent/sec"), NULL, &m_NetUpload);
 
 	state = PdhCollectQueryData(m_Query);
-	Sleep(500);             //è¿™é‡Œè¦æœ‰å»¶æ—¶ä¸ç„¶ç»“æœç›¸å½“ä¸å‡†ç¡®  
+	Sleep(500);             //ÕâÀïÒªÓĞÑÓÊ±²»È»½á¹ûÏàµ±²»×¼È·  
 	state =	PdhCollectQueryData(m_Query); 
 }
 
-//è·å–ç½‘ç»œä¸‹è½½é€Ÿåº¦ï¼ˆK/sï¼‰
+//»ñÈ¡ÍøÂçÏÂÔØËÙ¶È£¨K/s£©
 double CSystemStatus::GetSystemNetDownloadRate()
 {
 	PDH_FMT_COUNTERVALUE counterVal;
@@ -92,7 +92,7 @@ double CSystemStatus::GetSystemNetDownloadRate()
 	return NetDownload;
 }
 
-//è·å–ç½‘ç»œä¸Šä¼ é€Ÿåº¦
+//»ñÈ¡ÍøÂçÉÏ´«ËÙ¶È
 double CSystemStatus::GetSystemNetUploadRate()
 {
 	PDH_FMT_COUNTERVALUE counterVal;
@@ -103,7 +103,7 @@ double CSystemStatus::GetSystemNetUploadRate()
 	return NetUpload;
 }
 
-//è·å–ç³»ç»Ÿå½“å‰ç£ç›˜è¯»é€Ÿç‡(K/s)
+//»ñÈ¡ÏµÍ³µ±Ç°´ÅÅÌ¶ÁËÙÂÊ(K/s)
 double CSystemStatus::GetSystemDiskReadRate()
 {
 	PDH_FMT_COUNTERVALUE counterVal;
@@ -114,7 +114,7 @@ double CSystemStatus::GetSystemDiskReadRate()
 	return dbDiskRead;
 }
 
-//è·å–ç³»ç»Ÿå½“å‰ç£ç›˜å†™é€Ÿç‡
+//»ñÈ¡ÏµÍ³µ±Ç°´ÅÅÌĞ´ËÙÂÊ
 double CSystemStatus::GetSystemDiskWriteRate()
 {
 	PDH_FMT_COUNTERVALUE counterVal;
@@ -125,17 +125,17 @@ double CSystemStatus::GetSystemDiskWriteRate()
 	return dbDiskWrite;
 }
 
-//è·å–CPUä½¿ç”¨å€¼
+//»ñÈ¡CPUÊ¹ÓÃÖµ
 double CSystemStatus::GetSystemCpuCurrentUsage()
 {
 	PDH_FMT_COUNTERVALUE counterVal;
-	 // CPUæ—¶é—´ï¼Œæ³¨æ„å¿…é¡»åŠ ä¸ŠPDH_FMT_NOCAP100å‚æ•°ï¼Œå¦åˆ™å¤šæ ¸CPUä¼šæœ‰é—®é¢˜
+	 // CPUÊ±¼ä£¬×¢Òâ±ØĞë¼ÓÉÏPDH_FMT_NOCAP100²ÎÊı£¬·ñÔò¶àºËCPU»áÓĞÎÊÌâ
 	PDH_STATUS lStatus = PdhGetFormattedCounterValue(m_CpuTotal, PDH_FMT_DOUBLE| PDH_FMT_NOCAP100, NULL, &counterVal);
 	if(ERROR_SUCCESS != lStatus)  return -1;
 	return counterVal.doubleValue;//PDH_INVALID_ARGUMENT PDH_INVALID_DATA 
 }
  
-//ååˆå§‹åŒ–
+//·´³õÊ¼»¯
 void CSystemStatus::SystemUnInit()
 {
 	if (m_CpuTotal){
@@ -167,7 +167,7 @@ void CSystemStatus::SystemUnInit()
 }
 
 #if 0
-// è·å–ç³»ç»Ÿæ‰€æœ‰ç¡¬ç›˜ä½¿ç”¨æƒ…å†µ		
+// »ñÈ¡ÏµÍ³ËùÓĞÓ²ÅÌÊ¹ÓÃÇé¿ö		
 void CSystemStatus::GetSystemDiskStatus(ULONGLONG& AllDiskTotal, ULONGLONG& AllDiskFree)
 {
 	int DType = 0;
@@ -181,7 +181,7 @@ void CSystemStatus::GetSystemDiskStatus(ULONGLONG& AllDiskTotal, ULONGLONG& AllD
 	ULONGLONG i64TotalBytes;  
 	ULONGLONG i64FreeBytes;
 
-	//æšä¸¾ç£ç›˜æ•°é‡
+	//Ã¶¾Ù´ÅÅÌÊıÁ¿
 	DWORD DiskInfo = GetLogicalDrives();
 	while (DiskInfo){
 		if (DiskInfo & 1){
@@ -201,7 +201,7 @@ void CSystemStatus::GetSystemDiskStatus(ULONGLONG& AllDiskTotal, ULONGLONG& AllD
 	}
 	int nRet = GetLogicalDriveStrings(DSLength, (LPTSTR)DStr);
 
-	//æšä¸¾ç£ç›˜åç§°
+	//Ã¶¾Ù´ÅÅÌÃû³Æ
 	for (int i = 0;i < DSLength / 4; i++){
 		TCHAR strDisk[3] = {0};
 		_stprintf(strDisk, _T("%c:"), DStr[si]);
@@ -217,7 +217,7 @@ void CSystemStatus::GetSystemDiskStatus(ULONGLONG& AllDiskTotal, ULONGLONG& AllD
 			nTempFree += (ULONGLONG)i64FreeBytesToCaller / 1024 / 1024 / 1024;
 		}
 		else{
-			OutputDebugString(_T("è®¾å¤‡æœªå‡†å¤‡..."));
+			OutputDebugString(_T("Éè±¸Î´×¼±¸..."));
 		}
 		si += 4;
 	}
@@ -227,7 +227,7 @@ void CSystemStatus::GetSystemDiskStatus(ULONGLONG& AllDiskTotal, ULONGLONG& AllD
 	delete[] DStr;
 }
 
-// è·å–ç³»ç»Ÿå„ä¸ªç¡¬ç›˜ä½¿ç”¨æƒ…å†µ		
+// »ñÈ¡ÏµÍ³¸÷¸öÓ²ÅÌÊ¹ÓÃÇé¿ö		
 void CSystemStatus::GetSystemDiskStatus(std::vector<EACHDISKSTATUS> &vectorDisk)
 {
 	int DType = 0;
@@ -241,7 +241,7 @@ void CSystemStatus::GetSystemDiskStatus(std::vector<EACHDISKSTATUS> &vectorDisk)
 	ULONGLONG i64TotalBytes;  
 	ULONGLONG i64FreeBytes;
 
-	//æšä¸¾ç£ç›˜æ•°é‡
+	//Ã¶¾Ù´ÅÅÌÊıÁ¿
 	DWORD DiskInfo = GetLogicalDrives();
 	while (DiskInfo){
 		if (DiskInfo & 1){
@@ -262,7 +262,7 @@ void CSystemStatus::GetSystemDiskStatus(std::vector<EACHDISKSTATUS> &vectorDisk)
 	int nRet = GetLogicalDriveStrings(DSLength, (LPTSTR)DStr);
 
 	EACHDISKSTATUS diskstatus;
-	//æšä¸¾ç£ç›˜åç§°
+	//Ã¶¾Ù´ÅÅÌÃû³Æ
 	for (int i = 0;i < DSLength / 4; i++){
 		TCHAR strDisk[3] = {0};
 		_stprintf(strDisk, _T("%c:"), DStr[si]);
@@ -284,7 +284,7 @@ void CSystemStatus::GetSystemDiskStatus(std::vector<EACHDISKSTATUS> &vectorDisk)
 		}
 		else
 		{
-			OutputDebugString(_T("è®¾å¤‡æœªå‡†å¤‡..."));
+			OutputDebugString(_T("Éè±¸Î´×¼±¸..."));
 		}
 		si += 4;
 	}
@@ -292,7 +292,7 @@ void CSystemStatus::GetSystemDiskStatus(std::vector<EACHDISKSTATUS> &vectorDisk)
 	delete[] DStr;
 }
 
-//è·å–ç³»ç»Ÿå½“å‰ç£ç›˜çŠ¶æ€
+//»ñÈ¡ÏµÍ³µ±Ç°´ÅÅÌ×´Ì¬
 void CSystemStatus::GetSystemCurrentDiskStatus(ULONGLONG& TatolMB, ULONGLONG& FreeCaller)
 {
 	BOOL bResult = FALSE;
@@ -316,9 +316,9 @@ void CSystemStatus::GetSystemCurrentDiskStatus(ULONGLONG& TatolMB, ULONGLONG& Fr
 	_stprintf(szDisk, _T("%c:"), strDirve[0]);
 	bResult = GetDiskFreeSpaceEx(
 		szDisk, 
-		(PULARGE_INTEGER)&ui64FreeBytesToCaller,	//ç”¨æˆ·å¯ç”¨çš„ç£ç›˜ç©ºé—´
-		(PULARGE_INTEGER)&ui64TotalBytes,			//ç£ç›˜æ€»å…±çš„ç©ºé—´
-		(PULARGE_INTEGER)&ui64FreeBytes);			//ç£ç›˜ç©ºé—²çš„ç©ºé—´.ä»¥ä¸Šéƒ½æ˜¯å­—èŠ‚ä¸ºå•ä½ã€‚
+		(PULARGE_INTEGER)&ui64FreeBytesToCaller,	//ÓÃ»§¿ÉÓÃµÄ´ÅÅÌ¿Õ¼ä
+		(PULARGE_INTEGER)&ui64TotalBytes,			//´ÅÅÌ×Ü¹²µÄ¿Õ¼ä
+		(PULARGE_INTEGER)&ui64FreeBytes);			//´ÅÅÌ¿ÕÏĞµÄ¿Õ¼ä.ÒÔÉÏ¶¼ÊÇ×Ö½ÚÎªµ¥Î»¡£
 	if (bResult){
 		nTempTotal = ui64TotalBytes / 1024 / 1024 / 1024;
 		nTempFree = ui64FreeBytesToCaller / 1024 / 1024 / 1024;
@@ -327,7 +327,7 @@ void CSystemStatus::GetSystemCurrentDiskStatus(ULONGLONG& TatolMB, ULONGLONG& Fr
 	}
 }
 
-//è·å–ç³»ç»Ÿå½“å‰ç£ç›˜ä½¿ç”¨ç‡
+//»ñÈ¡ÏµÍ³µ±Ç°´ÅÅÌÊ¹ÓÃÂÊ
 double CSystemStatus::GetSystemCurrentDiskUsage()
 {
 	BOOL bResult = FALSE;
@@ -350,9 +350,9 @@ double CSystemStatus::GetSystemCurrentDiskUsage()
 	_stprintf(szDisk, _T("%c:"), strDirve[0]);
 	bResult = GetDiskFreeSpaceEx(
 		szDisk, 
-		(PULARGE_INTEGER)&ui64FreeBytesToCaller,	//ç”¨æˆ·å¯ç”¨çš„ç£ç›˜ç©ºé—´
-		(PULARGE_INTEGER)&ui64TotalBytes,			//ç£ç›˜æ€»å…±çš„ç©ºé—´
-		(PULARGE_INTEGER)&ui64FreeBytes);			//ç£ç›˜ç©ºé—²çš„ç©ºé—´.ä»¥ä¸Šéƒ½æ˜¯å­—èŠ‚ä¸ºå•ä½ã€‚
+		(PULARGE_INTEGER)&ui64FreeBytesToCaller,	//ÓÃ»§¿ÉÓÃµÄ´ÅÅÌ¿Õ¼ä
+		(PULARGE_INTEGER)&ui64TotalBytes,			//´ÅÅÌ×Ü¹²µÄ¿Õ¼ä
+		(PULARGE_INTEGER)&ui64FreeBytes);			//´ÅÅÌ¿ÕÏĞµÄ¿Õ¼ä.ÒÔÉÏ¶¼ÊÇ×Ö½ÚÎªµ¥Î»¡£
 	if (bResult){
 		double TempNum  = ((ui64TotalBytes / 1024 / 1024 / 1024)-(ui64FreeBytesToCaller/ 1024 / 1024 / 1024))* 100.0 / (ui64TotalBytes/ 1024 / 1024 / 1024);
 		return TempNum;
@@ -362,7 +362,7 @@ double CSystemStatus::GetSystemCurrentDiskUsage()
 
 #endif
  
-//ç‰©ç†å†…å­˜å’Œä½¿ç”¨
+//ÎïÀíÄÚ´æºÍÊ¹ÓÃ
 BOOL CSystemStatus::GetPhysicalMemoryState(ULONGLONG& totalPhysMem, ULONGLONG& physMemUsed)
 {
 	MEMORYSTATUSEX memInfo;
@@ -373,7 +373,7 @@ BOOL CSystemStatus::GetPhysicalMemoryState(ULONGLONG& totalPhysMem, ULONGLONG& p
 	return TRUE;
 }
  
-//æœºå™¨ç‰©ç†å†…å­˜å®¹é‡(æ€»å¯ç”¨å†…å­˜)
+//»úÆ÷ÎïÀíÄÚ´æÈİÁ¿(×Ü¿ÉÓÃÄÚ´æ)
 double CSystemStatus::GetTotalPhysicalMemory()
 {
 	MEMORYSTATUSEX memInfo;
@@ -384,7 +384,7 @@ double CSystemStatus::GetTotalPhysicalMemory()
 	return fTemptotal;
 }
 
-//æœºå™¨ç‰©ç†å†…å­˜å®¹é‡(ç©ºé—²å†…å­˜)
+//»úÆ÷ÎïÀíÄÚ´æÈİÁ¿(¿ÕÏĞÄÚ´æ)
 double CSystemStatus::GetTotalPhysicalMemoryFree()
 {
 	MEMORYSTATUSEX memInfo;
@@ -395,7 +395,7 @@ double CSystemStatus::GetTotalPhysicalMemoryFree()
 	return fTemMemFree;
 }
  
-//æœºå™¨ç‰©ç†å†…å­˜ä½¿ç”¨(å·²ä½¿ç”¨å†…å­˜)
+//»úÆ÷ÎïÀíÄÚ´æÊ¹ÓÃ(ÒÑÊ¹ÓÃÄÚ´æ)
 double CSystemStatus::GetTotalPhysicalMemoryUsed()
 {
 	MEMORYSTATUSEX memInfo;
@@ -406,7 +406,7 @@ double CSystemStatus::GetTotalPhysicalMemoryUsed()
 	return fTemMemUsed;
 }
  
-//æœºå™¨ç‰©ç†å†…å­˜ä½¿ç”¨ç‡ 
+//»úÆ÷ÎïÀíÄÚ´æÊ¹ÓÃÂÊ 
 double CSystemStatus::GetPhysicalMemoryUsage()
 {
 	MEMORYSTATUSEX memInfo;
@@ -416,45 +416,45 @@ double CSystemStatus::GetPhysicalMemoryUsage()
 	return MemUsage;
 }
 
-//è·å–ç½‘å¡ä¿¡æ¯ï¼ˆåœ¨è·å–ç½‘é€Ÿæ—¶éœ€è¦ç”¨åˆ°ç½‘å¡æè¿°ï¼‰
+//»ñÈ¡Íø¿¨ĞÅÏ¢£¨ÔÚ»ñÈ¡ÍøËÙÊ±ĞèÒªÓÃµ½Íø¿¨ÃèÊö£©
 void CSystemStatus::GetNetCardInfo(std::vector<NETCARDINFO> &vectorNetCard)
 {
 
 	NETCARDINFO NetCardInfo;
 
 	PIP_ADAPTER_INFO pIpAdapterInfo = new IP_ADAPTER_INFO();
-	//å¾—åˆ°ç»“æ„ä½“å¤§å°,ç”¨äºGetAdaptersInfoå‚æ•°
+	//µÃµ½½á¹¹Ìå´óĞ¡,ÓÃÓÚGetAdaptersInfo²ÎÊı
 	unsigned long stSize = sizeof(IP_ADAPTER_INFO);
-	//è°ƒç”¨GetAdaptersInfoå‡½æ•°,å¡«å……pIpAdapterInfoæŒ‡é’ˆå˜é‡;å…¶ä¸­stSizeå‚æ•°æ—¢æ˜¯ä¸€ä¸ªè¾“å…¥é‡ä¹Ÿæ˜¯ä¸€ä¸ªè¾“å‡ºé‡
+	//µ÷ÓÃGetAdaptersInfoº¯Êı,Ìî³äpIpAdapterInfoÖ¸Õë±äÁ¿;ÆäÖĞstSize²ÎÊı¼ÈÊÇÒ»¸öÊäÈëÁ¿Ò²ÊÇÒ»¸öÊä³öÁ¿
 	int nRel = GetAdaptersInfo(pIpAdapterInfo,&stSize);
-	//è®°å½•ç½‘å¡æ•°é‡
+	//¼ÇÂ¼Íø¿¨ÊıÁ¿
 	int netCardNum = 0;
-	//è®°å½•æ¯å¼ ç½‘å¡ä¸Šçš„IPåœ°å€æ•°é‡
+	//¼ÇÂ¼Ã¿ÕÅÍø¿¨ÉÏµÄIPµØÖ·ÊıÁ¿
 	int IPnumPerNetCard = 0;
 	if (ERROR_BUFFER_OVERFLOW == nRel)
 	{
-		//å¦‚æœå‡½æ•°è¿”å›çš„æ˜¯ERROR_BUFFER_OVERFLOW
-		//åˆ™è¯´æ˜GetAdaptersInfoå‚æ•°ä¼ é€’çš„å†…å­˜ç©ºé—´ä¸å¤Ÿ,åŒæ—¶å…¶ä¼ å‡ºstSize,è¡¨ç¤ºéœ€è¦çš„ç©ºé—´å¤§å°
-		//è¿™ä¹Ÿæ˜¯è¯´æ˜ä¸ºä»€ä¹ˆstSizeæ—¢æ˜¯ä¸€ä¸ªè¾“å…¥é‡ä¹Ÿæ˜¯ä¸€ä¸ªè¾“å‡ºé‡
-		//é‡Šæ”¾åŸæ¥çš„å†…å­˜ç©ºé—´
+		//Èç¹ûº¯Êı·µ»ØµÄÊÇERROR_BUFFER_OVERFLOW
+		//ÔòËµÃ÷GetAdaptersInfo²ÎÊı´«µİµÄÄÚ´æ¿Õ¼ä²»¹»,Í¬Ê±Æä´«³östSize,±íÊ¾ĞèÒªµÄ¿Õ¼ä´óĞ¡
+		//ÕâÒ²ÊÇËµÃ÷ÎªÊ²Ã´stSize¼ÈÊÇÒ»¸öÊäÈëÁ¿Ò²ÊÇÒ»¸öÊä³öÁ¿
+		//ÊÍ·ÅÔ­À´µÄÄÚ´æ¿Õ¼ä
 		delete pIpAdapterInfo;
-		//é‡æ–°ç”³è¯·å†…å­˜ç©ºé—´ç”¨æ¥å­˜å‚¨æ‰€æœ‰ç½‘å¡ä¿¡æ¯
+		//ÖØĞÂÉêÇëÄÚ´æ¿Õ¼äÓÃÀ´´æ´¢ËùÓĞÍø¿¨ĞÅÏ¢
 		pIpAdapterInfo = (PIP_ADAPTER_INFO)new BYTE[stSize];
-		//å†æ¬¡è°ƒç”¨GetAdaptersInfoå‡½æ•°,å¡«å……pIpAdapterInfoæŒ‡é’ˆå˜é‡
+		//ÔÙ´Îµ÷ÓÃGetAdaptersInfoº¯Êı,Ìî³äpIpAdapterInfoÖ¸Õë±äÁ¿
 		nRel=GetAdaptersInfo(pIpAdapterInfo,&stSize);    
 	}
 	if (ERROR_SUCCESS == nRel)
 	{
-		//è¾“å‡ºç½‘å¡ä¿¡æ¯
-		//å¯èƒ½æœ‰å¤šç½‘å¡,å› æ­¤é€šè¿‡å¾ªç¯å»åˆ¤æ–­
+		//Êä³öÍø¿¨ĞÅÏ¢
+		//¿ÉÄÜÓĞ¶àÍø¿¨,Òò´ËÍ¨¹ıÑ­»·È¥ÅĞ¶Ï
 		while (pIpAdapterInfo)
 		{
-			++netCardNum;				//ç½‘å¡æ•°é‡
+			++netCardNum;				//Íø¿¨ÊıÁ¿
 
-			NetCardInfo.Name=pIpAdapterInfo->AdapterName;		//ç½‘å¡åç§°
-			NetCardInfo.Description=pIpAdapterInfo->Description;//ç½‘å¡æè¿°
+			NetCardInfo.Name=pIpAdapterInfo->AdapterName;		//Íø¿¨Ãû³Æ
+			NetCardInfo.Description=pIpAdapterInfo->Description;//Íø¿¨ÃèÊö
 			
-			switch(pIpAdapterInfo->Type)//ç½‘å¡ç±»å‹
+			switch(pIpAdapterInfo->Type)//Íø¿¨ÀàĞÍ
 			{
 			case MIB_IF_TYPE_OTHER:break;
 			case MIB_IF_TYPE_ETHERNET:break;
@@ -464,7 +464,7 @@ void CSystemStatus::GetNetCardInfo(std::vector<NETCARDINFO> &vectorNetCard)
 			case MIB_IF_TYPE_LOOPBACK:break;
 			case MIB_IF_TYPE_SLIP:break;
 			}
-			//ç½‘å¡MACåœ°å€
+			//Íø¿¨MACµØÖ·
 			char tempchar[4];
 			for (DWORD i = 0; i < pIpAdapterInfo->AddressLength; i++)
 				if (i < pIpAdapterInfo->AddressLength-1)
@@ -485,15 +485,15 @@ void CSystemStatus::GetNetCardInfo(std::vector<NETCARDINFO> &vectorNetCard)
 					
 				}
 			
-			//ç½‘å¡IPåœ°å€
-			//å¯èƒ½ç½‘å¡æœ‰å¤šIP,å› æ­¤é€šè¿‡å¾ªç¯å»åˆ¤æ–­
+			//Íø¿¨IPµØÖ·
+			//¿ÉÄÜÍø¿¨ÓĞ¶àIP,Òò´ËÍ¨¹ıÑ­»·È¥ÅĞ¶Ï
 			IP_ADDR_STRING *pIpAddrString =&(pIpAdapterInfo->IpAddressList);
 			do 
 			{
-				//cout<<"è¯¥ç½‘å¡ä¸Šçš„IPæ•°é‡ï¼š"<<++IPnumPerNetCard<<endl;
-				//cout<<"IP åœ°å€ï¼š"<<pIpAddrString->IpAddress.String<<endl;
-				//cout<<"å­ç½‘åœ°å€ï¼š"<<pIpAddrString->IpMask.String<<endl;
-				//cout<<"ç½‘å…³åœ°å€ï¼š"<<pIpAdapterInfo->GatewayList.IpAddress.String<<endl;
+				//cout<<"¸ÃÍø¿¨ÉÏµÄIPÊıÁ¿£º"<<++IPnumPerNetCard<<endl;
+				//cout<<"IP µØÖ·£º"<<pIpAddrString->IpAddress.String<<endl;
+				//cout<<"×ÓÍøµØÖ·£º"<<pIpAddrString->IpMask.String<<endl;
+				//cout<<"Íø¹ØµØÖ·£º"<<pIpAdapterInfo->GatewayList.IpAddress.String<<endl;
 
 				NetCardInfo.Local_IP=pIpAddrString->IpAddress.String;
 
@@ -514,7 +514,7 @@ void CSystemStatus::GetNetCardInfo(std::vector<NETCARDINFO> &vectorNetCard)
 	}
 }
 
-//è·å–æ“ä½œç³»ç»Ÿä¿¡æ¯ 
+//»ñÈ¡²Ù×÷ÏµÍ³ĞÅÏ¢ 
 void CSystemStatus::GetOsInfo(std::string &osinfo)
 {
 	// get os name according to version number
@@ -634,7 +634,7 @@ void CSystemStatus::GetOsInfo(std::string &osinfo)
 	osinfo=os_name;
 }
 
-//è·å–CPUç¡¬ä»¶ä¿¡æ¯ 
+//»ñÈ¡CPUÓ²¼şĞÅÏ¢ 
 //void CSystemStatus::GetCpuInfo(std::string &CPUinfo)
 //{
 //	int cpuInfo[4] = {-1};
@@ -651,13 +651,13 @@ void CSystemStatus::GetOsInfo(std::string &osinfo)
 //	__cpuid(cpuInfo, 0x80000004);
 //	memcpy(cpu_freq, cpuInfo, sizeof(cpuInfo));
 //
-//	std::string manufacture=cpu_manufacture;//åˆ¶é€ å•†
-//	std::string type=cpu_type;				//å‹å·
-//	std::string freq=cpu_freq;				//é¢‘ç‡
+//	std::string manufacture=cpu_manufacture;//ÖÆÔìÉÌ
+//	std::string type=cpu_type;				//ĞÍºÅ
+//	std::string freq=cpu_freq;				//ÆµÂÊ
 //	CPUinfo=manufacture+type+freq;
 //}
 
-//è·å–CPUid
+//»ñÈ¡CPUid
 //void CSystemStatus::GetCPUid(std::string &CPUid)
 //{
 //	unsigned long s1,s2,s3,s4; 
@@ -702,7 +702,7 @@ void CSystemStatus::GetOsInfo(std::string &osinfo)
 //	ZeroMemory(&in  , sizeof(in)); 
 //	ZeroMemory(&out , sizeof(out)); 
 //
-//	//æœç´¢å››ä¸ªç‰©ç†ç¡¬ç›˜ï¼Œå–ç¬¬ä¸€ä¸ªæœ‰æ•°æ®çš„ç‰©ç†ç¡¬ç›˜ 
+//	//ËÑË÷ËÄ¸öÎïÀíÓ²ÅÌ£¬È¡µÚÒ»¸öÓĞÊı¾İµÄÎïÀíÓ²ÅÌ 
 //	for (int j=0; j<4; j++)
 //	{
 //		sprintf(szhd,	"\\\\.\\PhysicalDrive%d",j); 
@@ -743,7 +743,7 @@ void CSystemStatus::GetOsInfo(std::string &osinfo)
 //		s[20] = 0; 
 //		ChangeByteOrder(s, 20); 
 //
-//		//åˆ é™¤ç©ºæ ¼å­—ç¬¦
+//		//É¾³ı¿Õ¸ñ×Ö·û
 //		int ix = 0;
 //		for (ix=0; ix<20; ix++)
 //		{
@@ -778,7 +778,7 @@ int main()
 
     {
         getCpuUseage.SystemInit();
-        printf("CPUä½¿ç”¨ç‡ï¼š%0.2f\n", getCpuUseage.GetSystemCpuCurrentUsage());
+        printf("CPUÊ¹ÓÃÂÊ£º%0.2f\n", getCpuUseage.GetSystemCpuCurrentUsage());
 
         //Sleep(1000);
 

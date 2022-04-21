@@ -1,3 +1,4 @@
+#if 0
 #include "common.h"
 #include <time.h>
 
@@ -93,3 +94,5 @@ void array_out_of_bound_test() {
     }
     cout << endl;
 }
+
+#endif
