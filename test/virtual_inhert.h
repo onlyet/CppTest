@@ -15,24 +15,19 @@ public:
 };
 
 /**
- * @brief 12字节
- * vptr_B
- * a
- * b
+ * @brief 20字节
 */
 class VB : virtual public VA {
 public:
     VB() { cout << "VB::VB()" << endl; }
     virtual ~VB() { cout << "VB::~VB()" << endl; }
+    //void f() override { cout << "VB::f()" << endl; }
     virtual void g() { cout << "VB::g()" << endl; }
     int b = 2;
 };
 
 /**
- * @brief 12字节
- * vptr_C
- * a
- * c
+ * @brief 20字节
 */
 class VC : virtual public VA {
 public:
@@ -43,17 +38,8 @@ public:
 };
 
 /**
- * @brief 28字节
+ * @brief 48字节
  * --------------------
- * vptr_B
- * a
- * b
- * --------------------
- * vptr_C
- * a
- * c
- * --------------------
- * d
 */
 class VTom : public VB, public VC {
 public:

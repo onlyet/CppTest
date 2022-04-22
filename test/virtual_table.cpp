@@ -161,7 +161,7 @@ void test_vtbl()
     //*(int*)((char*)&d+8)
 
     // ¡‚–ŒºÃ≥–
-    Tom d;
+    //Tom d;
     //d.B::f();
     //cout << sizeof(A) << sizeof(B) << sizeof(C) << sizeof(Tom) << endl;
     //cout << d.B::a << endl;
@@ -171,8 +171,8 @@ void test_vtbl()
     //cout << d.C::a << endl;
 
     cout << endl;
+
     // –ÈºÃ≥–
     VTom v;
-    cout << v.a << endl;
-    //v.~VA();
+    cout << sizeof(VA) << sizeof(VB) << sizeof(VC) << sizeof(VTom) << endl;
 }

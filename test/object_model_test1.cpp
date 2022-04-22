@@ -12,6 +12,12 @@ public:
     virtual void Bf() { cout << "B::Bf()" << endl; }
 };
 
+/**
+ * @brief 24字节
+ * 我们发现上述示例代码便会产生vtordisp字段！条件是。
+    1. 派生类重写了虚基类的虚函数。
+    2. 派生类定义了构造函数或者析构函数。
+*/
 class B1 : virtual public B
 {
 public:
@@ -23,6 +29,7 @@ public:
     virtual void Bf1() { cout << "B1::Bf1()" << endl; }
 };
 
+#if 0
 #if 0
 class B2 : public B
 
@@ -132,3 +139,4 @@ int main()
     cout << "\t地址: " << (int*)(&a) + 5;
     cout << endl;
 }
+#endif
