@@ -143,6 +143,7 @@
     <ClCompile Include="CSystemStatus.cpp" />
     <ClCompile Include="ctor_and_dtor.cpp" />
     <ClCompile Include="get_gpu.cpp" />
+    <ClCompile Include="level_order_traversal.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="object_model_test1.cpp" />
     <ClCompile Include="shared_ptr_demo.cpp" />
