@@ -3,6 +3,7 @@
 #include <queue>
 using namespace std;
 
+#if 0
 struct TreeNode {
     int val;
     TreeNode* left;
@@ -65,3 +66,4 @@ int main() {
     TreeNode* root = construct_binary_tree(vec);
     print_binary_tree(root);
 }
+#endif

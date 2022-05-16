@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="VirtualTable">
+      <UniqueIdentifier>{f2c30af4-9e49-4425-8d79-5c7134340c90}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="common.cpp">
@@ -53,6 +56,12 @@
     </ClCompile>
     <ClCompile Include="level_order_traversal.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualTable\no_inhert.cpp">
+      <Filter>VirtualTable</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualTable\single_inhert.cpp">
+      <Filter>VirtualTable</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

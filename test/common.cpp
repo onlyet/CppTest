@@ -43,10 +43,10 @@ void test()
 
     //derive_test();
 
-    //test_vtbl();
+    test_vtbl();
 
-    for (char i = 0; i < 256; ++i)
-    {
-        printf("%d\n", i);
-    }
+    //for (char i = 0; i < 256; ++i)
+    //{
+    //    printf("%d\n", i);
+    //}
 }

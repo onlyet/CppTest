@@ -43,12 +43,14 @@ void printDerived(Derived& d)
     while (i < 2) {
         //Fcn vfcn = (Fcn) * ((int*)(*((int*)&d + i)) + j);
         //cout << sizeof(Base1) << endl;
-        Fcn vfcn = (Fcn) * ((int*)(*(int*)((char*)&d + i * sizeof(Base1))) + j);
+        Fcn vfcn = (Fcn) * ((intptr_t*)(*(intptr_t*)((char*)&d + i * sizeof(Base1))) + j);
         cout << "Base" << i + 1 << "::vtable:" << endl;
         while (/*vfcn*/j < 4) {
+            // 两种方式调用都可以
             vfcn();
+            //(*vfcn)();
             ++j;
-            vfcn = (Fcn) * ((int*)(*(int*)((char*)&d + i * sizeof(Base1))) + j);
+            vfcn = (Fcn) * ((intptr_t*)(*(intptr_t*)((char*)&d + i * sizeof(Base1))) + j);
         }
         ++i;
         j = 1;
@@ -66,14 +68,14 @@ void print_vtbl_address(Derived& d)
         //printf("(int*)&d + %d: %x\n", i, (int*)&d + i);
         printf("虚表指针 *((int*)&d + %d): %x\n", i, *((int*)&d + i));
 
-        Fcn vfcn = (Fcn) * ((int*)(*((int*)&d + i)) + j);
+        Fcn vfcn = (Fcn) * ((intptr_t*)(*((intptr_t*)&d + i)) + j);
         cout << "Base" << i + 1 << "::vtable:" << endl;
         while (vfcn) {
             //printf("(int*)(*((int*)&d + %d)) + %d: %x\n", i, j, (int*)(*((int*)&d + i)) + j);
-            printf("虚函数地址 *((int*)(*((int*)&d + %d)) + %d): %x\n", i, j, *((int*)(*((int*)&d + i)) + j));
+            printf("虚函数地址 *((int*)(*((int*)&d + %d)) + %d): %Ix\n", i, j, *((intptr_t*)(*((intptr_t*)&d + i)) + j));
 
             ++j;
-            vfcn = (Fcn) * ((int*)(*((int*)&d + i)) + j);
+            vfcn = (Fcn) * ((intptr_t*)(*((intptr_t*)&d + i)) + j);
         }
         ++i;
         j = 0;
@@ -154,8 +156,8 @@ public:
 void test_vtbl()
 {
     // 多重继承
-    //Derived d;
-    //printDerived(d);
+    Derived d;
+    printDerived(d);
     //print_vtbl_address(d);
 
     //*(int*)((char*)&d+8)
