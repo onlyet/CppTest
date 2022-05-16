@@ -1,3 +1,5 @@
+// ÎÞ¼Ì³ÐÓÐÐéº¯Êý
+
 #if 0
 #include <iostream>
 

@@ -1,4 +1,6 @@
-#if 1
+// µ¥¼Ì³Ð
+
+#if 0
 #include <iostream>
 
 using namespace std;
@@ -16,7 +18,7 @@ class SingleInhert_B : public SingleInhert_A {
 public:
     SingleInhert_B() { cout << "SingleInhert_B::SingleInhert_B()" << endl; }
     virtual ~SingleInhert_B() { cout << "SingleInhert_B::~SingleInhert_B()" << endl; }
-    virtual void f() { cout << "SingleInhert_B::f()" << endl; }
+    virtual void f() override { cout << "SingleInhert_B::f()" << endl; }
     virtual void h() { cout << "SingleInhert_B::h()" << endl; }
     intptr_t b = 2;
 };

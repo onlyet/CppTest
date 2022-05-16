@@ -96,7 +96,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>false</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalOptions>/d1 reportSingleClassLayoutSingleInhert_B %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/d1 reportSingleClassLayoutDerived %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>DXGI.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -149,6 +149,7 @@
     <ClCompile Include="object_model_test1.cpp" />
     <ClCompile Include="shared_ptr_demo.cpp" />
     <ClCompile Include="struct_init_demo.cpp" />
+    <ClCompile Include="VirtualTable\multiple_inhert.cpp" />
     <ClCompile Include="VirtualTable\no_inhert.cpp" />
     <ClCompile Include="VirtualTable\single_inhert.cpp" />
     <ClCompile Include="virtual_table.cpp" />
