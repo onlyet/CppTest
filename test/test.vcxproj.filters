@@ -66,6 +66,12 @@
     <ClCompile Include="VirtualTable\multiple_inhert.cpp">
       <Filter>VirtualTable</Filter>
     </ClCompile>
+    <ClCompile Include="VirtualTable\diamond_inhert.cpp">
+      <Filter>VirtualTable</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualTable\virtual_inhert.cpp">
+      <Filter>VirtualTable</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">

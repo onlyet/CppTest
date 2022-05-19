@@ -1,6 +1,6 @@
 // ∂‡÷ÿºÃ≥–
 
-#if 1
+#if 0
 
 #include <iostream>
 
@@ -13,6 +13,7 @@ public:
     virtual ~Base1() { cout << "Base1::~Base1()" << endl; }
     virtual void f() { cout << "Base1::f()" << endl; }
     virtual void g() { cout << "Base1::g()" << endl; }
+    //virtual void j() { cout << "Base1::j()" << endl; }
     intptr_t a = 1;
 };
 
@@ -40,6 +41,8 @@ public:
 
 int main() {
     Derived d;
+    //Derived* pd = new Derived;
+    //pd->h();
     return 0;
 }
 

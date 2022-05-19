@@ -84,70 +84,70 @@
 //    }
 //}
 
-#if 1
-/**
- * @brief 8字节
- * vptr_A
- * a
-*/
-class A {
-public:
-    A() { cout << "A::A()" << endl; }
-    virtual ~A() { cout << "A::~A()" << endl; }
-    virtual void f() { cout << "A::f()" << endl; }
-    int a = 1;
-};
-
-/**
- * @brief 12字节
- * vptr_B
- * a
- * b
-*/
-class B : public A {
-public:
-    B() { cout << "B::B()" << endl; }
-    virtual ~B() { cout << "B::~B()" << endl; }
-    virtual void g() { cout << "B::g()" << endl; }
-    int b = 2;
-};
-
-/**
- * @brief 12字节
- * vptr_C
- * a
- * c
-*/
-class C : public A {
-public:
-    C() { cout << "C::C()" << endl; }
-    virtual ~C() { cout << "C::~C()" << endl; }
-    virtual void h() { cout << "C::h()" << endl; }
-    int c = 3;
-};
-
-/**
- * @brief 28字节
- * --------------------
- * vptr_B
- * a
- * b
- * --------------------
- * vptr_C
- * a
- * c
- * --------------------
- * d
-*/
-class Tom : public B, public C {
-public:
-    Tom() { cout << "Tom::Tom()" << endl; }
-    virtual ~Tom() { cout << "Tom::~Tom()" << endl; }
-    void f() override { cout << "Tom::f()" << endl; }
-    virtual void k() { cout << "Tom::k()" << endl; }
-    int d = 4;
-};
-#endif
+//#if 1
+///**
+// * @brief 8字节
+// * vptr_A
+// * a
+//*/
+//class A {
+//public:
+//    A() { cout << "A::A()" << endl; }
+//    virtual ~A() { cout << "A::~A()" << endl; }
+//    virtual void f() { cout << "A::f()" << endl; }
+//    int a = 1;
+//};
+//
+///**
+// * @brief 12字节
+// * vptr_B
+// * a
+// * b
+//*/
+//class B : public A {
+//public:
+//    B() { cout << "B::B()" << endl; }
+//    virtual ~B() { cout << "B::~B()" << endl; }
+//    virtual void g() { cout << "B::g()" << endl; }
+//    int b = 2;
+//};
+//
+///**
+// * @brief 12字节
+// * vptr_C
+// * a
+// * c
+//*/
+//class C : public A {
+//public:
+//    C() { cout << "C::C()" << endl; }
+//    virtual ~C() { cout << "C::~C()" << endl; }
+//    virtual void h() { cout << "C::h()" << endl; }
+//    int c = 3;
+//};
+//
+///**
+// * @brief 28字节
+// * --------------------
+// * vptr_B
+// * a
+// * b
+// * --------------------
+// * vptr_C
+// * a
+// * c
+// * --------------------
+// * d
+//*/
+//class Tom : public B, public C {
+//public:
+//    Tom() { cout << "Tom::Tom()" << endl; }
+//    virtual ~Tom() { cout << "Tom::~Tom()" << endl; }
+//    void f() override { cout << "Tom::f()" << endl; }
+//    virtual void k() { cout << "Tom::k()" << endl; }
+//    int d = 4;
+//};
+//#endif
 
 
 
@@ -175,6 +175,6 @@ void test_vtbl()
     cout << endl;
 
     // 虚继承
-    VTom v;
-    cout << sizeof(VA) << sizeof(VB) << sizeof(VC) << sizeof(VTom) << endl;
+    //VTom v;
+    //cout << sizeof(VA) << sizeof(VB) << sizeof(VC) << sizeof(VTom) << endl;
 }

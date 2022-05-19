@@ -96,7 +96,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>false</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalOptions>/d1 reportSingleClassLayoutDerived %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/d1 reportSingleClassLayoutVTom %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>DXGI.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -149,9 +149,11 @@
     <ClCompile Include="object_model_test1.cpp" />
     <ClCompile Include="shared_ptr_demo.cpp" />
     <ClCompile Include="struct_init_demo.cpp" />
+    <ClCompile Include="VirtualTable\diamond_inhert.cpp" />
     <ClCompile Include="VirtualTable\multiple_inhert.cpp" />
     <ClCompile Include="VirtualTable\no_inhert.cpp" />
     <ClCompile Include="VirtualTable\single_inhert.cpp" />
+    <ClCompile Include="VirtualTable\virtual_inhert.cpp" />
     <ClCompile Include="virtual_table.cpp" />
   </ItemGroup>
   <ItemGroup>
