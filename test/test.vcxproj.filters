@@ -72,6 +72,9 @@
     <ClCompile Include="VirtualTable\virtual_inhert.cpp">
       <Filter>VirtualTable</Filter>
     </ClCompile>
+    <ClCompile Include="test_time_complexity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
