@@ -145,6 +145,7 @@
     <ClCompile Include="CPUUsage.cpp" />
     <ClCompile Include="CSystemStatus.cpp" />
     <ClCompile Include="ctor_and_dtor.cpp" />
+    <ClCompile Include="default_ctor.cpp" />
     <ClCompile Include="get_gpu.cpp" />
     <ClCompile Include="level_order_traversal.cpp" />
     <ClCompile Include="main.cpp" />

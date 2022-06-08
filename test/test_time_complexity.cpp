@@ -1,3 +1,5 @@
+#if 0
+
 #include <iostream>
 #include <chrono>
 #include <thread>
@@ -65,3 +67,5 @@ int main() {
         cout << "ºÄÊ±2:" << t6 << " ms" << endl;
     }
 }
+
+#endif

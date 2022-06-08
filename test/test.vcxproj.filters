@@ -75,6 +75,9 @@
     <ClCompile Include="test_time_complexity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="default_ctor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
