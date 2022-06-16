@@ -16,6 +16,9 @@
     <Filter Include="VirtualTable">
       <UniqueIdentifier>{f2c30af4-9e49-4425-8d79-5c7134340c90}</UniqueIdentifier>
     </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{61dde8ad-80c6-4b05-bb09-bc5069a40f65}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="common.cpp">
@@ -77,6 +80,9 @@
     </ClCompile>
     <ClCompile Include="default_ctor.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iterator.cpp">
+      <Filter>STL</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
