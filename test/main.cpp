@@ -1,7 +1,7 @@
 #include "common.h"
 
 
-#if 0
+#if 1
 //#if 1
 //int main()
 //{

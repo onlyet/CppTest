@@ -84,6 +84,9 @@
     <ClCompile Include="iterator.cpp">
       <Filter>STL</Filter>
     </ClCompile>
+    <ClCompile Include="asm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
