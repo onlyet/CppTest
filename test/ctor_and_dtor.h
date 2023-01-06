@@ -43,22 +43,22 @@ public:
         //: i(0)
     { 
         cout << "Base()" << endl;
-        vf();
+        //vf();
     }
-    virtual ~Base() { 
+    /*virtual*/ ~Base() { 
         cout << "~Base()" << endl; 
-        vf();
+        //vf();
     }
 
-     virtual void vf() { cout << "Base virtual func" << endl; }
+    // virtual void vf() { cout << "Base virtual func" << endl; }
 
-     //friend virtual void friendfunc(Base* b);
-     //friend void parent::eat(/*Base* b*/);
-     
-     template<typename T>
-     void tt(T t) { cout << t << endl; };
+    // //friend virtual void friendfunc(Base* b);
+    // //friend void parent::eat(/*Base* b*/);
+    // 
+    // template<typename T>
+    // void tt(T t) { cout << t << endl; };
 
-    int i = 1;
+    //int i = 1;
 };
 
 
@@ -79,7 +79,7 @@ public:
         cout << "~Derive()" << endl; 
     }
 
-    void vf() override { cout << "Derive virtual func" << endl; }
+    //void vf() override { cout << "Derive virtual func" << endl; }
 
     //inline virtual   void tt() {}
 
