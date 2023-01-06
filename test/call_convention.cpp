@@ -23,76 +23,85 @@ void func_param_pass_seq_()
 }
 
 
-static void cdecl_asm_test(char *a, int n)
+void __cdecl __cdecl_callee(int a, int b)
 {
-    for (int i = 0; i < n; i++)
-    {
-        std::cout << a;
-    }
+	cout << "__cdecl, a = " << a << ", b = " << b << endl;
 }
 
-//void cdecl_asm_test_()
-//{
-//    char *t = "abcdefg\n";
-//    int n = 3;
-//    __asm
-//    {
-//        push n
-//        push t
-//        call cdecl_asm_test
-//    }
-//}
-
-void cdecl_asm_test_()
+void __stdcall __stdcall_callee(int a, int b)
 {
-    char *t = "abcdefg\n";
-    int n = 3;
+	cout << "__stdcall, a = " << a << ", b = " << b << endl;
+}
+
+void __cdecl_caller()
+{
+	int x = 1;
+	int y = 2;
     __asm
     {
-        push n
-        push t
-        call cdecl_asm_test
-        pop t
-        pop n
+        push y
+        push x
+        call __cdecl_callee
+		pop x
+		pop y
     }
 }
 
-void asm_test_()
+void __stdcall_caller()
+{
+	int x = 1;
+	int y = 2;
+	__asm
+	{
+		push y
+		push x
+		call __stdcall_callee
+
+	}
+}
+
+void __cdecl_caller_v2()
 {
     unsigned long dwEsp;
-    char *t = "abcdefg\n";
-    int n = 3;
+	int x = 1;
+	int y = 2;
     __asm
     {
         mov dwEsp, esp
-        push n
-        push t
-        call cdecl_asm_test
+        push y
+        push x
+        call __cdecl_callee
         mov esp, dwEsp
     }
 }
 
-void asm_test2_()
+
+//int __stdcall disassembly_demo(int x, int y, int z)
+//{
+//    return x + y + z;
+//}   
+//void disassembly_demo_()
+//{
+//    disassembly_demo(1, 2, 3);
+//}
+
+
+int __cdecl __cdecl_disassembly_callee(int a, int b)
 {
-    char *t = "abcdefg\n";
-    int n = 3;
-    __asm
-    {
-        push n
-        push t
-        call cdecl_asm_test
-        pop n
-        pop t
-    }
+	return a + b;
 }
 
-
-int __stdcall disassembly_demo(int x, int y, int z)
+int __stdcall __stdcall_disassembly_callee(int a, int b)
 {
-    return x + y + z;
-}   
+	return a + b;
+}
 
-void disassembly_demo_()
+void __cdecl_disassembly_caller()
 {
-    disassembly_demo(1, 2, 3);
+	__cdecl_disassembly_callee(1, 2);
+}
+
+void __stdcall_disassembly_caller()
+{
+	__stdcall_disassembly_callee(1, 2);
 }
