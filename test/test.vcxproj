@@ -154,6 +154,7 @@
     <ClCompile Include="object_model_test1.cpp" />
     <ClCompile Include="shared_ptr_demo.cpp" />
     <ClCompile Include="struct_init_demo.cpp" />
+    <ClCompile Include="test_memory_segment.cpp" />
     <ClCompile Include="test_time_complexity.cpp" />
     <ClCompile Include="VirtualTable\diamond_inhert.cpp" />
     <ClCompile Include="VirtualTable\multiple_inhert.cpp" />
