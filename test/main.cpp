@@ -1,8 +1,16 @@
+#if 1
+
 #include "common.h"
+
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 int main()
 {
     test();
-    system("pause");
+
     return 0;
 }
+#endif
+

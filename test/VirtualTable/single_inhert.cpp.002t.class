@@ -1,0 +1,3190 @@
+Class <anonymous struct>::<anonymous union>
+   size=4 align=4
+   base size=4 base align=4
+<anonymous struct>::<anonymous union> (0x0x7f3d3751d060) 0
+
+Class <anonymous struct>
+   size=8 align=4
+   base size=8 base align=4
+<anonymous struct> (0x0x7f3d3751d000) 0
+
+Class __locale_struct
+   size=232 align=8
+   base size=232 base align=8
+__locale_struct (0x0x7f3d3751d0c0) 0
+
+Vtable for std::exception
+std::exception::_ZTVSt9exception: 5u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt9exception)
+16    (int (*)(...))std::exception::~exception
+24    (int (*)(...))std::exception::~exception
+32    (int (*)(...))std::exception::what
+
+Class std::exception
+   size=8 align=8
+   base size=8 base align=8
+std::exception (0x0x7f3d3751d180) 0 nearly-empty
+    vptr=((& std::exception::_ZTVSt9exception) + 16u)
+
+Vtable for std::bad_exception
+std::bad_exception::_ZTVSt13bad_exception: 5u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt13bad_exception)
+16    (int (*)(...))std::bad_exception::~bad_exception
+24    (int (*)(...))std::bad_exception::~bad_exception
+32    (int (*)(...))std::bad_exception::what
+
+Class std::bad_exception
+   size=8 align=8
+   base size=8 base align=8
+std::bad_exception (0x0x7f3d37bbdea0) 0 nearly-empty
+    vptr=((& std::bad_exception::_ZTVSt13bad_exception) + 16u)
+  std::exception (0x0x7f3d3751d1e0) 0 nearly-empty
+      primary-for std::bad_exception (0x0x7f3d37bbdea0)
+
+Class std::__exception_ptr::exception_ptr
+   size=8 align=8
+   base size=8 base align=8
+std::__exception_ptr::exception_ptr (0x0x7f3d3751d240) 0
+
+Vtable for std::nested_exception
+std::nested_exception::_ZTVSt16nested_exception: 4u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt16nested_exception)
+16    (int (*)(...))std::nested_exception::~nested_exception
+24    (int (*)(...))std::nested_exception::~nested_exception
+
+Class std::nested_exception
+   size=16 align=8
+   base size=16 base align=8
+std::nested_exception (0x0x7f3d3751d2a0) 0
+    vptr=((& std::nested_exception::_ZTVSt16nested_exception) + 16u)
+
+Class std::__true_type
+   size=1 align=1
+   base size=0 base align=1
+std::__true_type (0x0x7f3d3751d6c0) 0 empty
+
+Class std::__false_type
+   size=1 align=1
+   base size=0 base align=1
+std::__false_type (0x0x7f3d3751d720) 0 empty
+
+Class std::__truth_type<true>
+   size=1 align=1
+   base size=0 base align=1
+std::__truth_type<true> (0x0x7f3d3751d7e0) 0 empty
+
+Class std::__is_void<void>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_void<void> (0x0x7f3d3751d9c0) 0 empty
+
+Class std::__is_integer<bool>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<bool> (0x0x7f3d3751da80) 0 empty
+
+Class std::__is_integer<char>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<char> (0x0x7f3d3751dae0) 0 empty
+
+Class std::__is_integer<signed char>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<signed char> (0x0x7f3d3751db40) 0 empty
+
+Class std::__is_integer<unsigned char>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<unsigned char> (0x0x7f3d3751dba0) 0 empty
+
+Class std::__is_integer<wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<wchar_t> (0x0x7f3d3751dc00) 0 empty
+
+Class std::__is_integer<char16_t>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<char16_t> (0x0x7f3d3751dc60) 0 empty
+
+Class std::__is_integer<char32_t>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<char32_t> (0x0x7f3d3751dcc0) 0 empty
+
+Class std::__is_integer<short int>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<short int> (0x0x7f3d3751dd20) 0 empty
+
+Class std::__is_integer<short unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<short unsigned int> (0x0x7f3d3751dd80) 0 empty
+
+Class std::__is_integer<int>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<int> (0x0x7f3d3751dde0) 0 empty
+
+Class std::__is_integer<unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<unsigned int> (0x0x7f3d3751de40) 0 empty
+
+Class std::__is_integer<long int>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<long int> (0x0x7f3d3751dea0) 0 empty
+
+Class std::__is_integer<long unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<long unsigned int> (0x0x7f3d3751df00) 0 empty
+
+Class std::__is_integer<long long int>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<long long int> (0x0x7f3d3751df60) 0 empty
+
+Class std::__is_integer<long long unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<long long unsigned int> (0x0x7f3d375de000) 0 empty
+
+Class std::__is_floating<float>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_floating<float> (0x0x7f3d375de0c0) 0 empty
+
+Class std::__is_floating<double>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_floating<double> (0x0x7f3d375de120) 0 empty
+
+Class std::__is_floating<long double>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_floating<long double> (0x0x7f3d375de180) 0 empty
+
+Class std::__is_char<char>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_char<char> (0x0x7f3d375de480) 0 empty
+
+Class std::__is_char<wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_char<wchar_t> (0x0x7f3d375de4e0) 0 empty
+
+Class std::__is_byte<char>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_byte<char> (0x0x7f3d375de5a0) 0 empty
+
+Class std::__is_byte<signed char>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_byte<signed char> (0x0x7f3d375de600) 0 empty
+
+Class std::__is_byte<unsigned char>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_byte<unsigned char> (0x0x7f3d375de660) 0 empty
+
+Class __gnu_cxx::__add_unsigned<char>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__add_unsigned<char> (0x0x7f3d375de960) 0 empty
+
+Class __gnu_cxx::__add_unsigned<signed char>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__add_unsigned<signed char> (0x0x7f3d375de9c0) 0 empty
+
+Class __gnu_cxx::__add_unsigned<short int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__add_unsigned<short int> (0x0x7f3d375dea20) 0 empty
+
+Class __gnu_cxx::__add_unsigned<int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__add_unsigned<int> (0x0x7f3d375dea80) 0 empty
+
+Class __gnu_cxx::__add_unsigned<long int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__add_unsigned<long int> (0x0x7f3d375deae0) 0 empty
+
+Class __gnu_cxx::__add_unsigned<long long int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__add_unsigned<long long int> (0x0x7f3d375deb40) 0 empty
+
+Class __gnu_cxx::__remove_unsigned<char>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__remove_unsigned<char> (0x0x7f3d375dec00) 0 empty
+
+Class __gnu_cxx::__remove_unsigned<unsigned char>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__remove_unsigned<unsigned char> (0x0x7f3d375dec60) 0 empty
+
+Class __gnu_cxx::__remove_unsigned<short unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__remove_unsigned<short unsigned int> (0x0x7f3d375decc0) 0 empty
+
+Class __gnu_cxx::__remove_unsigned<unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__remove_unsigned<unsigned int> (0x0x7f3d375ded20) 0 empty
+
+Class __gnu_cxx::__remove_unsigned<long unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__remove_unsigned<long unsigned int> (0x0x7f3d375ded80) 0 empty
+
+Class __gnu_cxx::__remove_unsigned<long long unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__remove_unsigned<long long unsigned int> (0x0x7f3d375dede0) 0 empty
+
+Class std::__is_integer<long double>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<long double> (0x0x7f3d375def00) 0 empty
+
+Class __gnu_cxx::__promote<long double>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__promote<long double> (0x0x7f3d375def60) 0 empty
+
+Class std::__is_integer<double>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<double> (0x0x7f3d37610000) 0 empty
+
+Class __gnu_cxx::__promote<double>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__promote<double> (0x0x7f3d37610060) 0 empty
+
+Class std::__is_integer<float>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<float> (0x0x7f3d376100c0) 0 empty
+
+Class __gnu_cxx::__promote<float>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__promote<float> (0x0x7f3d37610120) 0 empty
+
+Class std::integral_constant<bool, false>
+   size=1 align=1
+   base size=0 base align=1
+std::integral_constant<bool, false> (0x0x7f3d37610420) 0 empty
+
+Class std::__or_<>
+   size=1 align=1
+   base size=1 base align=1
+std::__or_<> (0x0x7f3d375eb138) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d37610480) 0 empty
+
+Class std::integral_constant<bool, true>
+   size=1 align=1
+   base size=0 base align=1
+std::integral_constant<bool, true> (0x0x7f3d37610600) 0 empty
+
+Class std::__and_<>
+   size=1 align=1
+   base size=1 base align=1
+std::__and_<> (0x0x7f3d375eb2d8) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37610660) 0 empty
+
+Class std::__failure_type
+   size=1 align=1
+   base size=0 base align=1
+std::__failure_type (0x0x7f3d376108a0) 0 empty
+
+Class std::__is_void_helper<void>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_void_helper<void> (0x0x7f3d375eb548) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37610960) 0 empty
+
+Class std::__is_integral_helper<bool>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_integral_helper<bool> (0x0x7f3d375eb680) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37610a80) 0 empty
+
+Class std::__is_integral_helper<char>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_integral_helper<char> (0x0x7f3d375eb6e8) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37610ae0) 0 empty
+
+Class std::__is_integral_helper<signed char>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_integral_helper<signed char> (0x0x7f3d375eb750) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37610b40) 0 empty
+
+Class std::__is_integral_helper<unsigned char>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_integral_helper<unsigned char> (0x0x7f3d375eb7b8) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37610ba0) 0 empty
+
+Class std::__is_integral_helper<wchar_t>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_integral_helper<wchar_t> (0x0x7f3d375eb820) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37610c00) 0 empty
+
+Class std::__is_integral_helper<char16_t>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_integral_helper<char16_t> (0x0x7f3d375eb888) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37610c60) 0 empty
+
+Class std::__is_integral_helper<char32_t>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_integral_helper<char32_t> (0x0x7f3d375eb8f0) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37610cc0) 0 empty
+
+Class std::__is_integral_helper<short int>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_integral_helper<short int> (0x0x7f3d375eb958) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37610d20) 0 empty
+
+Class std::__is_integral_helper<short unsigned int>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_integral_helper<short unsigned int> (0x0x7f3d375eb9c0) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37610d80) 0 empty
+
+Class std::__is_integral_helper<int>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_integral_helper<int> (0x0x7f3d375eba28) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37610de0) 0 empty
+
+Class std::__is_integral_helper<unsigned int>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_integral_helper<unsigned int> (0x0x7f3d375eba90) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37610e40) 0 empty
+
+Class std::__is_integral_helper<long int>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_integral_helper<long int> (0x0x7f3d375ebaf8) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37610ea0) 0 empty
+
+Class std::__is_integral_helper<long unsigned int>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_integral_helper<long unsigned int> (0x0x7f3d375ebb60) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37610f00) 0 empty
+
+Class std::__is_integral_helper<long long int>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_integral_helper<long long int> (0x0x7f3d375ebbc8) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37610f60) 0 empty
+
+Class std::__is_integral_helper<long long unsigned int>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_integral_helper<long long unsigned int> (0x0x7f3d375ebc30) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37645000) 0 empty
+
+Class std::__is_floating_point_helper<float>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_floating_point_helper<float> (0x0x7f3d375ebd68) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37645120) 0 empty
+
+Class std::__is_floating_point_helper<double>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_floating_point_helper<double> (0x0x7f3d375ebdd0) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d37645180) 0 empty
+
+Class std::__is_floating_point_helper<long double>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_floating_point_helper<long double> (0x0x7f3d375ebe38) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d376451e0) 0 empty
+
+Class std::__is_null_pointer_helper<std::nullptr_t>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_null_pointer_helper<std::nullptr_t> (0x0x7f3d376741a0) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d3766d3c0) 0 empty
+
+Class std::__do_is_destructible_impl
+   size=1 align=1
+   base size=0 base align=1
+std::__do_is_destructible_impl (0x0x7f3d37698060) 0 empty
+
+Class std::__do_is_nt_destructible_impl
+   size=1 align=1
+   base size=0 base align=1
+std::__do_is_nt_destructible_impl (0x0x7f3d376982a0) 0 empty
+
+Class std::__do_is_default_constructible_impl
+   size=1 align=1
+   base size=0 base align=1
+std::__do_is_default_constructible_impl (0x0x7f3d376984e0) 0 empty
+
+Class std::__do_is_static_castable_impl
+   size=1 align=1
+   base size=0 base align=1
+std::__do_is_static_castable_impl (0x0x7f3d37698720) 0 empty
+
+Class std::__do_is_direct_constructible_impl
+   size=1 align=1
+   base size=0 base align=1
+std::__do_is_direct_constructible_impl (0x0x7f3d376988a0) 0 empty
+
+Class std::__do_is_nary_constructible_impl
+   size=1 align=1
+   base size=0 base align=1
+std::__do_is_nary_constructible_impl (0x0x7f3d37698c60) 0 empty
+
+Class std::integral_constant<long unsigned int, 0ul>
+   size=1 align=1
+   base size=0 base align=1
+std::integral_constant<long unsigned int, 0ul> (0x0x7f3d36f011e0) 0 empty
+
+Class std::__make_unsigned<char>
+   size=1 align=1
+   base size=0 base align=1
+std::__make_unsigned<char> (0x0x7f3d36f01f60) 0 empty
+
+Class std::__make_unsigned<signed char>
+   size=1 align=1
+   base size=0 base align=1
+std::__make_unsigned<signed char> (0x0x7f3d36f27000) 0 empty
+
+Class std::__make_unsigned<short int>
+   size=1 align=1
+   base size=0 base align=1
+std::__make_unsigned<short int> (0x0x7f3d36f27060) 0 empty
+
+Class std::__make_unsigned<int>
+   size=1 align=1
+   base size=0 base align=1
+std::__make_unsigned<int> (0x0x7f3d36f270c0) 0 empty
+
+Class std::__make_unsigned<long int>
+   size=1 align=1
+   base size=0 base align=1
+std::__make_unsigned<long int> (0x0x7f3d36f27120) 0 empty
+
+Class std::__make_unsigned<long long int>
+   size=1 align=1
+   base size=0 base align=1
+std::__make_unsigned<long long int> (0x0x7f3d36f27180) 0 empty
+
+Class std::__make_unsigned<wchar_t>
+   size=1 align=1
+   base size=1 base align=1
+std::__make_unsigned<wchar_t> (0x0x7f3d36f07478) 0 empty
+  std::__make_unsigned<int> (0x0x7f3d36f271e0) 0 empty
+
+Class std::__make_signed<char>
+   size=1 align=1
+   base size=0 base align=1
+std::__make_signed<char> (0x0x7f3d36f273c0) 0 empty
+
+Class std::__make_signed<unsigned char>
+   size=1 align=1
+   base size=0 base align=1
+std::__make_signed<unsigned char> (0x0x7f3d36f27420) 0 empty
+
+Class std::__make_signed<short unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+std::__make_signed<short unsigned int> (0x0x7f3d36f27480) 0 empty
+
+Class std::__make_signed<unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+std::__make_signed<unsigned int> (0x0x7f3d36f274e0) 0 empty
+
+Class std::__make_signed<long unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+std::__make_signed<long unsigned int> (0x0x7f3d36f27540) 0 empty
+
+Class std::__make_signed<long long unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+std::__make_signed<long long unsigned int> (0x0x7f3d36f275a0) 0 empty
+
+Class std::__make_signed<char16_t>
+   size=1 align=1
+   base size=1 base align=1
+std::__make_signed<char16_t> (0x0x7f3d36f074e0) 0 empty
+  std::__make_signed<short unsigned int> (0x0x7f3d36f27600) 0 empty
+
+Class std::__make_signed<char32_t>
+   size=1 align=1
+   base size=1 base align=1
+std::__make_signed<char32_t> (0x0x7f3d36f07548) 0 empty
+  std::__make_signed<unsigned int> (0x0x7f3d36f27660) 0 empty
+
+Class std::__do_common_type_impl
+   size=1 align=1
+   base size=0 base align=1
+std::__do_common_type_impl (0x0x7f3d36f54420) 0 empty
+
+Class std::__do_member_type_wrapper
+   size=1 align=1
+   base size=0 base align=1
+std::__do_member_type_wrapper (0x0x7f3d36f544e0) 0 empty
+
+Class std::__result_of_memfun_ref_impl
+   size=1 align=1
+   base size=0 base align=1
+std::__result_of_memfun_ref_impl (0x0x7f3d36f54840) 0 empty
+
+Class std::__result_of_memfun_deref_impl
+   size=1 align=1
+   base size=0 base align=1
+std::__result_of_memfun_deref_impl (0x0x7f3d36f54900) 0 empty
+
+Class std::__result_of_memobj_ref_impl
+   size=1 align=1
+   base size=0 base align=1
+std::__result_of_memobj_ref_impl (0x0x7f3d36f549c0) 0 empty
+
+Class std::__result_of_memobj_deref_impl
+   size=1 align=1
+   base size=0 base align=1
+std::__result_of_memobj_deref_impl (0x0x7f3d36f54a80) 0 empty
+
+Class std::__result_of_other_impl
+   size=1 align=1
+   base size=0 base align=1
+std::__result_of_other_impl (0x0x7f3d36f54d20) 0 empty
+
+Class std::piecewise_construct_t
+   size=1 align=1
+   base size=0 base align=1
+std::piecewise_construct_t (0x0x7f3d36f54ea0) 0 empty
+
+Class std::input_iterator_tag
+   size=1 align=1
+   base size=0 base align=1
+std::input_iterator_tag (0x0x7f3d36f54f60) 0 empty
+
+Class std::output_iterator_tag
+   size=1 align=1
+   base size=0 base align=1
+std::output_iterator_tag (0x0x7f3d36fc1000) 0 empty
+
+Class std::forward_iterator_tag
+   size=1 align=1
+   base size=1 base align=1
+std::forward_iterator_tag (0x0x7f3d36f07bc8) 0 empty
+  std::input_iterator_tag (0x0x7f3d36fc1060) 0 empty
+
+Class std::bidirectional_iterator_tag
+   size=1 align=1
+   base size=1 base align=1
+std::bidirectional_iterator_tag (0x0x7f3d36f07c30) 0 empty
+  std::forward_iterator_tag (0x0x7f3d36f07c98) 0 empty
+    std::input_iterator_tag (0x0x7f3d36fc10c0) 0 empty
+
+Class std::random_access_iterator_tag
+   size=1 align=1
+   base size=1 base align=1
+std::random_access_iterator_tag (0x0x7f3d36f07d00) 0 empty
+  std::bidirectional_iterator_tag (0x0x7f3d36f07d68) 0 empty
+    std::forward_iterator_tag (0x0x7f3d36f07dd0) 0 empty
+      std::input_iterator_tag (0x0x7f3d36fc1120) 0 empty
+
+Class std::iterator<std::output_iterator_tag, void, void, void, void>
+   size=1 align=1
+   base size=0 base align=1
+std::iterator<std::output_iterator_tag, void, void, void, void> (0x0x7f3d36fc1b40) 0 empty
+
+Class __gnu_cxx::__ops::_Iter_less_iter
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__ops::_Iter_less_iter (0x0x7f3d36fc1d80) 0 empty
+
+Class __gnu_cxx::__ops::_Iter_less_val
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__ops::_Iter_less_val (0x0x7f3d36fc1de0) 0 empty
+
+Class __gnu_cxx::__ops::_Val_less_iter
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__ops::_Val_less_iter (0x0x7f3d36fc1e40) 0 empty
+
+Class __gnu_cxx::__ops::_Iter_equal_to_iter
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__ops::_Iter_equal_to_iter (0x0x7f3d36fc1ea0) 0 empty
+
+Class __gnu_cxx::__ops::_Iter_equal_to_val
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__ops::_Iter_equal_to_val (0x0x7f3d36fc1f00) 0 empty
+
+Class std::__copy_move<false, false, std::random_access_iterator_tag>
+   size=1 align=1
+   base size=0 base align=1
+std::__copy_move<false, false, std::random_access_iterator_tag> (0x0x7f3d3708b480) 0 empty
+
+Class std::__copy_move<true, false, std::random_access_iterator_tag>
+   size=1 align=1
+   base size=0 base align=1
+std::__copy_move<true, false, std::random_access_iterator_tag> (0x0x7f3d3708b4e0) 0 empty
+
+Class std::__copy_move_backward<false, false, std::random_access_iterator_tag>
+   size=1 align=1
+   base size=0 base align=1
+std::__copy_move_backward<false, false, std::random_access_iterator_tag> (0x0x7f3d3708b660) 0 empty
+
+Class std::__copy_move_backward<true, false, std::random_access_iterator_tag>
+   size=1 align=1
+   base size=0 base align=1
+std::__copy_move_backward<true, false, std::random_access_iterator_tag> (0x0x7f3d3708b6c0) 0 empty
+
+Class std::__equal<true>
+   size=1 align=1
+   base size=0 base align=1
+std::__equal<true> (0x0x7f3d3708b7e0) 0 empty
+
+Class std::__lc_rai<std::random_access_iterator_tag, std::random_access_iterator_tag>
+   size=1 align=1
+   base size=0 base align=1
+std::__lc_rai<std::random_access_iterator_tag, std::random_access_iterator_tag> (0x0x7f3d3708b8a0) 0 empty
+
+Class std::__lexicographical_compare<true>
+   size=1 align=1
+   base size=0 base align=1
+std::__lexicographical_compare<true> (0x0x7f3d3708b960) 0 empty
+
+Class std::char_traits<char>
+   size=1 align=1
+   base size=0 base align=1
+std::char_traits<char> (0x0x7f3d3708bae0) 0 empty
+
+Class std::char_traits<wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+std::char_traits<wchar_t> (0x0x7f3d3708bb40) 0 empty
+
+Class std::char_traits<char16_t>
+   size=1 align=1
+   base size=0 base align=1
+std::char_traits<char16_t> (0x0x7f3d3708bba0) 0 empty
+
+Class std::char_traits<char32_t>
+   size=1 align=1
+   base size=0 base align=1
+std::char_traits<char32_t> (0x0x7f3d3708bc00) 0 empty
+
+Class lconv
+   size=96 align=8
+   base size=96 base align=8
+lconv (0x0x7f3d3708bc60) 0
+
+Class <anonymous struct>
+   size=8 align=4
+   base size=8 base align=4
+<anonymous struct> (0x0x7f3d3708bcc0) 0
+
+Class timespec
+   size=16 align=8
+   base size=16 base align=8
+timespec (0x0x7f3d3708bd20) 0
+
+Class sched_param
+   size=4 align=4
+   base size=4 base align=4
+sched_param (0x0x7f3d3708bd80) 0
+
+Class __sched_param
+   size=4 align=4
+   base size=4 base align=4
+__sched_param (0x0x7f3d3708bde0) 0
+
+Class <anonymous struct>
+   size=128 align=8
+   base size=128 base align=8
+<anonymous struct> (0x0x7f3d3708be40) 0
+
+Class timeval
+   size=16 align=8
+   base size=16 base align=8
+timeval (0x0x7f3d3708bea0) 0
+
+Class timex
+   size=208 align=8
+   base size=208 base align=8
+timex (0x0x7f3d3708bf00) 0
+
+Class tm
+   size=56 align=8
+   base size=56 base align=8
+tm (0x0x7f3d3708bf60) 0
+
+Class itimerspec
+   size=32 align=8
+   base size=32 base align=8
+itimerspec (0x0x7f3d36de2000) 0
+
+Class pthread_attr_t
+   size=56 align=8
+   base size=56 base align=8
+pthread_attr_t (0x0x7f3d36de2060) 0
+
+Class __pthread_internal_list
+   size=16 align=8
+   base size=16 base align=8
+__pthread_internal_list (0x0x7f3d36de20c0) 0
+
+Class <anonymous union>::__pthread_mutex_s
+   size=40 align=8
+   base size=40 base align=8
+<anonymous union>::__pthread_mutex_s (0x0x7f3d36de2180) 0
+
+Class <anonymous union>
+   size=40 align=8
+   base size=40 base align=8
+<anonymous union> (0x0x7f3d36de2120) 0
+
+Class <anonymous union>
+   size=4 align=4
+   base size=4 base align=4
+<anonymous union> (0x0x7f3d36de21e0) 0
+
+Class <anonymous union>::<anonymous struct>
+   size=48 align=8
+   base size=48 base align=8
+<anonymous union>::<anonymous struct> (0x0x7f3d36de22a0) 0
+
+Class <anonymous union>
+   size=48 align=8
+   base size=48 base align=8
+<anonymous union> (0x0x7f3d36de2240) 0
+
+Class <anonymous union>
+   size=4 align=4
+   base size=4 base align=4
+<anonymous union> (0x0x7f3d36de2300) 0
+
+Class <anonymous union>::<anonymous struct>
+   size=56 align=8
+   base size=56 base align=8
+<anonymous union>::<anonymous struct> (0x0x7f3d36de23c0) 0
+
+Class <anonymous union>
+   size=56 align=8
+   base size=56 base align=8
+<anonymous union> (0x0x7f3d36de2360) 0
+
+Class <anonymous union>
+   size=8 align=8
+   base size=8 base align=8
+<anonymous union> (0x0x7f3d36de2420) 0
+
+Class <anonymous union>
+   size=32 align=8
+   base size=32 base align=8
+<anonymous union> (0x0x7f3d36de2480) 0
+
+Class <anonymous union>
+   size=4 align=4
+   base size=4 base align=4
+<anonymous union> (0x0x7f3d36de24e0) 0
+
+Class _pthread_cleanup_buffer
+   size=32 align=8
+   base size=32 base align=8
+_pthread_cleanup_buffer (0x0x7f3d36de2540) 0
+
+Class <anonymous struct>::<anonymous struct>
+   size=72 align=8
+   base size=72 base align=8
+<anonymous struct>::<anonymous struct> (0x0x7f3d36de2600) 0
+
+Class <anonymous struct>
+   size=104 align=8
+   base size=104 base align=8
+<anonymous struct> (0x0x7f3d36de25a0) 0
+
+Class __pthread_cleanup_frame
+   size=24 align=8
+   base size=24 base align=8
+__pthread_cleanup_frame (0x0x7f3d36de2660) 0
+
+Class __pthread_cleanup_class
+   size=24 align=8
+   base size=24 base align=8
+__pthread_cleanup_class (0x0x7f3d36de26c0) 0
+
+Vtable for std::bad_alloc
+std::bad_alloc::_ZTVSt9bad_alloc: 5u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt9bad_alloc)
+16    (int (*)(...))std::bad_alloc::~bad_alloc
+24    (int (*)(...))std::bad_alloc::~bad_alloc
+32    (int (*)(...))std::bad_alloc::what
+
+Class std::bad_alloc
+   size=8 align=8
+   base size=8 base align=8
+std::bad_alloc (0x0x7f3d36fe23a8) 0 nearly-empty
+    vptr=((& std::bad_alloc::_ZTVSt9bad_alloc) + 16u)
+  std::exception (0x0x7f3d36de2720) 0 nearly-empty
+      primary-for std::bad_alloc (0x0x7f3d36fe23a8)
+
+Vtable for std::bad_array_new_length
+std::bad_array_new_length::_ZTVSt20bad_array_new_length: 5u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt20bad_array_new_length)
+16    (int (*)(...))std::bad_array_new_length::~bad_array_new_length
+24    (int (*)(...))std::bad_array_new_length::~bad_array_new_length
+32    (int (*)(...))std::bad_array_new_length::what
+
+Class std::bad_array_new_length
+   size=8 align=8
+   base size=8 base align=8
+std::bad_array_new_length (0x0x7f3d36fe2410) 0 nearly-empty
+    vptr=((& std::bad_array_new_length::_ZTVSt20bad_array_new_length) + 16u)
+  std::bad_alloc (0x0x7f3d36fe2478) 0 nearly-empty
+      primary-for std::bad_array_new_length (0x0x7f3d36fe2410)
+    std::exception (0x0x7f3d36de2780) 0 nearly-empty
+        primary-for std::bad_alloc (0x0x7f3d36fe2478)
+
+Class std::nothrow_t
+   size=1 align=1
+   base size=0 base align=1
+std::nothrow_t (0x0x7f3d36de27e0) 0 empty
+
+Class std::allocator<void>
+   size=1 align=1
+   base size=0 base align=1
+std::allocator<void> (0x0x7f3d36de2900) 0 empty
+
+Class __gnu_cxx::new_allocator<char>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::new_allocator<char> (0x0x7f3d36de2a80) 0 empty
+
+Class std::allocator<char>
+   size=1 align=1
+   base size=1 base align=1
+std::allocator<char> (0x0x7f3d36fe2548) 0 empty
+  __gnu_cxx::new_allocator<char> (0x0x7f3d36de2b40) 0 empty
+
+Class __gnu_cxx::new_allocator<wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::new_allocator<wchar_t> (0x0x7f3d36de2c00) 0 empty
+
+Class std::allocator<wchar_t>
+   size=1 align=1
+   base size=1 base align=1
+std::allocator<wchar_t> (0x0x7f3d36fe25b0) 0 empty
+  __gnu_cxx::new_allocator<wchar_t> (0x0x7f3d36de2cc0) 0 empty
+
+Vtable for __cxxabiv1::__forced_unwind
+__cxxabiv1::__forced_unwind::_ZTVN10__cxxabiv115__forced_unwindE: 5u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTIN10__cxxabiv115__forced_unwindE)
+16    0u
+24    0u
+32    (int (*)(...))__cxa_pure_virtual
+
+Class __cxxabiv1::__forced_unwind
+   size=8 align=8
+   base size=8 base align=8
+__cxxabiv1::__forced_unwind (0x0x7f3d36ed8000) 0 nearly-empty
+    vptr=((& __cxxabiv1::__forced_unwind::_ZTVN10__cxxabiv115__forced_unwindE) + 16u)
+
+Class __gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<int>, __gnu_cxx::__numeric_traits_floating<int> >
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<int>, __gnu_cxx::__numeric_traits_floating<int> > (0x0x7f3d36b76900) 0 empty
+
+Class __gnu_cxx::__numeric_traits_integer<int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__numeric_traits_integer<int> (0x0x7f3d36b76960) 0 empty
+
+Class __gnu_cxx::__numeric_traits<int>
+   size=1 align=1
+   base size=1 base align=1
+__gnu_cxx::__numeric_traits<int> (0x0x7f3d36b22a28) 0 empty
+  __gnu_cxx::__numeric_traits_integer<int> (0x0x7f3d36b769c0) 0 empty
+
+Class wait::<anonymous struct>
+   size=4 align=4
+   base size=4 base align=4
+wait::<anonymous struct> (0x0x7f3d36b76b40) 0
+
+Class wait::<anonymous struct>
+   size=4 align=4
+   base size=4 base align=4
+wait::<anonymous struct> (0x0x7f3d36b76ba0) 0
+
+Class wait
+   size=4 align=4
+   base size=4 base align=4
+wait (0x0x7f3d36b76ae0) 0
+
+Class <anonymous struct>
+   size=8 align=4
+   base size=8 base align=4
+<anonymous struct> (0x0x7f3d36b76c00) 0
+
+Class <anonymous struct>
+   size=16 align=8
+   base size=16 base align=8
+<anonymous struct> (0x0x7f3d36b76c60) 0
+
+Class <anonymous struct>
+   size=16 align=8
+   base size=16 base align=8
+<anonymous struct> (0x0x7f3d36b76cc0) 0
+
+Class <anonymous struct>
+   size=128 align=8
+   base size=128 base align=8
+<anonymous struct> (0x0x7f3d36b76d20) 0
+
+Class <anonymous struct>
+   size=128 align=8
+   base size=128 base align=8
+<anonymous struct> (0x0x7f3d36b76d80) 0
+
+Class random_data
+   size=48 align=8
+   base size=48 base align=8
+random_data (0x0x7f3d36b76de0) 0
+
+Class drand48_data
+   size=24 align=8
+   base size=24 base align=8
+drand48_data (0x0x7f3d36b76e40) 0
+
+Class <anonymous struct>
+   size=16 align=8
+   base size=16 base align=8
+<anonymous struct> (0x0x7f3d36b76ea0) 0
+
+Class <anonymous struct>
+   size=16 align=8
+   base size=16 base align=8
+<anonymous struct> (0x0x7f3d36b76f00) 0
+
+Class _IO_marker
+   size=24 align=8
+   base size=24 base align=8
+_IO_marker (0x0x7f3d36b76f60) 0
+
+Class _IO_FILE
+   size=216 align=8
+   base size=216 base align=8
+_IO_FILE (0x0x7f3d36923000) 0
+
+Class <anonymous struct>
+   size=32 align=8
+   base size=32 base align=8
+<anonymous struct> (0x0x7f3d36923060) 0
+
+Class std::allocator_traits<std::allocator<char> >
+   size=1 align=1
+   base size=0 base align=1
+std::allocator_traits<std::allocator<char> > (0x0x7f3d36923120) 0 empty
+
+Class __gnu_cxx::__alloc_traits<std::allocator<char> >
+   size=1 align=1
+   base size=1 base align=1
+__gnu_cxx::__alloc_traits<std::allocator<char> > (0x0x7f3d36b22b60) 0 empty
+  std::allocator_traits<std::allocator<char> > (0x0x7f3d36923180) 0 empty
+
+Class __gnu_cxx::__alloc_traits<std::allocator<char> >::rebind<char>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__alloc_traits<std::allocator<char> >::rebind<char> (0x0x7f3d369231e0) 0 empty
+
+Class std::__cxx11::basic_string<char>::_Alloc_hider
+   size=8 align=8
+   base size=8 base align=8
+std::__cxx11::basic_string<char>::_Alloc_hider (0x0x7f3d36b22c98) 0
+  std::allocator<char> (0x0x7f3d36b22d00) 0 empty
+    __gnu_cxx::new_allocator<char> (0x0x7f3d36923240) 0 empty
+
+Class std::__cxx11::basic_string<char>::<anonymous union>
+   size=16 align=8
+   base size=16 base align=8
+std::__cxx11::basic_string<char>::<anonymous union> (0x0x7f3d369232a0) 0
+
+Class std::__cxx11::basic_string<char>
+   size=32 align=8
+   base size=32 base align=8
+std::__cxx11::basic_string<char> (0x0x7f3d369230c0) 0
+
+Class std::initializer_list<char>
+   size=16 align=8
+   base size=16 base align=8
+std::initializer_list<char> (0x0x7f3d36923300) 0
+
+Class __gnu_cxx::__conditional_type<false, __gnu_cxx::__numeric_traits_integer<float>, __gnu_cxx::__numeric_traits_floating<float> >
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__conditional_type<false, __gnu_cxx::__numeric_traits_integer<float>, __gnu_cxx::__numeric_traits_floating<float> > (0x0x7f3d36923360) 0 empty
+
+Class __gnu_cxx::__numeric_traits_floating<float>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__numeric_traits_floating<float> (0x0x7f3d369233c0) 0 empty
+
+Class __gnu_cxx::__numeric_traits<float>
+   size=1 align=1
+   base size=1 base align=1
+__gnu_cxx::__numeric_traits<float> (0x0x7f3d36b22d68) 0 empty
+  __gnu_cxx::__numeric_traits_floating<float> (0x0x7f3d36923420) 0 empty
+
+Class std::__are_same<float, float>
+   size=1 align=1
+   base size=0 base align=1
+std::__are_same<float, float> (0x0x7f3d36923480) 0 empty
+
+Class std::__are_same<float, double>
+   size=1 align=1
+   base size=0 base align=1
+std::__are_same<float, double> (0x0x7f3d369234e0) 0 empty
+
+Class __gnu_cxx::__conditional_type<false, __gnu_cxx::__numeric_traits_integer<double>, __gnu_cxx::__numeric_traits_floating<double> >
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__conditional_type<false, __gnu_cxx::__numeric_traits_integer<double>, __gnu_cxx::__numeric_traits_floating<double> > (0x0x7f3d36923540) 0 empty
+
+Class __gnu_cxx::__numeric_traits_floating<double>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__numeric_traits_floating<double> (0x0x7f3d369235a0) 0 empty
+
+Class __gnu_cxx::__numeric_traits<double>
+   size=1 align=1
+   base size=1 base align=1
+__gnu_cxx::__numeric_traits<double> (0x0x7f3d36b22dd0) 0 empty
+  __gnu_cxx::__numeric_traits_floating<double> (0x0x7f3d36923600) 0 empty
+
+Class std::__are_same<double, float>
+   size=1 align=1
+   base size=0 base align=1
+std::__are_same<double, float> (0x0x7f3d36923660) 0 empty
+
+Class std::__are_same<double, double>
+   size=1 align=1
+   base size=0 base align=1
+std::__are_same<double, double> (0x0x7f3d369236c0) 0 empty
+
+Class __gnu_cxx::__conditional_type<false, __gnu_cxx::__numeric_traits_integer<long double>, __gnu_cxx::__numeric_traits_floating<long double> >
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__conditional_type<false, __gnu_cxx::__numeric_traits_integer<long double>, __gnu_cxx::__numeric_traits_floating<long double> > (0x0x7f3d36923720) 0 empty
+
+Class __gnu_cxx::__numeric_traits_floating<long double>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__numeric_traits_floating<long double> (0x0x7f3d36923780) 0 empty
+
+Class __gnu_cxx::__numeric_traits<long double>
+   size=1 align=1
+   base size=1 base align=1
+__gnu_cxx::__numeric_traits<long double> (0x0x7f3d36b22e38) 0 empty
+  __gnu_cxx::__numeric_traits_floating<long double> (0x0x7f3d369237e0) 0 empty
+
+Class std::__are_same<long double, float>
+   size=1 align=1
+   base size=0 base align=1
+std::__are_same<long double, float> (0x0x7f3d36923840) 0 empty
+
+Class std::__are_same<long double, double>
+   size=1 align=1
+   base size=0 base align=1
+std::__are_same<long double, double> (0x0x7f3d369238a0) 0 empty
+
+Class std::allocator_traits<std::allocator<wchar_t> >
+   size=1 align=1
+   base size=0 base align=1
+std::allocator_traits<std::allocator<wchar_t> > (0x0x7f3d36923960) 0 empty
+
+Class __gnu_cxx::__alloc_traits<std::allocator<wchar_t> >
+   size=1 align=1
+   base size=1 base align=1
+__gnu_cxx::__alloc_traits<std::allocator<wchar_t> > (0x0x7f3d36b22ea0) 0 empty
+  std::allocator_traits<std::allocator<wchar_t> > (0x0x7f3d369239c0) 0 empty
+
+Class __gnu_cxx::__alloc_traits<std::allocator<wchar_t> >::rebind<wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__alloc_traits<std::allocator<wchar_t> >::rebind<wchar_t> (0x0x7f3d36923a20) 0 empty
+
+Class std::__cxx11::basic_string<wchar_t>::_Alloc_hider
+   size=8 align=8
+   base size=8 base align=8
+std::__cxx11::basic_string<wchar_t>::_Alloc_hider (0x0x7f3d36b229c0) 0
+  std::allocator<wchar_t> (0x0x7f3d36b22a90) 0 empty
+    __gnu_cxx::new_allocator<wchar_t> (0x0x7f3d36923a80) 0 empty
+
+Class std::__cxx11::basic_string<wchar_t>::<anonymous union>
+   size=16 align=8
+   base size=16 base align=8
+std::__cxx11::basic_string<wchar_t>::<anonymous union> (0x0x7f3d36923ae0) 0
+
+Class std::__cxx11::basic_string<wchar_t>
+   size=32 align=8
+   base size=32 base align=8
+std::__cxx11::basic_string<wchar_t> (0x0x7f3d36923900) 0
+
+Class std::initializer_list<wchar_t>
+   size=16 align=8
+   base size=16 base align=8
+std::initializer_list<wchar_t> (0x0x7f3d36923b40) 0
+
+Class std::__hash_base<long unsigned int, bool>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, bool> (0x0x7f3d36923c60) 0 empty
+
+Class std::hash<bool>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<bool> (0x0x7f3d36b22bc8) 0 empty
+  std::__hash_base<long unsigned int, bool> (0x0x7f3d36923cc0) 0 empty
+
+Class std::__hash_base<long unsigned int, char>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, char> (0x0x7f3d36923d20) 0 empty
+
+Class std::hash<char>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<char> (0x0x7f3d36b22c30) 0 empty
+  std::__hash_base<long unsigned int, char> (0x0x7f3d36923d80) 0 empty
+
+Class std::__hash_base<long unsigned int, signed char>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, signed char> (0x0x7f3d36923de0) 0 empty
+
+Class std::hash<signed char>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<signed char> (0x0x7f3d36b22f08) 0 empty
+  std::__hash_base<long unsigned int, signed char> (0x0x7f3d36923e40) 0 empty
+
+Class std::__hash_base<long unsigned int, unsigned char>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, unsigned char> (0x0x7f3d36923ea0) 0 empty
+
+Class std::hash<unsigned char>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<unsigned char> (0x0x7f3d36b22f70) 0 empty
+  std::__hash_base<long unsigned int, unsigned char> (0x0x7f3d36923f00) 0 empty
+
+Class std::__hash_base<long unsigned int, wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, wchar_t> (0x0x7f3d36923f60) 0 empty
+
+Class std::hash<wchar_t>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<wchar_t> (0x0x7f3d36756000) 0 empty
+  std::__hash_base<long unsigned int, wchar_t> (0x0x7f3d36757000) 0 empty
+
+Class std::__hash_base<long unsigned int, char16_t>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, char16_t> (0x0x7f3d36757060) 0 empty
+
+Class std::hash<char16_t>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<char16_t> (0x0x7f3d36756068) 0 empty
+  std::__hash_base<long unsigned int, char16_t> (0x0x7f3d367570c0) 0 empty
+
+Class std::__hash_base<long unsigned int, char32_t>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, char32_t> (0x0x7f3d36757120) 0 empty
+
+Class std::hash<char32_t>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<char32_t> (0x0x7f3d367560d0) 0 empty
+  std::__hash_base<long unsigned int, char32_t> (0x0x7f3d36757180) 0 empty
+
+Class std::__hash_base<long unsigned int, short int>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, short int> (0x0x7f3d367571e0) 0 empty
+
+Class std::hash<short int>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<short int> (0x0x7f3d36756138) 0 empty
+  std::__hash_base<long unsigned int, short int> (0x0x7f3d36757240) 0 empty
+
+Class std::__hash_base<long unsigned int, int>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, int> (0x0x7f3d367572a0) 0 empty
+
+Class std::hash<int>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<int> (0x0x7f3d367561a0) 0 empty
+  std::__hash_base<long unsigned int, int> (0x0x7f3d36757300) 0 empty
+
+Class std::__hash_base<long unsigned int, long int>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, long int> (0x0x7f3d36757360) 0 empty
+
+Class std::hash<long int>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<long int> (0x0x7f3d36756208) 0 empty
+  std::__hash_base<long unsigned int, long int> (0x0x7f3d367573c0) 0 empty
+
+Class std::__hash_base<long unsigned int, long long int>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, long long int> (0x0x7f3d36757420) 0 empty
+
+Class std::hash<long long int>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<long long int> (0x0x7f3d36756270) 0 empty
+  std::__hash_base<long unsigned int, long long int> (0x0x7f3d36757480) 0 empty
+
+Class std::__hash_base<long unsigned int, short unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, short unsigned int> (0x0x7f3d367574e0) 0 empty
+
+Class std::hash<short unsigned int>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<short unsigned int> (0x0x7f3d367562d8) 0 empty
+  std::__hash_base<long unsigned int, short unsigned int> (0x0x7f3d36757540) 0 empty
+
+Class std::__hash_base<long unsigned int, unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, unsigned int> (0x0x7f3d367575a0) 0 empty
+
+Class std::hash<unsigned int>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<unsigned int> (0x0x7f3d36756340) 0 empty
+  std::__hash_base<long unsigned int, unsigned int> (0x0x7f3d36757600) 0 empty
+
+Class std::__hash_base<long unsigned int, long unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, long unsigned int> (0x0x7f3d36757660) 0 empty
+
+Class std::hash<long unsigned int>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<long unsigned int> (0x0x7f3d367563a8) 0 empty
+  std::__hash_base<long unsigned int, long unsigned int> (0x0x7f3d367576c0) 0 empty
+
+Class std::__hash_base<long unsigned int, long long unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, long long unsigned int> (0x0x7f3d36757720) 0 empty
+
+Class std::hash<long long unsigned int>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<long long unsigned int> (0x0x7f3d36756410) 0 empty
+  std::__hash_base<long unsigned int, long long unsigned int> (0x0x7f3d36757780) 0 empty
+
+Class std::_Hash_impl
+   size=1 align=1
+   base size=0 base align=1
+std::_Hash_impl (0x0x7f3d367577e0) 0 empty
+
+Class std::_Fnv_hash_impl
+   size=1 align=1
+   base size=0 base align=1
+std::_Fnv_hash_impl (0x0x7f3d36757840) 0 empty
+
+Class std::__hash_base<long unsigned int, float>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, float> (0x0x7f3d367578a0) 0 empty
+
+Class std::hash<float>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<float> (0x0x7f3d36756478) 0 empty
+  std::__hash_base<long unsigned int, float> (0x0x7f3d36757900) 0 empty
+
+Class std::__hash_base<long unsigned int, double>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, double> (0x0x7f3d36757960) 0 empty
+
+Class std::hash<double>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<double> (0x0x7f3d367564e0) 0 empty
+  std::__hash_base<long unsigned int, double> (0x0x7f3d367579c0) 0 empty
+
+Class std::__hash_base<long unsigned int, long double>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, long double> (0x0x7f3d36757a20) 0 empty
+
+Class std::hash<long double>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<long double> (0x0x7f3d36756548) 0 empty
+  std::__hash_base<long unsigned int, long double> (0x0x7f3d36757a80) 0 empty
+
+Class std::__is_fast_hash<std::hash<long double> >
+   size=1 align=1
+   base size=1 base align=1
+std::__is_fast_hash<std::hash<long double> > (0x0x7f3d36756618) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d36757b40) 0 empty
+
+Class std::__hash_base<long unsigned int, std::__cxx11::basic_string<char> >
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, std::__cxx11::basic_string<char> > (0x0x7f3d36757ba0) 0 empty
+
+Class std::hash<std::__cxx11::basic_string<char> >
+   size=1 align=1
+   base size=1 base align=1
+std::hash<std::__cxx11::basic_string<char> > (0x0x7f3d36756680) 0 empty
+  std::__hash_base<long unsigned int, std::__cxx11::basic_string<char> > (0x0x7f3d36757c00) 0 empty
+
+Class std::__is_fast_hash<std::hash<std::__cxx11::basic_string<char> > >
+   size=1 align=1
+   base size=1 base align=1
+std::__is_fast_hash<std::hash<std::__cxx11::basic_string<char> > > (0x0x7f3d367566e8) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d36757c60) 0 empty
+
+Class std::__hash_base<long unsigned int, std::__cxx11::basic_string<wchar_t> >
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, std::__cxx11::basic_string<wchar_t> > (0x0x7f3d36757cc0) 0 empty
+
+Class std::hash<std::__cxx11::basic_string<wchar_t> >
+   size=1 align=1
+   base size=1 base align=1
+std::hash<std::__cxx11::basic_string<wchar_t> > (0x0x7f3d36756750) 0 empty
+  std::__hash_base<long unsigned int, std::__cxx11::basic_string<wchar_t> > (0x0x7f3d36757d20) 0 empty
+
+Class std::__is_fast_hash<std::hash<std::__cxx11::basic_string<wchar_t> > >
+   size=1 align=1
+   base size=1 base align=1
+std::__is_fast_hash<std::hash<std::__cxx11::basic_string<wchar_t> > > (0x0x7f3d367567b8) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d36757e40) 0 empty
+
+Class std::__hash_base<long unsigned int, std::__cxx11::basic_string<char16_t> >
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, std::__cxx11::basic_string<char16_t> > (0x0x7f3d36757ea0) 0 empty
+
+Class std::hash<std::__cxx11::basic_string<char16_t> >
+   size=1 align=1
+   base size=1 base align=1
+std::hash<std::__cxx11::basic_string<char16_t> > (0x0x7f3d36756820) 0 empty
+  std::__hash_base<long unsigned int, std::__cxx11::basic_string<char16_t> > (0x0x7f3d36757f00) 0 empty
+
+Class std::allocator_traits<std::allocator<char16_t> >
+   size=1 align=1
+   base size=0 base align=1
+std::allocator_traits<std::allocator<char16_t> > (0x0x7f3d36798000) 0 empty
+
+Class __gnu_cxx::__alloc_traits<std::allocator<char16_t> >
+   size=1 align=1
+   base size=1 base align=1
+__gnu_cxx::__alloc_traits<std::allocator<char16_t> > (0x0x7f3d36756958) 0 empty
+  std::allocator_traits<std::allocator<char16_t> > (0x0x7f3d36798060) 0 empty
+
+Class __gnu_cxx::__alloc_traits<std::allocator<char16_t> >::rebind<char16_t>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__alloc_traits<std::allocator<char16_t> >::rebind<char16_t> (0x0x7f3d367980c0) 0 empty
+
+Class __gnu_cxx::new_allocator<char16_t>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::new_allocator<char16_t> (0x0x7f3d36798120) 0 empty
+
+Class std::allocator<char16_t>
+   size=1 align=1
+   base size=1 base align=1
+std::allocator<char16_t> (0x0x7f3d36756a90) 0 empty
+  __gnu_cxx::new_allocator<char16_t> (0x0x7f3d367981e0) 0 empty
+
+Class std::__cxx11::basic_string<char16_t>::_Alloc_hider
+   size=8 align=8
+   base size=8 base align=8
+std::__cxx11::basic_string<char16_t>::_Alloc_hider (0x0x7f3d36756af8) 0
+  std::allocator<char16_t> (0x0x7f3d36756b60) 0 empty
+    __gnu_cxx::new_allocator<char16_t> (0x0x7f3d367982a0) 0 empty
+
+Class std::__cxx11::basic_string<char16_t>::<anonymous union>
+   size=16 align=8
+   base size=16 base align=8
+std::__cxx11::basic_string<char16_t>::<anonymous union> (0x0x7f3d36798300) 0
+
+Class std::__cxx11::basic_string<char16_t>
+   size=32 align=8
+   base size=32 base align=8
+std::__cxx11::basic_string<char16_t> (0x0x7f3d36757f60) 0
+
+Class std::__is_fast_hash<std::hash<std::__cxx11::basic_string<char16_t> > >
+   size=1 align=1
+   base size=1 base align=1
+std::__is_fast_hash<std::hash<std::__cxx11::basic_string<char16_t> > > (0x0x7f3d36756bc8) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d36798360) 0 empty
+
+Class std::__hash_base<long unsigned int, std::__cxx11::basic_string<char32_t> >
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, std::__cxx11::basic_string<char32_t> > (0x0x7f3d367983c0) 0 empty
+
+Class std::hash<std::__cxx11::basic_string<char32_t> >
+   size=1 align=1
+   base size=1 base align=1
+std::hash<std::__cxx11::basic_string<char32_t> > (0x0x7f3d36756c30) 0 empty
+  std::__hash_base<long unsigned int, std::__cxx11::basic_string<char32_t> > (0x0x7f3d36798420) 0 empty
+
+Class std::allocator_traits<std::allocator<char32_t> >
+   size=1 align=1
+   base size=0 base align=1
+std::allocator_traits<std::allocator<char32_t> > (0x0x7f3d367984e0) 0 empty
+
+Class __gnu_cxx::__alloc_traits<std::allocator<char32_t> >
+   size=1 align=1
+   base size=1 base align=1
+__gnu_cxx::__alloc_traits<std::allocator<char32_t> > (0x0x7f3d36756d68) 0 empty
+  std::allocator_traits<std::allocator<char32_t> > (0x0x7f3d36798540) 0 empty
+
+Class __gnu_cxx::__alloc_traits<std::allocator<char32_t> >::rebind<char32_t>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__alloc_traits<std::allocator<char32_t> >::rebind<char32_t> (0x0x7f3d367985a0) 0 empty
+
+Class __gnu_cxx::new_allocator<char32_t>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::new_allocator<char32_t> (0x0x7f3d36798600) 0 empty
+
+Class std::allocator<char32_t>
+   size=1 align=1
+   base size=1 base align=1
+std::allocator<char32_t> (0x0x7f3d36756ea0) 0 empty
+  __gnu_cxx::new_allocator<char32_t> (0x0x7f3d367986c0) 0 empty
+
+Class std::__cxx11::basic_string<char32_t>::_Alloc_hider
+   size=8 align=8
+   base size=8 base align=8
+std::__cxx11::basic_string<char32_t>::_Alloc_hider (0x0x7f3d36756f08) 0
+  std::allocator<char32_t> (0x0x7f3d36756f70) 0 empty
+    __gnu_cxx::new_allocator<char32_t> (0x0x7f3d36798780) 0 empty
+
+Class std::__cxx11::basic_string<char32_t>::<anonymous union>
+   size=16 align=8
+   base size=16 base align=8
+std::__cxx11::basic_string<char32_t>::<anonymous union> (0x0x7f3d367987e0) 0
+
+Class std::__cxx11::basic_string<char32_t>
+   size=32 align=8
+   base size=32 base align=8
+std::__cxx11::basic_string<char32_t> (0x0x7f3d36798480) 0
+
+Class std::__is_fast_hash<std::hash<std::__cxx11::basic_string<char32_t> > >
+   size=1 align=1
+   base size=1 base align=1
+std::__is_fast_hash<std::hash<std::__cxx11::basic_string<char32_t> > > (0x0x7f3d367569c0) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d36798840) 0 empty
+
+Class std::locale
+   size=8 align=8
+   base size=8 base align=8
+std::locale (0x0x7f3d367988a0) 0
+
+Vtable for std::locale::facet
+std::locale::facet::_ZTVNSt6locale5facetE: 4u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTINSt6locale5facetE)
+16    (int (*)(...))std::locale::facet::~facet
+24    (int (*)(...))std::locale::facet::~facet
+
+Class std::locale::facet
+   size=16 align=8
+   base size=12 base align=8
+std::locale::facet (0x0x7f3d36798900) 0
+    vptr=((& std::locale::facet::_ZTVNSt6locale5facetE) + 16u)
+
+Class std::locale::id
+   size=8 align=8
+   base size=8 base align=8
+std::locale::id (0x0x7f3d36798960) 0
+
+Class std::locale::_Impl
+   size=40 align=8
+   base size=40 base align=8
+std::locale::_Impl (0x0x7f3d367989c0) 0
+
+Vtable for std::__cxx11::collate<char>
+std::__cxx11::collate<char>::_ZTVNSt7__cxx117collateIcEE: 7u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTINSt7__cxx117collateIcEE)
+16    (int (*)(...))std::__cxx11::collate<_CharT>::~collate<char>
+24    (int (*)(...))std::__cxx11::collate<_CharT>::~collate<char>
+32    (int (*)(...))std::__cxx11::collate<_CharT>::do_compare<char>
+40    (int (*)(...))std::__cxx11::collate<_CharT>::do_transform<char>
+48    (int (*)(...))std::__cxx11::collate<_CharT>::do_hash<char>
+
+Class std::__cxx11::collate<char>
+   size=24 align=8
+   base size=24 base align=8
+std::__cxx11::collate<char> (0x0x7f3d365f3000) 0
+    vptr=((& std::__cxx11::collate<char>::_ZTVNSt7__cxx117collateIcEE) + 16u)
+  std::locale::facet (0x0x7f3d36798a80) 0
+      primary-for std::__cxx11::collate<char> (0x0x7f3d365f3000)
+
+Vtable for std::__cxx11::collate<wchar_t>
+std::__cxx11::collate<wchar_t>::_ZTVNSt7__cxx117collateIwEE: 7u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTINSt7__cxx117collateIwEE)
+16    (int (*)(...))std::__cxx11::collate<_CharT>::~collate<wchar_t>
+24    (int (*)(...))std::__cxx11::collate<_CharT>::~collate<wchar_t>
+32    (int (*)(...))std::__cxx11::collate<_CharT>::do_compare<wchar_t>
+40    (int (*)(...))std::__cxx11::collate<_CharT>::do_transform<wchar_t>
+48    (int (*)(...))std::__cxx11::collate<_CharT>::do_hash<wchar_t>
+
+Class std::__cxx11::collate<wchar_t>
+   size=24 align=8
+   base size=24 base align=8
+std::__cxx11::collate<wchar_t> (0x0x7f3d365f3068) 0
+    vptr=((& std::__cxx11::collate<wchar_t>::_ZTVNSt7__cxx117collateIwEE) + 16u)
+  std::locale::facet (0x0x7f3d36798ae0) 0
+      primary-for std::__cxx11::collate<wchar_t> (0x0x7f3d365f3068)
+
+Class __gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<long unsigned int>, __gnu_cxx::__numeric_traits_floating<long unsigned int> >
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<long unsigned int>, __gnu_cxx::__numeric_traits_floating<long unsigned int> > (0x0x7f3d36798ba0) 0 empty
+
+Class __gnu_cxx::__numeric_traits_integer<long unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__numeric_traits_integer<long unsigned int> (0x0x7f3d36798c00) 0 empty
+
+Class __gnu_cxx::__numeric_traits<long unsigned int>
+   size=1 align=1
+   base size=1 base align=1
+__gnu_cxx::__numeric_traits<long unsigned int> (0x0x7f3d365f31a0) 0 empty
+  __gnu_cxx::__numeric_traits_integer<long unsigned int> (0x0x7f3d36798c60) 0 empty
+
+Vtable for std::__cxx11::collate_byname<char>
+std::__cxx11::collate_byname<char>::_ZTVNSt7__cxx1114collate_bynameIcEE: 7u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTINSt7__cxx1114collate_bynameIcEE)
+16    (int (*)(...))std::__cxx11::collate_byname<_CharT>::~collate_byname<char>
+24    (int (*)(...))std::__cxx11::collate_byname<_CharT>::~collate_byname<char>
+32    (int (*)(...))std::__cxx11::collate<_CharT>::do_compare<char>
+40    (int (*)(...))std::__cxx11::collate<_CharT>::do_transform<char>
+48    (int (*)(...))std::__cxx11::collate<_CharT>::do_hash<char>
+
+Class std::__cxx11::collate_byname<char>
+   size=24 align=8
+   base size=24 base align=8
+std::__cxx11::collate_byname<char> (0x0x7f3d365f3270) 0
+    vptr=((& std::__cxx11::collate_byname<char>::_ZTVNSt7__cxx1114collate_bynameIcEE) + 16u)
+  std::__cxx11::collate<char> (0x0x7f3d365f32d8) 0
+      primary-for std::__cxx11::collate_byname<char> (0x0x7f3d365f3270)
+    std::locale::facet (0x0x7f3d36798cc0) 0
+        primary-for std::__cxx11::collate<char> (0x0x7f3d365f32d8)
+
+Vtable for std::__cxx11::collate_byname<wchar_t>
+std::__cxx11::collate_byname<wchar_t>::_ZTVNSt7__cxx1114collate_bynameIwEE: 7u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTINSt7__cxx1114collate_bynameIwEE)
+16    (int (*)(...))std::__cxx11::collate_byname<_CharT>::~collate_byname<wchar_t>
+24    (int (*)(...))std::__cxx11::collate_byname<_CharT>::~collate_byname<wchar_t>
+32    (int (*)(...))std::__cxx11::collate<_CharT>::do_compare<wchar_t>
+40    (int (*)(...))std::__cxx11::collate<_CharT>::do_transform<wchar_t>
+48    (int (*)(...))std::__cxx11::collate<_CharT>::do_hash<wchar_t>
+
+Class std::__cxx11::collate_byname<wchar_t>
+   size=24 align=8
+   base size=24 base align=8
+std::__cxx11::collate_byname<wchar_t> (0x0x7f3d365f3340) 0
+    vptr=((& std::__cxx11::collate_byname<wchar_t>::_ZTVNSt7__cxx1114collate_bynameIwEE) + 16u)
+  std::__cxx11::collate<wchar_t> (0x0x7f3d365f33a8) 0
+      primary-for std::__cxx11::collate_byname<wchar_t> (0x0x7f3d365f3340)
+    std::locale::facet (0x0x7f3d36798d20) 0
+        primary-for std::__cxx11::collate<wchar_t> (0x0x7f3d365f33a8)
+
+Class std::__cow_string::<anonymous union>
+   size=8 align=8
+   base size=8 base align=8
+std::__cow_string::<anonymous union> (0x0x7f3d36798de0) 0
+
+Class std::__cow_string
+   size=8 align=8
+   base size=8 base align=8
+std::__cow_string (0x0x7f3d36798d80) 0
+
+Vtable for std::logic_error
+std::logic_error::_ZTVSt11logic_error: 5u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt11logic_error)
+16    (int (*)(...))std::logic_error::~logic_error
+24    (int (*)(...))std::logic_error::~logic_error
+32    (int (*)(...))std::logic_error::what
+
+Class std::logic_error
+   size=16 align=8
+   base size=16 base align=8
+std::logic_error (0x0x7f3d365f3410) 0
+    vptr=((& std::logic_error::_ZTVSt11logic_error) + 16u)
+  std::exception (0x0x7f3d36798e40) 0 nearly-empty
+      primary-for std::logic_error (0x0x7f3d365f3410)
+
+Vtable for std::domain_error
+std::domain_error::_ZTVSt12domain_error: 5u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt12domain_error)
+16    (int (*)(...))std::domain_error::~domain_error
+24    (int (*)(...))std::domain_error::~domain_error
+32    (int (*)(...))std::logic_error::what
+
+Class std::domain_error
+   size=16 align=8
+   base size=16 base align=8
+std::domain_error (0x0x7f3d365f3478) 0
+    vptr=((& std::domain_error::_ZTVSt12domain_error) + 16u)
+  std::logic_error (0x0x7f3d365f34e0) 0
+      primary-for std::domain_error (0x0x7f3d365f3478)
+    std::exception (0x0x7f3d36798ea0) 0 nearly-empty
+        primary-for std::logic_error (0x0x7f3d365f34e0)
+
+Vtable for std::invalid_argument
+std::invalid_argument::_ZTVSt16invalid_argument: 5u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt16invalid_argument)
+16    (int (*)(...))std::invalid_argument::~invalid_argument
+24    (int (*)(...))std::invalid_argument::~invalid_argument
+32    (int (*)(...))std::logic_error::what
+
+Class std::invalid_argument
+   size=16 align=8
+   base size=16 base align=8
+std::invalid_argument (0x0x7f3d365f3548) 0
+    vptr=((& std::invalid_argument::_ZTVSt16invalid_argument) + 16u)
+  std::logic_error (0x0x7f3d365f35b0) 0
+      primary-for std::invalid_argument (0x0x7f3d365f3548)
+    std::exception (0x0x7f3d36798f00) 0 nearly-empty
+        primary-for std::logic_error (0x0x7f3d365f35b0)
+
+Vtable for std::length_error
+std::length_error::_ZTVSt12length_error: 5u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt12length_error)
+16    (int (*)(...))std::length_error::~length_error
+24    (int (*)(...))std::length_error::~length_error
+32    (int (*)(...))std::logic_error::what
+
+Class std::length_error
+   size=16 align=8
+   base size=16 base align=8
+std::length_error (0x0x7f3d365f3618) 0
+    vptr=((& std::length_error::_ZTVSt12length_error) + 16u)
+  std::logic_error (0x0x7f3d365f3680) 0
+      primary-for std::length_error (0x0x7f3d365f3618)
+    std::exception (0x0x7f3d36798f60) 0 nearly-empty
+        primary-for std::logic_error (0x0x7f3d365f3680)
+
+Vtable for std::out_of_range
+std::out_of_range::_ZTVSt12out_of_range: 5u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt12out_of_range)
+16    (int (*)(...))std::out_of_range::~out_of_range
+24    (int (*)(...))std::out_of_range::~out_of_range
+32    (int (*)(...))std::logic_error::what
+
+Class std::out_of_range
+   size=16 align=8
+   base size=16 base align=8
+std::out_of_range (0x0x7f3d365f36e8) 0
+    vptr=((& std::out_of_range::_ZTVSt12out_of_range) + 16u)
+  std::logic_error (0x0x7f3d365f3750) 0
+      primary-for std::out_of_range (0x0x7f3d365f36e8)
+    std::exception (0x0x7f3d36656000) 0 nearly-empty
+        primary-for std::logic_error (0x0x7f3d365f3750)
+
+Vtable for std::runtime_error
+std::runtime_error::_ZTVSt13runtime_error: 5u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt13runtime_error)
+16    (int (*)(...))std::runtime_error::~runtime_error
+24    (int (*)(...))std::runtime_error::~runtime_error
+32    (int (*)(...))std::runtime_error::what
+
+Class std::runtime_error
+   size=16 align=8
+   base size=16 base align=8
+std::runtime_error (0x0x7f3d365f37b8) 0
+    vptr=((& std::runtime_error::_ZTVSt13runtime_error) + 16u)
+  std::exception (0x0x7f3d36656060) 0 nearly-empty
+      primary-for std::runtime_error (0x0x7f3d365f37b8)
+
+Vtable for std::range_error
+std::range_error::_ZTVSt11range_error: 5u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt11range_error)
+16    (int (*)(...))std::range_error::~range_error
+24    (int (*)(...))std::range_error::~range_error
+32    (int (*)(...))std::runtime_error::what
+
+Class std::range_error
+   size=16 align=8
+   base size=16 base align=8
+std::range_error (0x0x7f3d365f3820) 0
+    vptr=((& std::range_error::_ZTVSt11range_error) + 16u)
+  std::runtime_error (0x0x7f3d365f3888) 0
+      primary-for std::range_error (0x0x7f3d365f3820)
+    std::exception (0x0x7f3d366560c0) 0 nearly-empty
+        primary-for std::runtime_error (0x0x7f3d365f3888)
+
+Vtable for std::overflow_error
+std::overflow_error::_ZTVSt14overflow_error: 5u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt14overflow_error)
+16    (int (*)(...))std::overflow_error::~overflow_error
+24    (int (*)(...))std::overflow_error::~overflow_error
+32    (int (*)(...))std::runtime_error::what
+
+Class std::overflow_error
+   size=16 align=8
+   base size=16 base align=8
+std::overflow_error (0x0x7f3d365f38f0) 0
+    vptr=((& std::overflow_error::_ZTVSt14overflow_error) + 16u)
+  std::runtime_error (0x0x7f3d365f3958) 0
+      primary-for std::overflow_error (0x0x7f3d365f38f0)
+    std::exception (0x0x7f3d36656120) 0 nearly-empty
+        primary-for std::runtime_error (0x0x7f3d365f3958)
+
+Vtable for std::underflow_error
+std::underflow_error::_ZTVSt15underflow_error: 5u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt15underflow_error)
+16    (int (*)(...))std::underflow_error::~underflow_error
+24    (int (*)(...))std::underflow_error::~underflow_error
+32    (int (*)(...))std::runtime_error::what
+
+Class std::underflow_error
+   size=16 align=8
+   base size=16 base align=8
+std::underflow_error (0x0x7f3d365f39c0) 0
+    vptr=((& std::underflow_error::_ZTVSt15underflow_error) + 16u)
+  std::runtime_error (0x0x7f3d365f3a28) 0
+      primary-for std::underflow_error (0x0x7f3d365f39c0)
+    std::exception (0x0x7f3d36656180) 0 nearly-empty
+        primary-for std::runtime_error (0x0x7f3d365f3a28)
+
+Class std::is_error_condition_enum<std::errc>
+   size=1 align=1
+   base size=1 base align=1
+std::is_error_condition_enum<std::errc> (0x0x7f3d365f3b60) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d366562a0) 0 empty
+
+Vtable for std::_V2::error_category
+std::_V2::error_category::_ZTVNSt3_V214error_categoryE: 10u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTINSt3_V214error_categoryE)
+16    0u
+24    0u
+32    (int (*)(...))__cxa_pure_virtual
+40    (int (*)(...))std::_V2::error_category::_M_message
+48    (int (*)(...))__cxa_pure_virtual
+56    (int (*)(...))std::_V2::error_category::default_error_condition
+64    (int (*)(...))std::_V2::error_category::equivalent
+72    (int (*)(...))std::_V2::error_category::equivalent
+
+Class std::_V2::error_category
+   size=8 align=8
+   base size=8 base align=8
+std::_V2::error_category (0x0x7f3d36656300) 0 nearly-empty
+    vptr=((& std::_V2::error_category::_ZTVNSt3_V214error_categoryE) + 16u)
+
+Class std::binary_function<const std::_V2::error_category*, const std::_V2::error_category*, bool>
+   size=1 align=1
+   base size=0 base align=1
+std::binary_function<const std::_V2::error_category*, const std::_V2::error_category*, bool> (0x0x7f3d36656360) 0 empty
+
+Class std::less<const std::_V2::error_category*>
+   size=1 align=1
+   base size=1 base align=1
+std::less<const std::_V2::error_category*> (0x0x7f3d365f3bc8) 0 empty
+  std::binary_function<const std::_V2::error_category*, const std::_V2::error_category*, bool> (0x0x7f3d36656480) 0 empty
+
+Class std::error_code
+   size=16 align=8
+   base size=16 base align=8
+std::error_code (0x0x7f3d36656540) 0
+
+Class std::is_error_code_enum<std::error_code>
+   size=1 align=1
+   base size=1 base align=1
+std::is_error_code_enum<std::error_code> (0x0x7f3d365f3c30) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d366565a0) 0 empty
+
+Class std::enable_if<false, void>
+   size=1 align=1
+   base size=0 base align=1
+std::enable_if<false, void> (0x0x7f3d36656600) 0 empty
+
+Class std::is_error_code_enum<std::_V2::error_category>
+   size=1 align=1
+   base size=1 base align=1
+std::is_error_code_enum<std::_V2::error_category> (0x0x7f3d365f3c98) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d36656660) 0 empty
+
+Class std::error_condition
+   size=16 align=8
+   base size=16 base align=8
+std::error_condition (0x0x7f3d366566c0) 0
+
+Class std::is_error_condition_enum<std::error_condition>
+   size=1 align=1
+   base size=1 base align=1
+std::is_error_condition_enum<std::error_condition> (0x0x7f3d365f3d00) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d36656720) 0 empty
+
+Class std::is_error_condition_enum<std::_V2::error_category>
+   size=1 align=1
+   base size=1 base align=1
+std::is_error_condition_enum<std::_V2::error_category> (0x0x7f3d365f3d68) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d36656780) 0 empty
+
+Class std::is_error_code_enum<int>
+   size=1 align=1
+   base size=1 base align=1
+std::is_error_code_enum<int> (0x0x7f3d365f3dd0) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d366567e0) 0 empty
+
+Class std::is_error_condition_enum<std::error_code>
+   size=1 align=1
+   base size=1 base align=1
+std::is_error_condition_enum<std::error_code> (0x0x7f3d365f3e38) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d36656840) 0 empty
+
+Class std::is_error_code_enum<std::error_condition>
+   size=1 align=1
+   base size=1 base align=1
+std::is_error_code_enum<std::error_condition> (0x0x7f3d365f3ea0) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d366568a0) 0 empty
+
+Vtable for std::system_error
+std::system_error::_ZTVSt12system_error: 5u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt12system_error)
+16    (int (*)(...))std::system_error::~system_error
+24    (int (*)(...))std::system_error::~system_error
+32    (int (*)(...))std::runtime_error::what
+
+Class std::system_error
+   size=32 align=8
+   base size=32 base align=8
+std::system_error (0x0x7f3d365f3f08) 0
+    vptr=((& std::system_error::_ZTVSt12system_error) + 16u)
+  std::runtime_error (0x0x7f3d365f3f70) 0
+      primary-for std::system_error (0x0x7f3d365f3f08)
+    std::exception (0x0x7f3d36656900) 0 nearly-empty
+        primary-for std::runtime_error (0x0x7f3d365f3f70)
+
+Class std::__hash_base<long unsigned int, std::error_code>
+   size=1 align=1
+   base size=0 base align=1
+std::__hash_base<long unsigned int, std::error_code> (0x0x7f3d36656a80) 0 empty
+
+Class std::hash<std::error_code>
+   size=1 align=1
+   base size=1 base align=1
+std::hash<std::error_code> (0x0x7f3d366ce9c0) 0 empty
+  std::__hash_base<long unsigned int, std::error_code> (0x0x7f3d36656ae0) 0 empty
+
+Class std::is_error_code_enum<std::io_errc>
+   size=1 align=1
+   base size=1 base align=1
+std::is_error_code_enum<std::io_errc> (0x0x7f3d366cea28) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d36656b40) 0 empty
+
+Vtable for std::ios_base::failure
+std::ios_base::failure::_ZTVNSt8ios_base7failureB5cxx11E: 5u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTINSt8ios_base7failureB5cxx11E)
+16    (int (*)(...))std::ios_base::failure::~failure
+24    (int (*)(...))std::ios_base::failure::~failure
+32    (int (*)(...))std::ios_base::failure::what
+
+Class std::ios_base::failure
+   size=32 align=8
+   base size=32 base align=8
+std::ios_base::failure (0x0x7f3d366cea90) 0
+    vptr=((& std::ios_base::failure::_ZTVNSt8ios_base7failureB5cxx11E) + 16u)
+  std::system_error (0x0x7f3d366ceaf8) 0
+      primary-for std::ios_base::failure (0x0x7f3d366cea90)
+    std::runtime_error (0x0x7f3d366ceb60) 0
+        primary-for std::system_error (0x0x7f3d366ceaf8)
+      std::exception (0x0x7f3d36656c00) 0 nearly-empty
+          primary-for std::runtime_error (0x0x7f3d366ceb60)
+
+Class std::ios_base::_Callback_list
+   size=24 align=8
+   base size=24 base align=8
+std::ios_base::_Callback_list (0x0x7f3d36656c60) 0
+
+Class std::ios_base::_Words
+   size=16 align=8
+   base size=16 base align=8
+std::ios_base::_Words (0x0x7f3d36656cc0) 0
+
+Class std::ios_base::Init
+   size=1 align=1
+   base size=0 base align=1
+std::ios_base::Init (0x0x7f3d36656d20) 0 empty
+
+Vtable for std::ios_base
+std::ios_base::_ZTVSt8ios_base: 4u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt8ios_base)
+16    (int (*)(...))std::ios_base::~ios_base
+24    (int (*)(...))std::ios_base::~ios_base
+
+Class std::ios_base
+   size=216 align=8
+   base size=216 base align=8
+std::ios_base (0x0x7f3d36656ba0) 0
+    vptr=((& std::ios_base::_ZTVSt8ios_base) + 16u)
+
+Class std::enable_if<true, void>
+   size=1 align=1
+   base size=0 base align=1
+std::enable_if<true, void> (0x0x7f3d36656d80) 0 empty
+
+Vtable for std::basic_streambuf<char>
+std::basic_streambuf<char>::_ZTVSt15basic_streambufIcSt11char_traitsIcEE: 16u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt15basic_streambufIcSt11char_traitsIcEE)
+16    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::~basic_streambuf<char, std::char_traits<char> >
+24    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::~basic_streambuf<char, std::char_traits<char> >
+32    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::imbue<char, std::char_traits<char> >
+40    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::setbuf<char, std::char_traits<char> >
+48    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::seekoff<char, std::char_traits<char> >
+56    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::seekpos<char, std::char_traits<char> >
+64    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::sync<char, std::char_traits<char> >
+72    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::showmanyc<char, std::char_traits<char> >
+80    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::xsgetn<char, std::char_traits<char> >
+88    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::underflow<char, std::char_traits<char> >
+96    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::uflow<char, std::char_traits<char> >
+104   (int (*)(...))std::basic_streambuf<_CharT, _Traits>::pbackfail<char, std::char_traits<char> >
+112   (int (*)(...))std::basic_streambuf<_CharT, _Traits>::xsputn<char, std::char_traits<char> >
+120   (int (*)(...))std::basic_streambuf<_CharT, _Traits>::overflow<char, std::char_traits<char> >
+
+Class std::basic_streambuf<char>
+   size=64 align=8
+   base size=64 base align=8
+std::basic_streambuf<char> (0x0x7f3d36656e40) 0
+    vptr=((& std::basic_streambuf<char>::_ZTVSt15basic_streambufIcSt11char_traitsIcEE) + 16u)
+
+Vtable for std::basic_streambuf<wchar_t>
+std::basic_streambuf<wchar_t>::_ZTVSt15basic_streambufIwSt11char_traitsIwEE: 16u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt15basic_streambufIwSt11char_traitsIwEE)
+16    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::~basic_streambuf<wchar_t, std::char_traits<wchar_t> >
+24    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::~basic_streambuf<wchar_t, std::char_traits<wchar_t> >
+32    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::imbue<wchar_t, std::char_traits<wchar_t> >
+40    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::setbuf<wchar_t, std::char_traits<wchar_t> >
+48    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::seekoff<wchar_t, std::char_traits<wchar_t> >
+56    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::seekpos<wchar_t, std::char_traits<wchar_t> >
+64    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::sync<wchar_t, std::char_traits<wchar_t> >
+72    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::showmanyc<wchar_t, std::char_traits<wchar_t> >
+80    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::xsgetn<wchar_t, std::char_traits<wchar_t> >
+88    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::underflow<wchar_t, std::char_traits<wchar_t> >
+96    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::uflow<wchar_t, std::char_traits<wchar_t> >
+104   (int (*)(...))std::basic_streambuf<_CharT, _Traits>::pbackfail<wchar_t, std::char_traits<wchar_t> >
+112   (int (*)(...))std::basic_streambuf<_CharT, _Traits>::xsputn<wchar_t, std::char_traits<wchar_t> >
+120   (int (*)(...))std::basic_streambuf<_CharT, _Traits>::overflow<wchar_t, std::char_traits<wchar_t> >
+
+Class std::basic_streambuf<wchar_t>
+   size=64 align=8
+   base size=64 base align=8
+std::basic_streambuf<wchar_t> (0x0x7f3d363ba360) 0
+    vptr=((& std::basic_streambuf<wchar_t>::_ZTVSt15basic_streambufIwSt11char_traitsIwEE) + 16u)
+
+Class std::ctype_base
+   size=1 align=1
+   base size=0 base align=1
+std::ctype_base (0x0x7f3d363ba4e0) 0 empty
+
+Vtable for std::ctype<char>
+std::ctype<char>::_ZTVSt5ctypeIcE: 12u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt5ctypeIcE)
+16    (int (*)(...))std::ctype<char>::~ctype
+24    (int (*)(...))std::ctype<char>::~ctype
+32    (int (*)(...))std::ctype<char>::do_toupper
+40    (int (*)(...))std::ctype<char>::do_toupper
+48    (int (*)(...))std::ctype<char>::do_tolower
+56    (int (*)(...))std::ctype<char>::do_tolower
+64    (int (*)(...))std::ctype<char>::do_widen
+72    (int (*)(...))std::ctype<char>::do_widen
+80    (int (*)(...))std::ctype<char>::do_narrow
+88    (int (*)(...))std::ctype<char>::do_narrow
+
+Class std::ctype<char>
+   size=576 align=8
+   base size=570 base align=8
+std::ctype<char> (0x0x7f3d36426e70) 0
+    vptr=((& std::ctype<char>::_ZTVSt5ctypeIcE) + 16u)
+  std::locale::facet (0x0x7f3d363ba780) 0
+      primary-for std::ctype<char> (0x0x7f3d36426e70)
+  std::ctype_base (0x0x7f3d363ba7e0) 0 empty
+
+Vtable for std::__ctype_abstract_base<wchar_t>
+std::__ctype_abstract_base<wchar_t>::_ZTVSt21__ctype_abstract_baseIwE: 16u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt21__ctype_abstract_baseIwE)
+16    0u
+24    0u
+32    (int (*)(...))__cxa_pure_virtual
+40    (int (*)(...))__cxa_pure_virtual
+48    (int (*)(...))__cxa_pure_virtual
+56    (int (*)(...))__cxa_pure_virtual
+64    (int (*)(...))__cxa_pure_virtual
+72    (int (*)(...))__cxa_pure_virtual
+80    (int (*)(...))__cxa_pure_virtual
+88    (int (*)(...))__cxa_pure_virtual
+96    (int (*)(...))__cxa_pure_virtual
+104   (int (*)(...))__cxa_pure_virtual
+112   (int (*)(...))__cxa_pure_virtual
+120   (int (*)(...))__cxa_pure_virtual
+
+Class std::__ctype_abstract_base<wchar_t>
+   size=16 align=8
+   base size=12 base align=8
+std::__ctype_abstract_base<wchar_t> (0x0x7f3d3645eb60) 0
+    vptr=((& std::__ctype_abstract_base<wchar_t>::_ZTVSt21__ctype_abstract_baseIwE) + 16u)
+  std::locale::facet (0x0x7f3d363ba840) 0
+      primary-for std::__ctype_abstract_base<wchar_t> (0x0x7f3d3645eb60)
+  std::ctype_base (0x0x7f3d363ba8a0) 0 empty
+
+Vtable for std::ctype<wchar_t>
+std::ctype<wchar_t>::_ZTVSt5ctypeIwE: 16u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt5ctypeIwE)
+16    (int (*)(...))std::ctype<wchar_t>::~ctype
+24    (int (*)(...))std::ctype<wchar_t>::~ctype
+32    (int (*)(...))std::ctype<wchar_t>::do_is
+40    (int (*)(...))std::ctype<wchar_t>::do_is
+48    (int (*)(...))std::ctype<wchar_t>::do_scan_is
+56    (int (*)(...))std::ctype<wchar_t>::do_scan_not
+64    (int (*)(...))std::ctype<wchar_t>::do_toupper
+72    (int (*)(...))std::ctype<wchar_t>::do_toupper
+80    (int (*)(...))std::ctype<wchar_t>::do_tolower
+88    (int (*)(...))std::ctype<wchar_t>::do_tolower
+96    (int (*)(...))std::ctype<wchar_t>::do_widen
+104   (int (*)(...))std::ctype<wchar_t>::do_widen
+112   (int (*)(...))std::ctype<wchar_t>::do_narrow
+120   (int (*)(...))std::ctype<wchar_t>::do_narrow
+
+Class std::ctype<wchar_t>
+   size=1344 align=8
+   base size=1344 base align=8
+std::ctype<wchar_t> (0x0x7f3d363df410) 0
+    vptr=((& std::ctype<wchar_t>::_ZTVSt5ctypeIwE) + 16u)
+  std::__ctype_abstract_base<wchar_t> (0x0x7f3d3645ec40) 0
+      primary-for std::ctype<wchar_t> (0x0x7f3d363df410)
+    std::locale::facet (0x0x7f3d363ba900) 0
+        primary-for std::__ctype_abstract_base<wchar_t> (0x0x7f3d3645ec40)
+    std::ctype_base (0x0x7f3d363ba960) 0 empty
+
+Vtable for std::ctype_byname<char>
+std::ctype_byname<char>::_ZTVSt12ctype_bynameIcE: 12u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt12ctype_bynameIcE)
+16    (int (*)(...))std::ctype_byname<char>::~ctype_byname
+24    (int (*)(...))std::ctype_byname<char>::~ctype_byname
+32    (int (*)(...))std::ctype<char>::do_toupper
+40    (int (*)(...))std::ctype<char>::do_toupper
+48    (int (*)(...))std::ctype<char>::do_tolower
+56    (int (*)(...))std::ctype<char>::do_tolower
+64    (int (*)(...))std::ctype<char>::do_widen
+72    (int (*)(...))std::ctype<char>::do_widen
+80    (int (*)(...))std::ctype<char>::do_narrow
+88    (int (*)(...))std::ctype<char>::do_narrow
+
+Class std::ctype_byname<char>
+   size=576 align=8
+   base size=570 base align=8
+std::ctype_byname<char> (0x0x7f3d363df5b0) 0
+    vptr=((& std::ctype_byname<char>::_ZTVSt12ctype_bynameIcE) + 16u)
+  std::ctype<char> (0x0x7f3d36489070) 0
+      primary-for std::ctype_byname<char> (0x0x7f3d363df5b0)
+    std::locale::facet (0x0x7f3d363baa20) 0
+        primary-for std::ctype<char> (0x0x7f3d36489070)
+    std::ctype_base (0x0x7f3d363baa80) 0 empty
+
+Vtable for std::ctype_byname<wchar_t>
+std::ctype_byname<wchar_t>::_ZTVSt12ctype_bynameIwE: 16u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt12ctype_bynameIwE)
+16    (int (*)(...))std::ctype_byname<wchar_t>::~ctype_byname
+24    (int (*)(...))std::ctype_byname<wchar_t>::~ctype_byname
+32    (int (*)(...))std::ctype<wchar_t>::do_is
+40    (int (*)(...))std::ctype<wchar_t>::do_is
+48    (int (*)(...))std::ctype<wchar_t>::do_scan_is
+56    (int (*)(...))std::ctype<wchar_t>::do_scan_not
+64    (int (*)(...))std::ctype<wchar_t>::do_toupper
+72    (int (*)(...))std::ctype<wchar_t>::do_toupper
+80    (int (*)(...))std::ctype<wchar_t>::do_tolower
+88    (int (*)(...))std::ctype<wchar_t>::do_tolower
+96    (int (*)(...))std::ctype<wchar_t>::do_widen
+104   (int (*)(...))std::ctype<wchar_t>::do_widen
+112   (int (*)(...))std::ctype<wchar_t>::do_narrow
+120   (int (*)(...))std::ctype<wchar_t>::do_narrow
+
+Class std::ctype_byname<wchar_t>
+   size=1344 align=8
+   base size=1344 base align=8
+std::ctype_byname<wchar_t> (0x0x7f3d363df618) 0
+    vptr=((& std::ctype_byname<wchar_t>::_ZTVSt12ctype_bynameIwE) + 16u)
+  std::ctype<wchar_t> (0x0x7f3d363df680) 0
+      primary-for std::ctype_byname<wchar_t> (0x0x7f3d363df618)
+    std::__ctype_abstract_base<wchar_t> (0x0x7f3d364891c0) 0
+        primary-for std::ctype<wchar_t> (0x0x7f3d363df680)
+      std::locale::facet (0x0x7f3d363baae0) 0
+          primary-for std::__ctype_abstract_base<wchar_t> (0x0x7f3d364891c0)
+      std::ctype_base (0x0x7f3d363bab40) 0 empty
+
+Class std::__num_base
+   size=1 align=1
+   base size=0 base align=1
+std::__num_base (0x0x7f3d363baba0) 0 empty
+
+Vtable for std::__cxx11::numpunct<char>
+std::__cxx11::numpunct<char>::_ZTVNSt7__cxx118numpunctIcEE: 9u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTINSt7__cxx118numpunctIcEE)
+16    (int (*)(...))std::__cxx11::numpunct<_CharT>::~numpunct<char>
+24    (int (*)(...))std::__cxx11::numpunct<_CharT>::~numpunct<char>
+32    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_decimal_point<char>
+40    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_thousands_sep<char>
+48    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_grouping<char>
+56    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_truename<char>
+64    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_falsename<char>
+
+Class std::__cxx11::numpunct<char>
+   size=24 align=8
+   base size=24 base align=8
+std::__cxx11::numpunct<char> (0x0x7f3d363df958) 0
+    vptr=((& std::__cxx11::numpunct<char>::_ZTVNSt7__cxx118numpunctIcEE) + 16u)
+  std::locale::facet (0x0x7f3d363bacc0) 0
+      primary-for std::__cxx11::numpunct<char> (0x0x7f3d363df958)
+
+Vtable for std::__cxx11::numpunct<wchar_t>
+std::__cxx11::numpunct<wchar_t>::_ZTVNSt7__cxx118numpunctIwEE: 9u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTINSt7__cxx118numpunctIwEE)
+16    (int (*)(...))std::__cxx11::numpunct<_CharT>::~numpunct<wchar_t>
+24    (int (*)(...))std::__cxx11::numpunct<_CharT>::~numpunct<wchar_t>
+32    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_decimal_point<wchar_t>
+40    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_thousands_sep<wchar_t>
+48    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_grouping<wchar_t>
+56    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_truename<wchar_t>
+64    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_falsename<wchar_t>
+
+Class std::__cxx11::numpunct<wchar_t>
+   size=24 align=8
+   base size=24 base align=8
+std::__cxx11::numpunct<wchar_t> (0x0x7f3d363df9c0) 0
+    vptr=((& std::__cxx11::numpunct<wchar_t>::_ZTVNSt7__cxx118numpunctIwEE) + 16u)
+  std::locale::facet (0x0x7f3d363bad20) 0
+      primary-for std::__cxx11::numpunct<wchar_t> (0x0x7f3d363df9c0)
+
+Class __gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<char>, __gnu_cxx::__numeric_traits_floating<char> >
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<char>, __gnu_cxx::__numeric_traits_floating<char> > (0x0x7f3d363baf60) 0 empty
+
+Class __gnu_cxx::__numeric_traits_integer<char>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__numeric_traits_integer<char> (0x0x7f3d3611a000) 0 empty
+
+Class __gnu_cxx::__numeric_traits<char>
+   size=1 align=1
+   base size=1 base align=1
+__gnu_cxx::__numeric_traits<char> (0x0x7f3d363dfc98) 0 empty
+  __gnu_cxx::__numeric_traits_integer<char> (0x0x7f3d3611a060) 0 empty
+
+Class std::is_error_condition_enum<std::_Ios_Fmtflags>
+   size=1 align=1
+   base size=1 base align=1
+std::is_error_condition_enum<std::_Ios_Fmtflags> (0x0x7f3d363dfd68) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d3611a0c0) 0 empty
+
+Class std::is_error_code_enum<std::_Ios_Fmtflags>
+   size=1 align=1
+   base size=1 base align=1
+std::is_error_code_enum<std::_Ios_Fmtflags> (0x0x7f3d363dfdd0) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d3611a120) 0 empty
+
+Class __gnu_cxx::__conditional_type<true, long unsigned int, long long unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__conditional_type<true, long unsigned int, long long unsigned int> (0x0x7f3d3611a180) 0 empty
+
+Vtable for std::__cxx11::numpunct_byname<char>
+std::__cxx11::numpunct_byname<char>::_ZTVNSt7__cxx1115numpunct_bynameIcEE: 9u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTINSt7__cxx1115numpunct_bynameIcEE)
+16    (int (*)(...))std::__cxx11::numpunct_byname<_CharT>::~numpunct_byname<char>
+24    (int (*)(...))std::__cxx11::numpunct_byname<_CharT>::~numpunct_byname<char>
+32    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_decimal_point<char>
+40    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_thousands_sep<char>
+48    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_grouping<char>
+56    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_truename<char>
+64    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_falsename<char>
+
+Class std::__cxx11::numpunct_byname<char>
+   size=24 align=8
+   base size=24 base align=8
+std::__cxx11::numpunct_byname<char> (0x0x7f3d36178138) 0
+    vptr=((& std::__cxx11::numpunct_byname<char>::_ZTVNSt7__cxx1115numpunct_bynameIcEE) + 16u)
+  std::__cxx11::numpunct<char> (0x0x7f3d361781a0) 0
+      primary-for std::__cxx11::numpunct_byname<char> (0x0x7f3d36178138)
+    std::locale::facet (0x0x7f3d3611a480) 0
+        primary-for std::__cxx11::numpunct<char> (0x0x7f3d361781a0)
+
+Vtable for std::num_get<char>
+std::num_get<char>::_ZTVSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE: 15u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE)
+16    (int (*)(...))std::num_get<_CharT, _InIter>::~num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+24    (int (*)(...))std::num_get<_CharT, _InIter>::~num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+32    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+40    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+48    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+56    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+64    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+72    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+80    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+88    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+96    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+104   (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+112   (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+
+Class std::num_get<char>
+   size=16 align=8
+   base size=12 base align=8
+std::num_get<char> (0x0x7f3d36178208) 0
+    vptr=((& std::num_get<char>::_ZTVSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE) + 16u)
+  std::locale::facet (0x0x7f3d3611a4e0) 0
+      primary-for std::num_get<char> (0x0x7f3d36178208)
+
+Vtable for std::num_put<char>
+std::num_put<char>::_ZTVSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE: 12u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE)
+16    (int (*)(...))std::num_put<_CharT, _OutIter>::~num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+24    (int (*)(...))std::num_put<_CharT, _OutIter>::~num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+32    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+40    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+48    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+56    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+64    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+72    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+80    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+88    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+
+Class std::num_put<char>
+   size=16 align=8
+   base size=12 base align=8
+std::num_put<char> (0x0x7f3d36178270) 0
+    vptr=((& std::num_put<char>::_ZTVSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE) + 16u)
+  std::locale::facet (0x0x7f3d3611a5a0) 0
+      primary-for std::num_put<char> (0x0x7f3d36178270)
+
+Vtable for std::__cxx11::numpunct_byname<wchar_t>
+std::__cxx11::numpunct_byname<wchar_t>::_ZTVNSt7__cxx1115numpunct_bynameIwEE: 9u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTINSt7__cxx1115numpunct_bynameIwEE)
+16    (int (*)(...))std::__cxx11::numpunct_byname<_CharT>::~numpunct_byname<wchar_t>
+24    (int (*)(...))std::__cxx11::numpunct_byname<_CharT>::~numpunct_byname<wchar_t>
+32    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_decimal_point<wchar_t>
+40    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_thousands_sep<wchar_t>
+48    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_grouping<wchar_t>
+56    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_truename<wchar_t>
+64    (int (*)(...))std::__cxx11::numpunct<_CharT>::do_falsename<wchar_t>
+
+Class std::__cxx11::numpunct_byname<wchar_t>
+   size=24 align=8
+   base size=24 base align=8
+std::__cxx11::numpunct_byname<wchar_t> (0x0x7f3d361782d8) 0
+    vptr=((& std::__cxx11::numpunct_byname<wchar_t>::_ZTVNSt7__cxx1115numpunct_bynameIwEE) + 16u)
+  std::__cxx11::numpunct<wchar_t> (0x0x7f3d36178340) 0
+      primary-for std::__cxx11::numpunct_byname<wchar_t> (0x0x7f3d361782d8)
+    std::locale::facet (0x0x7f3d3611a660) 0
+        primary-for std::__cxx11::numpunct<wchar_t> (0x0x7f3d36178340)
+
+Vtable for std::num_get<wchar_t>
+std::num_get<wchar_t>::_ZTVSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE: 15u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE)
+16    (int (*)(...))std::num_get<_CharT, _InIter>::~num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+24    (int (*)(...))std::num_get<_CharT, _InIter>::~num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+32    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+40    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+48    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+56    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+64    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+72    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+80    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+88    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+96    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+104   (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+112   (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+
+Class std::num_get<wchar_t>
+   size=16 align=8
+   base size=12 base align=8
+std::num_get<wchar_t> (0x0x7f3d361783a8) 0
+    vptr=((& std::num_get<wchar_t>::_ZTVSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE) + 16u)
+  std::locale::facet (0x0x7f3d3611a720) 0
+      primary-for std::num_get<wchar_t> (0x0x7f3d361783a8)
+
+Vtable for std::num_put<wchar_t>
+std::num_put<wchar_t>::_ZTVSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE: 12u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE)
+16    (int (*)(...))std::num_put<_CharT, _OutIter>::~num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+24    (int (*)(...))std::num_put<_CharT, _OutIter>::~num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+32    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+40    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+48    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+56    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+64    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+72    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+80    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+88    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+
+Class std::num_put<wchar_t>
+   size=16 align=8
+   base size=12 base align=8
+std::num_put<wchar_t> (0x0x7f3d36178478) 0
+    vptr=((& std::num_put<wchar_t>::_ZTVSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE) + 16u)
+  std::locale::facet (0x0x7f3d3611a780) 0
+      primary-for std::num_put<wchar_t> (0x0x7f3d36178478)
+
+Vtable for std::basic_ios<char>
+std::basic_ios<char>::_ZTVSt9basic_iosIcSt11char_traitsIcEE: 4u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt9basic_iosIcSt11char_traitsIcEE)
+16    (int (*)(...))std::basic_ios<_CharT, _Traits>::~basic_ios<char, std::char_traits<char> >
+24    (int (*)(...))std::basic_ios<_CharT, _Traits>::~basic_ios<char, std::char_traits<char> >
+
+Class std::basic_ios<char>
+   size=264 align=8
+   base size=264 base align=8
+std::basic_ios<char> (0x0x7f3d36178888) 0
+    vptr=((& std::basic_ios<char>::_ZTVSt9basic_iosIcSt11char_traitsIcEE) + 16u)
+  std::ios_base (0x0x7f3d3611a840) 0
+      primary-for std::basic_ios<char> (0x0x7f3d36178888)
+
+Vtable for std::basic_ios<wchar_t>
+std::basic_ios<wchar_t>::_ZTVSt9basic_iosIwSt11char_traitsIwEE: 4u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt9basic_iosIwSt11char_traitsIwEE)
+16    (int (*)(...))std::basic_ios<_CharT, _Traits>::~basic_ios<wchar_t, std::char_traits<wchar_t> >
+24    (int (*)(...))std::basic_ios<_CharT, _Traits>::~basic_ios<wchar_t, std::char_traits<wchar_t> >
+
+Class std::basic_ios<wchar_t>
+   size=264 align=8
+   base size=264 base align=8
+std::basic_ios<wchar_t> (0x0x7f3d36178958) 0
+    vptr=((& std::basic_ios<wchar_t>::_ZTVSt9basic_iosIwSt11char_traitsIwEE) + 16u)
+  std::ios_base (0x0x7f3d3611a960) 0
+      primary-for std::basic_ios<wchar_t> (0x0x7f3d36178958)
+
+Vtable for std::basic_ostream<char>
+std::basic_ostream<char>::_ZTVSo: 10u entries
+0     8u
+8     (int (*)(...))0
+16    (int (*)(...))(& _ZTISo)
+24    (int (*)(...))std::basic_ostream<_CharT, _Traits>::~basic_ostream<char, std::char_traits<char> >
+32    (int (*)(...))std::basic_ostream<_CharT, _Traits>::~basic_ostream<char, std::char_traits<char> >
+40    18446744073709551608u
+48    (int (*)(...))-8
+56    (int (*)(...))(& _ZTISo)
+64    (int (*)(...))std::basic_ostream<char>::_ZTv0_n24_NSoD1Ev
+72    (int (*)(...))std::basic_ostream<char>::_ZTv0_n24_NSoD0Ev
+
+VTT for std::basic_ostream<char>
+std::basic_ostream<char>::_ZTTSo: 2u entries
+0     ((& std::basic_ostream<char>::_ZTVSo) + 24u)
+8     ((& std::basic_ostream<char>::_ZTVSo) + 64u)
+
+Class std::basic_ostream<char>
+   size=272 align=8
+   base size=8 base align=8
+std::basic_ostream<char> (0x0x7f3d36178e38) 0 nearly-empty
+    vptridx=0u vptr=((& std::basic_ostream<char>::_ZTVSo) + 24u)
+  std::basic_ios<char> (0x0x7f3d36178ea0) 8 virtual
+      vptridx=8u vbaseoffset=-24 vptr=((& std::basic_ostream<char>::_ZTVSo) + 64u)
+    std::ios_base (0x0x7f3d3611aba0) 8
+        primary-for std::basic_ios<char> (0x0x7f3d36178ea0)
+
+Class std::basic_ostream<char>::sentry
+   size=16 align=8
+   base size=16 base align=8
+std::basic_ostream<char>::sentry (0x0x7f3d3611ac00) 0
+
+Vtable for std::basic_ostream<wchar_t>
+std::basic_ostream<wchar_t>::_ZTVSt13basic_ostreamIwSt11char_traitsIwEE: 10u entries
+0     8u
+8     (int (*)(...))0
+16    (int (*)(...))(& _ZTISt13basic_ostreamIwSt11char_traitsIwEE)
+24    (int (*)(...))std::basic_ostream<_CharT, _Traits>::~basic_ostream<wchar_t, std::char_traits<wchar_t> >
+32    (int (*)(...))std::basic_ostream<_CharT, _Traits>::~basic_ostream<wchar_t, std::char_traits<wchar_t> >
+40    18446744073709551608u
+48    (int (*)(...))-8
+56    (int (*)(...))(& _ZTISt13basic_ostreamIwSt11char_traitsIwEE)
+64    (int (*)(...))std::basic_ostream<wchar_t>::_ZTv0_n24_NSt13basic_ostreamIwSt11char_traitsIwEED1Ev
+72    (int (*)(...))std::basic_ostream<wchar_t>::_ZTv0_n24_NSt13basic_ostreamIwSt11char_traitsIwEED0Ev
+
+VTT for std::basic_ostream<wchar_t>
+std::basic_ostream<wchar_t>::_ZTTSt13basic_ostreamIwSt11char_traitsIwEE: 2u entries
+0     ((& std::basic_ostream<wchar_t>::_ZTVSt13basic_ostreamIwSt11char_traitsIwEE) + 24u)
+8     ((& std::basic_ostream<wchar_t>::_ZTVSt13basic_ostreamIwSt11char_traitsIwEE) + 64u)
+
+Class std::basic_ostream<wchar_t>
+   size=272 align=8
+   base size=8 base align=8
+std::basic_ostream<wchar_t> (0x0x7f3d362a9068) 0 nearly-empty
+    vptridx=0u vptr=((& std::basic_ostream<wchar_t>::_ZTVSt13basic_ostreamIwSt11char_traitsIwEE) + 24u)
+  std::basic_ios<wchar_t> (0x0x7f3d362a90d0) 8 virtual
+      vptridx=8u vbaseoffset=-24 vptr=((& std::basic_ostream<wchar_t>::_ZTVSt13basic_ostreamIwSt11char_traitsIwEE) + 64u)
+    std::ios_base (0x0x7f3d3611ac60) 8
+        primary-for std::basic_ios<wchar_t> (0x0x7f3d362a90d0)
+
+Class std::basic_ostream<wchar_t>::sentry
+   size=16 align=8
+   base size=16 base align=8
+std::basic_ostream<wchar_t>::sentry (0x0x7f3d3611acc0) 0
+
+Vtable for std::basic_istream<char>
+std::basic_istream<char>::_ZTVSi: 10u entries
+0     16u
+8     (int (*)(...))0
+16    (int (*)(...))(& _ZTISi)
+24    (int (*)(...))std::basic_istream<_CharT, _Traits>::~basic_istream<char, std::char_traits<char> >
+32    (int (*)(...))std::basic_istream<_CharT, _Traits>::~basic_istream<char, std::char_traits<char> >
+40    18446744073709551600u
+48    (int (*)(...))-16
+56    (int (*)(...))(& _ZTISi)
+64    (int (*)(...))std::basic_istream<char>::_ZTv0_n24_NSiD1Ev
+72    (int (*)(...))std::basic_istream<char>::_ZTv0_n24_NSiD0Ev
+
+VTT for std::basic_istream<char>
+std::basic_istream<char>::_ZTTSi: 2u entries
+0     ((& std::basic_istream<char>::_ZTVSi) + 24u)
+8     ((& std::basic_istream<char>::_ZTVSi) + 64u)
+
+Class std::basic_istream<char>
+   size=280 align=8
+   base size=16 base align=8
+std::basic_istream<char> (0x0x7f3d362a9478) 0
+    vptridx=0u vptr=((& std::basic_istream<char>::_ZTVSi) + 24u)
+  std::basic_ios<char> (0x0x7f3d362a94e0) 16 virtual
+      vptridx=8u vbaseoffset=-24 vptr=((& std::basic_istream<char>::_ZTVSi) + 64u)
+    std::ios_base (0x0x7f3d3611ad80) 16
+        primary-for std::basic_ios<char> (0x0x7f3d362a94e0)
+
+Vtable for std::basic_istream<wchar_t>
+std::basic_istream<wchar_t>::_ZTVSt13basic_istreamIwSt11char_traitsIwEE: 10u entries
+0     16u
+8     (int (*)(...))0
+16    (int (*)(...))(& _ZTISt13basic_istreamIwSt11char_traitsIwEE)
+24    (int (*)(...))std::basic_istream<_CharT, _Traits>::~basic_istream<wchar_t, std::char_traits<wchar_t> >
+32    (int (*)(...))std::basic_istream<_CharT, _Traits>::~basic_istream<wchar_t, std::char_traits<wchar_t> >
+40    18446744073709551600u
+48    (int (*)(...))-16
+56    (int (*)(...))(& _ZTISt13basic_istreamIwSt11char_traitsIwEE)
+64    (int (*)(...))std::basic_istream<wchar_t>::_ZTv0_n24_NSt13basic_istreamIwSt11char_traitsIwEED1Ev
+72    (int (*)(...))std::basic_istream<wchar_t>::_ZTv0_n24_NSt13basic_istreamIwSt11char_traitsIwEED0Ev
+
+VTT for std::basic_istream<wchar_t>
+std::basic_istream<wchar_t>::_ZTTSt13basic_istreamIwSt11char_traitsIwEE: 2u entries
+0     ((& std::basic_istream<wchar_t>::_ZTVSt13basic_istreamIwSt11char_traitsIwEE) + 24u)
+8     ((& std::basic_istream<wchar_t>::_ZTVSt13basic_istreamIwSt11char_traitsIwEE) + 64u)
+
+Class std::basic_istream<wchar_t>
+   size=280 align=8
+   base size=16 base align=8
+std::basic_istream<wchar_t> (0x0x7f3d362a96e8) 0
+    vptridx=0u vptr=((& std::basic_istream<wchar_t>::_ZTVSt13basic_istreamIwSt11char_traitsIwEE) + 24u)
+  std::basic_ios<wchar_t> (0x0x7f3d362a9750) 16 virtual
+      vptridx=8u vbaseoffset=-24 vptr=((& std::basic_istream<wchar_t>::_ZTVSt13basic_istreamIwSt11char_traitsIwEE) + 64u)
+    std::ios_base (0x0x7f3d3611ade0) 16
+        primary-for std::basic_ios<wchar_t> (0x0x7f3d362a9750)
+
+Class std::is_error_condition_enum<std::_Ios_Iostate>
+   size=1 align=1
+   base size=1 base align=1
+std::is_error_condition_enum<std::_Ios_Iostate> (0x0x7f3d362a9af8) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d3611af60) 0 empty
+
+Class std::is_error_code_enum<std::_Ios_Iostate>
+   size=1 align=1
+   base size=1 base align=1
+std::is_error_code_enum<std::_Ios_Iostate> (0x0x7f3d362a9bc8) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d35f66000) 0 empty
+
+Class __gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<short int>, __gnu_cxx::__numeric_traits_floating<short int> >
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<short int>, __gnu_cxx::__numeric_traits_floating<short int> > (0x0x7f3d35f66060) 0 empty
+
+Class __gnu_cxx::__numeric_traits_integer<short int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__numeric_traits_integer<short int> (0x0x7f3d35f660c0) 0 empty
+
+Class __gnu_cxx::__numeric_traits<short int>
+   size=1 align=1
+   base size=1 base align=1
+__gnu_cxx::__numeric_traits<short int> (0x0x7f3d362a9d68) 0 empty
+  __gnu_cxx::__numeric_traits_integer<short int> (0x0x7f3d35f66120) 0 empty
+
+Class __gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<long int>, __gnu_cxx::__numeric_traits_floating<long int> >
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<long int>, __gnu_cxx::__numeric_traits_floating<long int> > (0x0x7f3d35f66180) 0 empty
+
+Class __gnu_cxx::__numeric_traits_integer<long int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__numeric_traits_integer<long int> (0x0x7f3d35f661e0) 0 empty
+
+Class __gnu_cxx::__numeric_traits<long int>
+   size=1 align=1
+   base size=1 base align=1
+__gnu_cxx::__numeric_traits<long int> (0x0x7f3d362a9dd0) 0 empty
+  __gnu_cxx::__numeric_traits_integer<long int> (0x0x7f3d35f66240) 0 empty
+
+Class std::basic_istream<char>::sentry
+   size=1 align=1
+   base size=1 base align=1
+std::basic_istream<char>::sentry (0x0x7f3d35f662a0) 0
+
+Vtable for std::basic_iostream<char>
+std::basic_iostream<char>::_ZTVSd: 15u entries
+0     24u
+8     (int (*)(...))0
+16    (int (*)(...))(& _ZTISd)
+24    (int (*)(...))std::basic_iostream<_CharT, _Traits>::~basic_iostream<char, std::char_traits<char> >
+32    (int (*)(...))std::basic_iostream<_CharT, _Traits>::~basic_iostream<char, std::char_traits<char> >
+40    8u
+48    (int (*)(...))-16
+56    (int (*)(...))(& _ZTISd)
+64    (int (*)(...))std::basic_iostream<char>::_ZThn16_NSdD1Ev
+72    (int (*)(...))std::basic_iostream<char>::_ZThn16_NSdD0Ev
+80    18446744073709551592u
+88    (int (*)(...))-24
+96    (int (*)(...))(& _ZTISd)
+104   (int (*)(...))std::basic_iostream<char>::_ZTv0_n24_NSdD1Ev
+112   (int (*)(...))std::basic_iostream<char>::_ZTv0_n24_NSdD0Ev
+
+Construction vtable for std::basic_istream<char> (0x0x7f3d35f9f4e0 instance) in std::basic_iostream<char>
+std::basic_iostream<char>::_ZTCSd0_Si: 10u entries
+0     24u
+8     (int (*)(...))0
+16    (int (*)(...))(& _ZTISi)
+24    0u
+32    0u
+40    18446744073709551592u
+48    (int (*)(...))-24
+56    (int (*)(...))(& _ZTISi)
+64    0u
+72    0u
+
+Construction vtable for std::basic_ostream<char> (0x0x7f3d35f9f5b0 instance) in std::basic_iostream<char>
+std::basic_iostream<char>::_ZTCSd16_So: 10u entries
+0     8u
+8     (int (*)(...))0
+16    (int (*)(...))(& _ZTISo)
+24    0u
+32    0u
+40    18446744073709551608u
+48    (int (*)(...))-8
+56    (int (*)(...))(& _ZTISo)
+64    0u
+72    0u
+
+VTT for std::basic_iostream<char>
+std::basic_iostream<char>::_ZTTSd: 7u entries
+0     ((& std::basic_iostream<char>::_ZTVSd) + 24u)
+8     ((& std::basic_iostream<char>::_ZTCSd0_Si) + 24u)
+16    ((& std::basic_iostream<char>::_ZTCSd0_Si) + 64u)
+24    ((& std::basic_iostream<char>::_ZTCSd16_So) + 24u)
+32    ((& std::basic_iostream<char>::_ZTCSd16_So) + 64u)
+40    ((& std::basic_iostream<char>::_ZTVSd) + 104u)
+48    ((& std::basic_iostream<char>::_ZTVSd) + 64u)
+
+Class std::basic_iostream<char>
+   size=288 align=8
+   base size=24 base align=8
+std::basic_iostream<char> (0x0x7f3d35fc35b0) 0
+    vptridx=0u vptr=((& std::basic_iostream<char>::_ZTVSd) + 24u)
+  std::basic_istream<char> (0x0x7f3d35f9f4e0) 0
+      primary-for std::basic_iostream<char> (0x0x7f3d35fc35b0)
+      subvttidx=8u
+    std::basic_ios<char> (0x0x7f3d35f9f548) 24 virtual
+        vptridx=40u vbaseoffset=-24 vptr=((& std::basic_iostream<char>::_ZTVSd) + 104u)
+      std::ios_base (0x0x7f3d35f66300) 24
+          primary-for std::basic_ios<char> (0x0x7f3d35f9f548)
+  std::basic_ostream<char> (0x0x7f3d35f9f5b0) 16 nearly-empty
+      subvttidx=24u vptridx=48u vptr=((& std::basic_iostream<char>::_ZTVSd) + 64u)
+    std::basic_ios<char> (0x0x7f3d35f9f548) alternative-path
+
+Class std::basic_istream<wchar_t>::sentry
+   size=1 align=1
+   base size=1 base align=1
+std::basic_istream<wchar_t>::sentry (0x0x7f3d35f66360) 0
+
+Vtable for std::basic_iostream<wchar_t>
+std::basic_iostream<wchar_t>::_ZTVSt14basic_iostreamIwSt11char_traitsIwEE: 15u entries
+0     24u
+8     (int (*)(...))0
+16    (int (*)(...))(& _ZTISt14basic_iostreamIwSt11char_traitsIwEE)
+24    (int (*)(...))std::basic_iostream<_CharT, _Traits>::~basic_iostream<wchar_t, std::char_traits<wchar_t> >
+32    (int (*)(...))std::basic_iostream<_CharT, _Traits>::~basic_iostream<wchar_t, std::char_traits<wchar_t> >
+40    8u
+48    (int (*)(...))-16
+56    (int (*)(...))(& _ZTISt14basic_iostreamIwSt11char_traitsIwEE)
+64    (int (*)(...))std::basic_iostream<wchar_t>::_ZThn16_NSt14basic_iostreamIwSt11char_traitsIwEED1Ev
+72    (int (*)(...))std::basic_iostream<wchar_t>::_ZThn16_NSt14basic_iostreamIwSt11char_traitsIwEED0Ev
+80    18446744073709551592u
+88    (int (*)(...))-24
+96    (int (*)(...))(& _ZTISt14basic_iostreamIwSt11char_traitsIwEE)
+104   (int (*)(...))std::basic_iostream<wchar_t>::_ZTv0_n24_NSt14basic_iostreamIwSt11char_traitsIwEED1Ev
+112   (int (*)(...))std::basic_iostream<wchar_t>::_ZTv0_n24_NSt14basic_iostreamIwSt11char_traitsIwEED0Ev
+
+Construction vtable for std::basic_istream<wchar_t> (0x0x7f3d35f9f958 instance) in std::basic_iostream<wchar_t>
+std::basic_iostream<wchar_t>::_ZTCSt14basic_iostreamIwSt11char_traitsIwEE0_St13basic_istreamIwS1_E: 10u entries
+0     24u
+8     (int (*)(...))0
+16    (int (*)(...))(& _ZTISt13basic_istreamIwSt11char_traitsIwEE)
+24    0u
+32    0u
+40    18446744073709551592u
+48    (int (*)(...))-24
+56    (int (*)(...))(& _ZTISt13basic_istreamIwSt11char_traitsIwEE)
+64    0u
+72    0u
+
+Construction vtable for std::basic_ostream<wchar_t> (0x0x7f3d35f9fa28 instance) in std::basic_iostream<wchar_t>
+std::basic_iostream<wchar_t>::_ZTCSt14basic_iostreamIwSt11char_traitsIwEE16_St13basic_ostreamIwS1_E: 10u entries
+0     8u
+8     (int (*)(...))0
+16    (int (*)(...))(& _ZTISt13basic_ostreamIwSt11char_traitsIwEE)
+24    0u
+32    0u
+40    18446744073709551608u
+48    (int (*)(...))-8
+56    (int (*)(...))(& _ZTISt13basic_ostreamIwSt11char_traitsIwEE)
+64    0u
+72    0u
+
+VTT for std::basic_iostream<wchar_t>
+std::basic_iostream<wchar_t>::_ZTTSt14basic_iostreamIwSt11char_traitsIwEE: 7u entries
+0     ((& std::basic_iostream<wchar_t>::_ZTVSt14basic_iostreamIwSt11char_traitsIwEE) + 24u)
+8     ((& std::basic_iostream<wchar_t>::_ZTCSt14basic_iostreamIwSt11char_traitsIwEE0_St13basic_istreamIwS1_E) + 24u)
+16    ((& std::basic_iostream<wchar_t>::_ZTCSt14basic_iostreamIwSt11char_traitsIwEE0_St13basic_istreamIwS1_E) + 64u)
+24    ((& std::basic_iostream<wchar_t>::_ZTCSt14basic_iostreamIwSt11char_traitsIwEE16_St13basic_ostreamIwS1_E) + 24u)
+32    ((& std::basic_iostream<wchar_t>::_ZTCSt14basic_iostreamIwSt11char_traitsIwEE16_St13basic_ostreamIwS1_E) + 64u)
+40    ((& std::basic_iostream<wchar_t>::_ZTVSt14basic_iostreamIwSt11char_traitsIwEE) + 104u)
+48    ((& std::basic_iostream<wchar_t>::_ZTVSt14basic_iostreamIwSt11char_traitsIwEE) + 64u)
+
+Class std::basic_iostream<wchar_t>
+   size=288 align=8
+   base size=24 base align=8
+std::basic_iostream<wchar_t> (0x0x7f3d35fc3cb0) 0
+    vptridx=0u vptr=((& std::basic_iostream<wchar_t>::_ZTVSt14basic_iostreamIwSt11char_traitsIwEE) + 24u)
+  std::basic_istream<wchar_t> (0x0x7f3d35f9f958) 0
+      primary-for std::basic_iostream<wchar_t> (0x0x7f3d35fc3cb0)
+      subvttidx=8u
+    std::basic_ios<wchar_t> (0x0x7f3d35f9f9c0) 24 virtual
+        vptridx=40u vbaseoffset=-24 vptr=((& std::basic_iostream<wchar_t>::_ZTVSt14basic_iostreamIwSt11char_traitsIwEE) + 104u)
+      std::ios_base (0x0x7f3d35f663c0) 24
+          primary-for std::basic_ios<wchar_t> (0x0x7f3d35f9f9c0)
+  std::basic_ostream<wchar_t> (0x0x7f3d35f9fa28) 16 nearly-empty
+      subvttidx=24u vptridx=48u vptr=((& std::basic_iostream<wchar_t>::_ZTVSt14basic_iostreamIwSt11char_traitsIwEE) + 64u)
+    std::basic_ios<wchar_t> (0x0x7f3d35f9f9c0) alternative-path
+
+Vtable for SingleInhert_A
+SingleInhert_A::_ZTV14SingleInhert_A: 6u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTI14SingleInhert_A)
+16    (int (*)(...))SingleInhert_A::~SingleInhert_A
+24    (int (*)(...))SingleInhert_A::~SingleInhert_A
+32    (int (*)(...))SingleInhert_A::f
+40    (int (*)(...))SingleInhert_A::g
+
+Class SingleInhert_A
+   size=16 align=8
+   base size=16 base align=8
+SingleInhert_A (0x0x7f3d35f66420) 0
+    vptr=((& SingleInhert_A::_ZTV14SingleInhert_A) + 16u)
+
+Class std::is_error_code_enum<const char*>
+   size=1 align=1
+   base size=1 base align=1
+std::is_error_code_enum<const char*> (0x0x7f3d35f9ff08) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d35f66480) 0 empty
+
+Vtable for SingleInhert_B
+SingleInhert_B::_ZTV14SingleInhert_B: 7u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTI14SingleInhert_B)
+16    (int (*)(...))SingleInhert_B::~SingleInhert_B
+24    (int (*)(...))SingleInhert_B::~SingleInhert_B
+32    (int (*)(...))SingleInhert_B::f
+40    (int (*)(...))SingleInhert_A::g
+48    (int (*)(...))SingleInhert_B::h
+
+Class SingleInhert_B
+   size=24 align=8
+   base size=24 base align=8
+SingleInhert_B (0x0x7f3d35f9ff70) 0
+    vptr=((& SingleInhert_B::_ZTV14SingleInhert_B) + 16u)
+  SingleInhert_A (0x0x7f3d35f664e0) 0
+      primary-for SingleInhert_B (0x0x7f3d35f9ff70)
+
+Class std::__are_same<int, int>
+   size=1 align=1
+   base size=0 base align=1
+std::__are_same<int, int> (0x0x7f3d35f66540) 0 empty
+
+Class std::__are_same<long int, int>
+   size=1 align=1
+   base size=0 base align=1
+std::__are_same<long int, int> (0x0x7f3d35f665a0) 0 empty
+
+Class std::__are_same<long unsigned int, int>
+   size=1 align=1
+   base size=0 base align=1
+std::__are_same<long unsigned int, int> (0x0x7f3d35f66600) 0 empty
+
+Class std::__are_same<long long int, int>
+   size=1 align=1
+   base size=0 base align=1
+std::__are_same<long long int, int> (0x0x7f3d35f66660) 0 empty
+
+Class std::__are_same<long long unsigned int, int>
+   size=1 align=1
+   base size=0 base align=1
+std::__are_same<long long unsigned int, int> (0x0x7f3d35f666c0) 0 empty
+
+Class std::__are_same<float, int>
+   size=1 align=1
+   base size=0 base align=1
+std::__are_same<float, int> (0x0x7f3d35f66720) 0 empty
+
+Class std::__are_same<double, int>
+   size=1 align=1
+   base size=0 base align=1
+std::__are_same<double, int> (0x0x7f3d35f66780) 0 empty
+
+Class std::__are_same<long double, int>
+   size=1 align=1
+   base size=0 base align=1
+std::__are_same<long double, int> (0x0x7f3d35f667e0) 0 empty
+
+Class std::iterator_traits<char*>
+   size=1 align=1
+   base size=0 base align=1
+std::iterator_traits<char*> (0x0x7f3d35f66840) 0 empty
+
+Class std::remove_volatile<std::random_access_iterator_tag>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_volatile<std::random_access_iterator_tag> (0x0x7f3d35f66900) 0 empty
+
+Class std::remove_const<std::random_access_iterator_tag>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_const<std::random_access_iterator_tag> (0x0x7f3d35f66960) 0 empty
+
+Class std::remove_cv<std::random_access_iterator_tag>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_cv<std::random_access_iterator_tag> (0x0x7f3d35f668a0) 0 empty
+
+Class std::__is_void_helper<std::random_access_iterator_tag>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_void_helper<std::random_access_iterator_tag> (0x0x7f3d35f9f6e8) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d35f669c0) 0 empty
+
+Class std::is_void<std::random_access_iterator_tag>
+   size=1 align=1
+   base size=1 base align=1
+std::is_void<std::random_access_iterator_tag> (0x0x7f3d35f9f820) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d35f66a20) 0 empty
+
+Class std::conditional<false, std::is_void<std::random_access_iterator_tag>, std::__or_<std::is_function<std::input_iterator_tag>, std::is_array<std::input_iterator_tag> > >
+   size=1 align=1
+   base size=0 base align=1
+std::conditional<false, std::is_void<std::random_access_iterator_tag>, std::__or_<std::is_function<std::input_iterator_tag>, std::is_array<std::input_iterator_tag> > > (0x0x7f3d35f66a80) 0 empty
+
+Class std::is_function<std::input_iterator_tag>
+   size=1 align=1
+   base size=1 base align=1
+std::is_function<std::input_iterator_tag> (0x0x7f3d35f9f888) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d35f66ba0) 0 empty
+
+Class std::conditional<false, std::is_function<std::input_iterator_tag>, std::is_array<std::input_iterator_tag> >
+   size=1 align=1
+   base size=0 base align=1
+std::conditional<false, std::is_function<std::input_iterator_tag>, std::is_array<std::input_iterator_tag> > (0x0x7f3d35f66c00) 0 empty
+
+Class std::is_array<std::input_iterator_tag>
+   size=1 align=1
+   base size=1 base align=1
+std::is_array<std::input_iterator_tag> (0x0x7f3d35f9fe38) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d35f66c60) 0 empty
+
+Class std::__or_<std::is_function<std::input_iterator_tag>, std::is_array<std::input_iterator_tag> >
+   size=1 align=1
+   base size=1 base align=1
+std::__or_<std::is_function<std::input_iterator_tag>, std::is_array<std::input_iterator_tag> > (0x0x7f3d36069000) 0 empty
+  std::is_array<std::input_iterator_tag> (0x0x7f3d36069068) 0 empty
+    std::integral_constant<bool, false> (0x0x7f3d35f66cc0) 0 empty
+
+Class std::__or_<std::is_void<std::random_access_iterator_tag>, std::is_function<std::input_iterator_tag>, std::is_array<std::input_iterator_tag> >
+   size=1 align=1
+   base size=1 base align=1
+std::__or_<std::is_void<std::random_access_iterator_tag>, std::is_function<std::input_iterator_tag>, std::is_array<std::input_iterator_tag> > (0x0x7f3d360690d0) 0 empty
+  std::__or_<std::is_function<std::input_iterator_tag>, std::is_array<std::input_iterator_tag> > (0x0x7f3d36069138) 0 empty
+    std::is_array<std::input_iterator_tag> (0x0x7f3d360691a0) 0 empty
+      std::integral_constant<bool, false> (0x0x7f3d35f66de0) 0 empty
+
+Class std::is_function<std::random_access_iterator_tag>
+   size=1 align=1
+   base size=1 base align=1
+std::is_function<std::random_access_iterator_tag> (0x0x7f3d36069208) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d35f66f00) 0 empty
+
+Class std::conditional<false, std::is_function<std::random_access_iterator_tag>, std::__or_<std::is_reference<std::random_access_iterator_tag>, std::is_void<std::random_access_iterator_tag> > >
+   size=1 align=1
+   base size=0 base align=1
+std::conditional<false, std::is_function<std::random_access_iterator_tag>, std::__or_<std::is_reference<std::random_access_iterator_tag>, std::is_void<std::random_access_iterator_tag> > > (0x0x7f3d35f66f60) 0 empty
+
+Class std::is_lvalue_reference<std::random_access_iterator_tag>
+   size=1 align=1
+   base size=1 base align=1
+std::is_lvalue_reference<std::random_access_iterator_tag> (0x0x7f3d36069270) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d3607a000) 0 empty
+
+Class std::conditional<false, std::is_lvalue_reference<std::random_access_iterator_tag>, std::is_rvalue_reference<std::random_access_iterator_tag> >
+   size=1 align=1
+   base size=0 base align=1
+std::conditional<false, std::is_lvalue_reference<std::random_access_iterator_tag>, std::is_rvalue_reference<std::random_access_iterator_tag> > (0x0x7f3d3607a060) 0 empty
+
+Class std::is_rvalue_reference<std::random_access_iterator_tag>
+   size=1 align=1
+   base size=1 base align=1
+std::is_rvalue_reference<std::random_access_iterator_tag> (0x0x7f3d360692d8) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d3607a0c0) 0 empty
+
+Class std::__or_<std::is_lvalue_reference<std::random_access_iterator_tag>, std::is_rvalue_reference<std::random_access_iterator_tag> >
+   size=1 align=1
+   base size=1 base align=1
+std::__or_<std::is_lvalue_reference<std::random_access_iterator_tag>, std::is_rvalue_reference<std::random_access_iterator_tag> > (0x0x7f3d36069340) 0 empty
+  std::is_rvalue_reference<std::random_access_iterator_tag> (0x0x7f3d360693a8) 0 empty
+    std::integral_constant<bool, false> (0x0x7f3d3607a120) 0 empty
+
+Class std::is_reference<std::random_access_iterator_tag>
+   size=1 align=1
+   base size=1 base align=1
+std::is_reference<std::random_access_iterator_tag> (0x0x7f3d36069410) 0 empty
+  std::integral_constant<bool, false> (0x0x7f3d3607a180) 0 empty
+
+Class std::conditional<false, std::is_reference<std::random_access_iterator_tag>, std::is_void<std::random_access_iterator_tag> >
+   size=1 align=1
+   base size=0 base align=1
+std::conditional<false, std::is_reference<std::random_access_iterator_tag>, std::is_void<std::random_access_iterator_tag> > (0x0x7f3d3607a1e0) 0 empty
+
+Class std::__or_<std::is_reference<std::random_access_iterator_tag>, std::is_void<std::random_access_iterator_tag> >
+   size=1 align=1
+   base size=1 base align=1
+std::__or_<std::is_reference<std::random_access_iterator_tag>, std::is_void<std::random_access_iterator_tag> > (0x0x7f3d36069478) 0 empty
+  std::is_void<std::random_access_iterator_tag> (0x0x7f3d360694e0) 0 empty
+    std::integral_constant<bool, false> (0x0x7f3d3607a240) 0 empty
+
+Class std::__or_<std::is_function<std::random_access_iterator_tag>, std::is_reference<std::random_access_iterator_tag>, std::is_void<std::random_access_iterator_tag> >
+   size=1 align=1
+   base size=1 base align=1
+std::__or_<std::is_function<std::random_access_iterator_tag>, std::is_reference<std::random_access_iterator_tag>, std::is_void<std::random_access_iterator_tag> > (0x0x7f3d36069548) 0 empty
+  std::__or_<std::is_reference<std::random_access_iterator_tag>, std::is_void<std::random_access_iterator_tag> > (0x0x7f3d360695b0) 0 empty
+    std::is_void<std::random_access_iterator_tag> (0x0x7f3d36069618) 0 empty
+      std::integral_constant<bool, false> (0x0x7f3d3607a2a0) 0 empty
+
+Class std::__not_<std::__or_<std::is_function<std::random_access_iterator_tag>, std::is_reference<std::random_access_iterator_tag>, std::is_void<std::random_access_iterator_tag> > >
+   size=1 align=1
+   base size=1 base align=1
+std::__not_<std::__or_<std::is_function<std::random_access_iterator_tag>, std::is_reference<std::random_access_iterator_tag>, std::is_void<std::random_access_iterator_tag> > > (0x0x7f3d36069680) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d3607a300) 0 empty
+
+Class std::is_object<std::random_access_iterator_tag>
+   size=1 align=1
+   base size=1 base align=1
+std::is_object<std::random_access_iterator_tag> (0x0x7f3d360696e8) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d3607a360) 0 empty
+
+Class std::conditional<true, std::is_object<std::random_access_iterator_tag>, std::is_reference<std::random_access_iterator_tag> >
+   size=1 align=1
+   base size=0 base align=1
+std::conditional<true, std::is_object<std::random_access_iterator_tag>, std::is_reference<std::random_access_iterator_tag> > (0x0x7f3d3607a3c0) 0 empty
+
+Class std::__or_<std::is_object<std::random_access_iterator_tag>, std::is_reference<std::random_access_iterator_tag> >
+   size=1 align=1
+   base size=1 base align=1
+std::__or_<std::is_object<std::random_access_iterator_tag>, std::is_reference<std::random_access_iterator_tag> > (0x0x7f3d36069750) 0 empty
+  std::is_object<std::random_access_iterator_tag> (0x0x7f3d360697b8) 0 empty
+    std::integral_constant<bool, true> (0x0x7f3d3607a420) 0 empty
+
+Class std::__is_referenceable<std::random_access_iterator_tag>
+   size=1 align=1
+   base size=1 base align=1
+std::__is_referenceable<std::random_access_iterator_tag> (0x0x7f3d36069820) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d3607a480) 0 empty
+
+Class std::__add_rvalue_reference_helper<std::random_access_iterator_tag, true>
+   size=1 align=1
+   base size=0 base align=1
+std::__add_rvalue_reference_helper<std::random_access_iterator_tag, true> (0x0x7f3d3607a4e0) 0 empty
+
+Class std::add_rvalue_reference<std::random_access_iterator_tag>
+   size=1 align=1
+   base size=1 base align=1
+std::add_rvalue_reference<std::random_access_iterator_tag> (0x0x7f3d36069888) 0 empty
+  std::__add_rvalue_reference_helper<std::random_access_iterator_tag, true> (0x0x7f3d3607a540) 0 empty
+
+Class std::__is_convertible_helper<std::random_access_iterator_tag, std::input_iterator_tag, false>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_convertible_helper<std::random_access_iterator_tag, std::input_iterator_tag, false> (0x0x7f3d35f66ea0) 0 empty
+
+Class std::is_convertible<std::random_access_iterator_tag, std::input_iterator_tag>
+   size=1 align=1
+   base size=1 base align=1
+std::is_convertible<std::random_access_iterator_tag, std::input_iterator_tag> (0x0x7f3d36069958) 0 empty
+  std::integral_constant<bool, true> (0x0x7f3d3607a720) 0 empty
+
+Class std::remove_reference<std::allocator<char>&>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_reference<std::allocator<char>&> (0x0x7f3d3607a780) 0 empty
+
+Class std::iterator_traits<wchar_t*>
+   size=1 align=1
+   base size=0 base align=1
+std::iterator_traits<wchar_t*> (0x0x7f3d3607a7e0) 0 empty
+
+Class std::remove_reference<std::allocator<wchar_t>&>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_reference<std::allocator<wchar_t>&> (0x0x7f3d3607a840) 0 empty
+
+Class std::iterator_traits<const char*>
+   size=1 align=1
+   base size=0 base align=1
+std::iterator_traits<const char*> (0x0x7f3d3607a900) 0 empty
+
+Class __gnu_cxx::__normal_iterator<const char*, std::__cxx11::basic_string<char> >
+   size=8 align=8
+   base size=8 base align=8
+__gnu_cxx::__normal_iterator<const char*, std::__cxx11::basic_string<char> > (0x0x7f3d3607a8a0) 0
+
+Class __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char> >
+   size=8 align=8
+   base size=8 base align=8
+__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char> > (0x0x7f3d3607a960) 0
+
+Class std::remove_reference<std::__cxx11::basic_string<char>&>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_reference<std::__cxx11::basic_string<char>&> (0x0x7f3d3607a9c0) 0 empty
+
+Class std::remove_volatile<char>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_volatile<char> (0x0x7f3d3607aae0) 0 empty
+
+Class std::remove_const<char>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_const<char> (0x0x7f3d3607ab40) 0 empty
+
+Class std::remove_cv<char>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_cv<char> (0x0x7f3d3607aa80) 0 empty
+
+Class std::__ptrtr_not_void<char, char>
+   size=1 align=1
+   base size=0 base align=1
+std::__ptrtr_not_void<char, char> (0x0x7f3d3607aba0) 0 empty
+
+Class std::pointer_traits<char*>
+   size=1 align=1
+   base size=0 base align=1
+std::pointer_traits<char*> (0x0x7f3d3607aa20) 0 empty
+
+Class std::remove_volatile<wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_volatile<wchar_t> (0x0x7f3d3607acc0) 0 empty
+
+Class std::remove_const<wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_const<wchar_t> (0x0x7f3d3607ad20) 0 empty
+
+Class std::remove_cv<wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_cv<wchar_t> (0x0x7f3d3607ac60) 0 empty
+
+Class std::__ptrtr_not_void<wchar_t, wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+std::__ptrtr_not_void<wchar_t, wchar_t> (0x0x7f3d3607ad80) 0 empty
+
+Class std::pointer_traits<wchar_t*>
+   size=1 align=1
+   base size=0 base align=1
+std::pointer_traits<wchar_t*> (0x0x7f3d3607ac00) 0 empty
+
+Class std::__is_integer<char*>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<char*> (0x0x7f3d3607ade0) 0 empty
+
+Class std::remove_volatile<const char>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_volatile<const char> (0x0x7f3d3607af00) 0 empty
+
+Class std::remove_const<const char>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_const<const char> (0x0x7f3d3607af60) 0 empty
+
+Class std::remove_cv<const char>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_cv<const char> (0x0x7f3d3607aea0) 0 empty
+
+Class std::__ptrtr_not_void<const char, char>
+   size=1 align=1
+   base size=0 base align=1
+std::__ptrtr_not_void<const char, char> (0x0x7f3d35d4b000) 0 empty
+
+Class std::pointer_traits<const char*>
+   size=1 align=1
+   base size=0 base align=1
+std::pointer_traits<const char*> (0x0x7f3d3607ae40) 0 empty
+
+Class std::__is_integer<wchar_t*>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<wchar_t*> (0x0x7f3d35d4b060) 0 empty
+
+Class std::remove_volatile<const wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_volatile<const wchar_t> (0x0x7f3d35d4b180) 0 empty
+
+Class std::remove_const<const wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_const<const wchar_t> (0x0x7f3d35d4b1e0) 0 empty
+
+Class std::remove_cv<const wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+std::remove_cv<const wchar_t> (0x0x7f3d35d4b120) 0 empty
+
+Class std::__ptrtr_not_void<const wchar_t, wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+std::__ptrtr_not_void<const wchar_t, wchar_t> (0x0x7f3d35d4b240) 0 empty
+
+Class std::pointer_traits<const wchar_t*>
+   size=1 align=1
+   base size=0 base align=1
+std::pointer_traits<const wchar_t*> (0x0x7f3d35d4b0c0) 0 empty
+
+Class std::iterator_traits<const wchar_t*>
+   size=1 align=1
+   base size=0 base align=1
+std::iterator_traits<const wchar_t*> (0x0x7f3d35d4b300) 0 empty
+
+Class __gnu_cxx::__normal_iterator<const wchar_t*, std::__cxx11::basic_string<wchar_t> >
+   size=8 align=8
+   base size=8 base align=8
+__gnu_cxx::__normal_iterator<const wchar_t*, std::__cxx11::basic_string<wchar_t> > (0x0x7f3d35d4b2a0) 0
+
+Class __gnu_cxx::__normal_iterator<wchar_t*, std::__cxx11::basic_string<wchar_t> >
+   size=8 align=8
+   base size=8 base align=8
+__gnu_cxx::__normal_iterator<wchar_t*, std::__cxx11::basic_string<wchar_t> > (0x0x7f3d35d4b360) 0
+
