@@ -51,4 +51,8 @@ void test()
     //}
 
     //asm_test();
+
+    //SEH_test();
+
+    cpp_try_catch();
 }

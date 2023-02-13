@@ -77,3 +77,7 @@ void derive_test();
 void test_vtbl();
 
 int asm_test();
+
+void SEH_test();
+
+void cpp_try_catch();

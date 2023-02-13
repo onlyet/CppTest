@@ -90,6 +90,9 @@
     <ClCompile Include="test_memory_segment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SEH_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">

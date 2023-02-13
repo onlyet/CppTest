@@ -35,11 +35,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
-<<<<<<< .mine
-    <WholeProgramOptimization>false</WholeProgramOptimization>
-=======
     <WholeProgramOptimization>true</WholeProgramOptimization>
->>>>>>> .theirs
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -88,6 +84,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalOptions>/d1 reportSingleClassLayoutNoInhert_A %(AdditionalOptions)</AdditionalOptions>
+      <ExceptionHandling>Sync</ExceptionHandling>
     </ClCompile>
     <Link>
       <AdditionalDependencies>DXGI.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -156,6 +153,7 @@
     <ClCompile Include="level_order_traversal.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="object_model_test1.cpp" />
+    <ClCompile Include="SEH_test.cpp" />
     <ClCompile Include="shared_ptr_demo.cpp" />
     <ClCompile Include="struct_init_demo.cpp" />
     <ClCompile Include="test_memory_segment.cpp" />
