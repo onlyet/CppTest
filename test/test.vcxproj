@@ -150,6 +150,7 @@
     <ClCompile Include="default_ctor.cpp" />
     <ClCompile Include="get_gpu.cpp" />
     <ClCompile Include="iterator.cpp" />
+    <ClCompile Include="lc_test.cpp" />
     <ClCompile Include="level_order_traversal.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="object_model_test1.cpp" />

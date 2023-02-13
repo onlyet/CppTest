@@ -54,5 +54,7 @@ void test()
 
     //SEH_test();
 
-    cpp_try_catch();
+    //cpp_try_catch();
+
+    lc_tset();
 }
