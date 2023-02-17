@@ -83,3 +83,5 @@ void SEH_test();
 void cpp_try_catch();
 
 void lc_tset();
+
+void thread_test();

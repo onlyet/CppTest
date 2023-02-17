@@ -56,5 +56,7 @@ void test()
 
     //cpp_try_catch();
 
-    lc_tset();
+    //lc_tset();
+
+    thread_test();
 }
