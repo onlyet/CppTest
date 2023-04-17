@@ -58,5 +58,7 @@ void test()
 
     //lc_tset();
 
-    thread_test();
+    //thread_test();
+
+    opencv_point_test();
 }

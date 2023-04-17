@@ -154,6 +154,7 @@
     <ClCompile Include="level_order_traversal.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="object_model_test1.cpp" />
+    <ClCompile Include="opencv_point_test.cpp" />
     <ClCompile Include="SEH_test.cpp" />
     <ClCompile Include="shared_ptr_demo.cpp" />
     <ClCompile Include="struct_init_demo.cpp" />
@@ -172,6 +173,7 @@
     <ClInclude Include="CPUUsage.h" />
     <ClInclude Include="CSystemStatus.h" />
     <ClInclude Include="ctor_and_dtor.h" />
+    <ClInclude Include="opencv_point_test.h" />
     <ClInclude Include="virtual_inhert.h" />
   </ItemGroup>
   <ItemGroup>

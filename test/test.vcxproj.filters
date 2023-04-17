@@ -99,6 +99,9 @@
     <ClCompile Include="thread_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="opencv_point_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
@@ -115,6 +118,9 @@
     </ClInclude>
     <ClInclude Include="virtual_inhert.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opencv_point_test.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
