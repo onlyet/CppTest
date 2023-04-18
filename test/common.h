@@ -87,3 +87,5 @@ void lc_tset();
 void thread_test();
 
 void opencv_point_test();
+
+void DES_test();

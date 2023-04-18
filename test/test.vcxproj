@@ -148,6 +148,8 @@
     <ClCompile Include="CSystemStatus.cpp" />
     <ClCompile Include="ctor_and_dtor.cpp" />
     <ClCompile Include="default_ctor.cpp" />
+    <ClCompile Include="desfun.cpp" />
+    <ClCompile Include="DES_test.cpp" />
     <ClCompile Include="get_gpu.cpp" />
     <ClCompile Include="iterator.cpp" />
     <ClCompile Include="lc_test.cpp" />
@@ -173,6 +175,8 @@
     <ClInclude Include="CPUUsage.h" />
     <ClInclude Include="CSystemStatus.h" />
     <ClInclude Include="ctor_and_dtor.h" />
+    <ClInclude Include="desfun.h" />
+    <ClInclude Include="des_global.h" />
     <ClInclude Include="opencv_point_test.h" />
     <ClInclude Include="virtual_inhert.h" />
   </ItemGroup>

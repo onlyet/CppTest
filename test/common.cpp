@@ -60,5 +60,7 @@ void test()
 
     //thread_test();
 
-    opencv_point_test();
+    //opencv_point_test();
+
+    DES_test();
 }

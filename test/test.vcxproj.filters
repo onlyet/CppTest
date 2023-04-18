@@ -102,6 +102,12 @@
     <ClCompile Include="opencv_point_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DES_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desfun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
@@ -120,6 +126,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="opencv_point_test.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="des_global.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desfun.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
