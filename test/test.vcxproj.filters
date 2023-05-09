@@ -108,6 +108,9 @@
     <ClCompile Include="desfun.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="bigIntSum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">

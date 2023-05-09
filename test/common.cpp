@@ -62,5 +62,7 @@ void test()
 
     //opencv_point_test();
 
-    DES_test();
+    //DES_test();
+
+    bigIntSum();
 }
